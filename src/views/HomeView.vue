@@ -2,7 +2,7 @@
 import ProgressBarComponent from '@/components/ProgressBarComponent.vue'
 import TitleComponent from '@/components/TitleComponent.vue'
 import VideoComponent from '@/components/VideoComponent.vue'
-import { videos } from '@/data/videos'
+import { videosDefis } from '@/data/videosDefis'
 import type { Video } from '@/types/video'
 
 // PLAIN VARS
@@ -12,7 +12,7 @@ const nextVideoProgress = [
   { label: 'Tournage', progress: 0 },
   { label: 'Montage', progress: 0 },
 ]
-const lastVideo: Video = videos[0]!
+const lastVideo: Video = videosDefis[0]!
 </script>
 
 <template>

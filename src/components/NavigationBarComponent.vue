@@ -12,7 +12,23 @@ type NavigationItem = {
 // PLAIN VARS
 const route = useRoute()
 const router = useRouter()
-const navigation: NavigationItem[] = [{ name: 'Accueil', href: '/' }]
+const navigation: NavigationItem[] = [
+  { name: 'Accueil', href: '/' },
+  {
+    name: 'Vidéos de défis',
+    href: '/videos',
+    submenu: [
+      {
+        name: 'Vidéos de défis',
+        href: '/videos/defis',
+      },
+      {
+        name: 'Vidéos diverses',
+        href: '/videos/divers',
+      },
+    ],
+  },
+]
 
 // REACTIVE VARS
 const openMenu = ref<string | null>(null)

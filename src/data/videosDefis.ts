@@ -1,6 +1,6 @@
 import type { Video } from '@/types/video'
 
-export const videos: Video[] = [
+export const videosDefis: Video[] = [
   {
     title: 'Géocaching - Les 300 trésors de Rennes',
     youtubeId: 'B8GBceW5Mr8',
