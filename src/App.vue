@@ -1,9 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import NavigationBarComponent from './components/NavigationBarComponent.vue'
+</script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
+  <div class="bg-gray-950 text-gray-50 min-h-screen">
+    <NavigationBarComponent />
+    <main>
+      <RouterView />
+    </main>
+  </div>
 </template>
-
-<style scoped></style>
