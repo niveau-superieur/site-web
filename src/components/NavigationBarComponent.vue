@@ -28,6 +28,10 @@ const navigation: NavigationItem[] = [
       },
     ],
   },
+  {
+    name: 'Planning',
+    href: '/planning',
+  },
 ]
 
 // REACTIVE VARS

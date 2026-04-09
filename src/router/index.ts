@@ -1,4 +1,5 @@
 import HomeView from '@/views/HomeView.vue'
+import PlanningView from '@/views/PlanningView.vue'
 import VideoView from '@/views/VideoView.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
@@ -18,6 +19,11 @@ const router = createRouter({
       path: '/videos/:type',
       name: 'videos',
       component: VideoView,
+    },
+    {
+      path: '/planning',
+      name: 'planning',
+      component: PlanningView,
     },
   ],
 })
