@@ -1,46 +1,31 @@
 <script setup lang="ts">
-import type { ActivityTag } from '@/data/programs/activityTags'
-import { colorTags600, colorTags800 } from '@/data/programs/colorTags'
-import { programs } from '@/data/programs/programs'
-import { formatDateFR, formatDuration } from '@/utils/formatUtils'
+import type { ActivityTag } from '@/data/activity/activityTags'
+import { activities, programs, type ProgramId } from '@/data/activity/programs'
+import { colorTags600, colorTags800 } from '@/theme/colorTags'
+import type { Program } from '@/types/activity'
+import { formatDuration } from '@/utils/formatUtils'
 import type { EventClickArg, EventContentArg, EventInput, EventMountArg } from '@fullcalendar/core'
 import frLocale from '@fullcalendar/core/locales/fr'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import FullCalendar from '@fullcalendar/vue3'
 import { computed } from 'vue'
 
-// TYPES
-export type CalendarActivity = {
-  title: string
-  start: string
-  programName: string
-  programTagColor: string
-  description?: string
-  duration?: string
-  distance?: number
-  tags?: ActivityTag[]
-}
-
 // EMIT
 const emit = defineEmits(['activity-click'])
 
+// PLAIN VARS
+const programsMap = Object.fromEntries(programs.map((p: Program) => [p.id, p]))
+
 // COMPUTED
 const events = computed<EventInput[]>(() =>
-  programs.flatMap((program) =>
-    program.activities.map((activity) => ({
-      title: activity.name,
-      start: activity.date,
+  activities.map((activity) => ({
+    title: activity.name,
+    start: activity.date,
 
-      extendedProps: {
-        programName: program.name,
-        programTagColor: program.tagColor ? colorTags800[program.tagColor] : colorTags800.red,
-        description: activity.description,
-        duration: activity.duration,
-        distance: activity.distance,
-        tags: activity.tags,
-      },
-    })),
-  ),
+    extendedProps: {
+      activity,
+    },
+  })),
 )
 
 const calendarOptions = computed(() => ({
@@ -55,17 +40,23 @@ const calendarOptions = computed(() => ({
   },
   eventColor: '#1f2937', // Gestion de la couleur d'un évènement
   eventBorderColor: '#374151', // Gestion de la culeur de la border d'un évènement
-
+  showNonCurrentDates: false, // Masque les jours du mois précédent et du mois suivant
   events: events.value, // Ensemble des évènements à placer dans le calendrier
 
   // Gestion de l'affichage des évènements dans le calendrier
   eventContent(arg: EventContentArg) {
-    const tags = arg.event.extendedProps.tags ?? []
-    const programTagColor = arg.event.extendedProps.programTagColor
+    const tags = arg.event.extendedProps.activity.tags ?? []
+    const programs =
+      arg.event.extendedProps.activity.programs?.map((id: ProgramId) => programsMap[id]) ?? []
 
-    const tagProgram = `<span class=" px-1 rounded-md ${programTagColor}">
-            ${arg.event.extendedProps.programName}
-          </span>`
+    const tagsProgram = programs
+      .map(
+        (program: Program) =>
+          `<span class="px-1 mr-1 rounded-md ${colorTags800[program.tagColor]}">
+            ${program.name}
+          </span>`,
+      )
+      .join('')
 
     const tagsHtml = tags
       .map(
@@ -80,7 +71,7 @@ const calendarOptions = computed(() => ({
       html: `
         <div class="m-1 whitespace-normal">
         <div class="flex">
-          ${tagProgram}
+          ${tagsProgram}
         </div>
         <div class="font-bold">
           ${arg.event.title}
@@ -95,10 +86,12 @@ const calendarOptions = computed(() => ({
 
   // Gestion de l'évènement après insertion dans le DOM
   eventDidMount(info: EventMountArg) {
-    const { duration, distance, description } = info.event.extendedProps
+    const duration = info.event.extendedProps.activity.duration
+    const distance = info.event.extendedProps.activity.distance
+    const description = info.event.extendedProps.activity.description
 
     const tooltip = [
-      duration ? `Durée : ${duration} min` : '',
+      duration ? `Durée : ${formatDuration(duration)}` : '',
       distance ? `Distance : ${distance} km` : '',
       description ? `\n${description}` : '',
     ]
@@ -112,17 +105,7 @@ const calendarOptions = computed(() => ({
 
   // Gestion du clic sur un évènement
   eventClick(info: EventClickArg) {
-    const activity: CalendarActivity = {
-      title: info.event.title,
-      start: formatDateFR(info.event.start!),
-      programName: info.event.extendedProps.programName,
-      programTagColor: info.event.extendedProps.programTagColor,
-      description: info.event.extendedProps.description,
-      duration: formatDuration(info.event.extendedProps.duration),
-      distance: info.event.extendedProps.distance,
-      tags: info.event.extendedProps.tags,
-    }
-    emit('activity-click', activity)
+    emit('activity-click', info.event.extendedProps.activity)
   },
 }))
 </script>

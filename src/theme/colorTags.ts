@@ -53,7 +53,7 @@ export const colorTags600 = {
   taupe: 'bg-taupe-600',
   mauve: 'bg-mauve-600',
   mist: 'bg-mist-600',
-  olive: 'bg-olive-800',
+  olive: 'bg-olive-600',
 } as const
 
 export type ColorTag800 = keyof typeof colorTags800

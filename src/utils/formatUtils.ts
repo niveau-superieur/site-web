@@ -3,8 +3,9 @@
  * @param date - la date à transformer
  * @returns un string de la date au format DD/MM/YYYY
  */
-export function formatDateFR(date: Date): string {
-  return new Intl.DateTimeFormat('fr-FR').format(date)
+export function formatDateFR(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date
+  return new Intl.DateTimeFormat('fr-FR').format(d)
 }
 
 /**
