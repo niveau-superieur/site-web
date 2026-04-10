@@ -1,3 +1,4 @@
+import DndView from '@/views/DndView.vue'
 import HomeView from '@/views/HomeView.vue'
 import PlanningView from '@/views/PlanningView.vue'
 import VideoView from '@/views/VideoView.vue'
@@ -24,6 +25,15 @@ const router = createRouter({
       path: '/planning',
       name: 'planning',
       component: PlanningView,
+    },
+    {
+      path: '/resources',
+      redirect: '/resources/d&d',
+    },
+    {
+      path: '/resources/d&d',
+      name: 'resources_d&d',
+      component: DndView,
     },
   ],
 })
