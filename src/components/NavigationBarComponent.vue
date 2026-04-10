@@ -32,6 +32,16 @@ const navigation: NavigationItem[] = [
     name: 'Planning',
     href: '/planning',
   },
+  {
+    name: 'Ressources',
+    href: '/resources',
+    submenu: [
+      {
+        name: 'Donjons & Dragons',
+        href: '/resources/d&d',
+      },
+    ],
+  },
 ]
 
 // REACTIVE VARS
