@@ -1,4 +1,4 @@
-import type { ColorTag600 } from './colorTags'
+import type { ColorTag600 } from '../../theme/colorTags'
 
 export type Tag = {
   label: string
@@ -7,6 +7,7 @@ export type Tag = {
 
 export const activityTags = {
   first: { label: 'Première séance', color: 'amber' },
+  last: { label: 'Dernière séance', color: 'amber' },
   competition: { label: 'Compétition', color: 'red' },
   stage: { label: 'Étape validée', color: 'blue' },
   test: { label: 'Test', color: 'orange' },
@@ -16,6 +17,10 @@ export const activityTags = {
   reading: { label: 'Lecture', color: 'fuchsia' },
   geocaching: { label: 'Géocaching', color: 'green' },
   creating: { label: 'Création', color: 'indigo' },
+  virtualCycling: { label: 'Cyclisme virtuel', color: 'rose' },
+  cycling: { label: 'Cyclisme', color: 'cyan' },
+  swimming: { label: 'Natation', color: 'sky' },
+  cardio: { label: 'Cardio', color: 'emerald' },
 } as const
 
 export type ActivityTag = (typeof activityTags)[keyof typeof activityTags]

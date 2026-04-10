@@ -1,5 +1,6 @@
-import type { ActivityTag } from '@/data/programs/activityTags'
-import type { ColorTag800 } from '@/data/programs/colorTags'
+import type { ActivityTag } from '@/data/activity/activityTags'
+import type { ProgramId } from '@/data/activity/programs'
+import type { ColorTag800 } from '@/theme/colorTags'
 
 export type Activity = {
   name: string
@@ -7,11 +8,12 @@ export type Activity = {
   duration?: number // minutes
   distance?: number // km
   tags?: ActivityTag[]
+  programs: ProgramId[]
   description?: string
 }
 
 export type Program = {
+  id: ProgramId
   name: string
-  tagColor?: ColorTag800
-  activities: Activity[]
+  tagColor: ColorTag800
 }
