@@ -40,6 +40,10 @@ const navigation: NavigationItem[] = [
         name: 'Donjons & Dragons',
         href: '/resources/d&d',
       },
+      {
+        name: 'Lectures',
+        href: '/resources/lectures',
+      },
     ],
   },
 ]

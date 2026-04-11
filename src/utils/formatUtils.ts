@@ -20,3 +20,21 @@ export function formatDuration(minutes: number): string {
   const mPart = m > 0 ? `${m} min` : ''
   return [hPart, mPart].filter(Boolean).join(' ')
 }
+
+/**
+ * Transforme une note de 0 à 5 en note sous forme d'étoiles
+ * @param rating - la note au format numérique
+ * @returns un string au format étoiles
+ */
+export function formatRating(rating: number): string {
+  const stars = []
+
+  for (let i = 0; i < 5; i++) {
+    const diff = rating - i
+
+    if (diff >= 1) stars.push('★')
+    else if (diff >= 0.5) stars.push('⯨')
+  }
+
+  return stars.join(' ')
+}
