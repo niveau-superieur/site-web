@@ -1,6 +1,7 @@
 import type { Activity, Program } from '@/types/activity'
 import { calisthenicsActivities } from './activityTypes/calisthenicsActivities'
 import { cardioActivities } from './activityTypes/cardioActivities'
+import { creatingActivities } from './activityTypes/creatingActivities'
 import { cyclingActivities } from './activityTypes/cyclingActivities'
 import { geocachingActivities } from './activityTypes/geocachingActivities'
 import { readingActivities } from './activityTypes/readingActivities'
@@ -43,6 +44,12 @@ export const triathlonIronmanProgram: Program = {
   tagColor: 'cyan',
 }
 
+export const dndAdventuresProgram: Program = {
+  id: 'dndAdventuresProgram',
+  name: 'Aventures D&D',
+  tagColor: 'lime',
+}
+
 export type ProgramId =
   | 'calisthenicsTMAEasyProgram'
   | 'readingNovelProgram'
@@ -50,6 +57,7 @@ export type ProgramId =
   | 'geocachingRennesProgram'
   | 'zwiftPlatineProgram'
   | 'triathlonIronmanProgram'
+  | 'dndAdventuresProgram'
 
 export const programs: Program[] = [
   calisthenicsTMAEasyProgram,
@@ -58,6 +66,7 @@ export const programs: Program[] = [
   geocachingRennesProgram,
   zwiftPlatineProgram,
   triathlonIronmanProgram,
+  dndAdventuresProgram,
 ]
 
 export const activities: Activity[] = [
@@ -68,4 +77,5 @@ export const activities: Activity[] = [
   ...cyclingActivities,
   ...swimmingActivities,
   ...cardioActivities,
+  ...creatingActivities,
 ]
