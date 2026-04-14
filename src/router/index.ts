@@ -1,3 +1,4 @@
+import BooksView from '@/views/BooksView.vue'
 import DndView from '@/views/DndView.vue'
 import HomeView from '@/views/HomeView.vue'
 import PlanningView from '@/views/PlanningView.vue'
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/resources/d&d',
       name: 'resources_d&d',
       component: DndView,
+    },
+    {
+      path: '/resources/lectures',
+      name: 'resources_lectures',
+      component: BooksView,
     },
   ],
 })
