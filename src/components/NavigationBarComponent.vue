@@ -44,6 +44,10 @@ const navigation: NavigationItem[] = [
         name: 'Lectures',
         href: '/resources/lectures',
       },
+      {
+        name: 'Outils et matériel',
+        href: '/resources/tools',
+      },
     ],
   },
 ]

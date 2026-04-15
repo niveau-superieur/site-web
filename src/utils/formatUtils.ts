@@ -38,3 +38,33 @@ export function formatRating(rating: number): string {
 
   return stars.join(' ')
 }
+
+/**
+ * Transforme un type d'outils au format technique en format fonctionnel
+ * @param type - le type à transformer
+ * @returns un string au format fonctionnel du type
+ */
+export function formatToolType(type: string): string {
+  return type === 'material' ? 'Matériel' : 'Logiciel'
+}
+
+/**
+ * Transforme un type d'outils au format technique en format fonctionnel
+ * @param type - le type à transformer
+ * @returns un string au format fonctionnel du type
+ */
+export function formatPrice(price: number): string {
+  return price === 0 ? 'Gratuit' : price.toString().concat('€')
+}
+
+/**
+ * Tronque un texte après un nombre défini de caractères, en ajoutant …
+ * @param text - le texte à tronquer
+ * @param maxLength - la taille au-delà de laquelle le texte sera tronqué (par défaut : 50)
+ * @returns le texte tronqué avec …
+ */
+export function truncateText(text: string, maxLength = 50): string {
+  if (!text) return ''
+
+  return text.length > maxLength ? text.slice(0, maxLength) + '…' : text
+}
