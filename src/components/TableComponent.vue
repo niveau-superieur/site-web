@@ -35,7 +35,7 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
         <th
           v-for="column in columns"
           :key="String(column.field)"
-          class="py-3 px-3 cursor-pointer select-none border border-gray-700"
+          class="py-3 px-3 cursor-pointer select-none border bg-gray-900 border-gray-700"
           @click="toggleSort(column.field, column.sortable)"
         >
           {{ column.label }}
@@ -61,7 +61,9 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
           :key="String(column.field)"
           class="py-2 px-3 border border-gray-800"
         >
-          {{ column.format ? column.format(row[column.field], row) : row[column.field] }}
+          <slot :name="String(column.field)" :value="row[column.field]" :row="row">
+            {{ column.format ? column.format(row[column.field], row) : row[column.field] }}
+          </slot>
         </td>
       </tr>
     </tbody>
