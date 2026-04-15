@@ -1,9 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FooterComponent from './components/FooterComponent.vue'
+import NavigationBarComponent from './components/NavigationBarComponent.vue'
+</script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
+  <div class="bg-gray-950 text-gray-50 min-h-screen">
+    <NavigationBarComponent />
+    <main class="m-12">
+      <RouterView />
+    </main>
+    <FooterComponent />
+  </div>
 </template>
-
-<style scoped></style>
