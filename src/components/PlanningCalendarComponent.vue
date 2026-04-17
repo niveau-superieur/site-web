@@ -7,14 +7,20 @@ import { formatDuration } from '@/utils/formatUtils'
 import type { EventClickArg, EventContentArg, EventInput, EventMountArg } from '@fullcalendar/core'
 import frLocale from '@fullcalendar/core/locales/fr'
 import dayGridPlugin from '@fullcalendar/daygrid'
+import listPlugin from '@fullcalendar/list'
 import FullCalendar from '@fullcalendar/vue3'
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 
 // EMIT
 const emit = defineEmits(['activity-click'])
 
 // PLAIN VARS
 const programsMap = Object.fromEntries(programs.map((p: Program) => [p.id, p]))
+
+// REACTIVE VARS
+const calendarRef = ref<InstanceType<typeof FullCalendar> | null>(null)
+const isMobile = ref(false)
+const currentView = ref('dayGridMonth')
 
 // COMPUTED
 const events = computed<EventInput[]>(() =>
@@ -29,19 +35,26 @@ const events = computed<EventInput[]>(() =>
 )
 
 const calendarOptions = computed(() => ({
-  plugins: [dayGridPlugin], // Gestion de la vue mois/semaine en grille
+  plugins: [dayGridPlugin, listPlugin], // Gestion de la vue mois/semaine en grille
   initialView: 'dayGridMonth', // Affiche la vue mensuelle en grille
   locales: [frLocale], // Champs en français
   firstDay: 1, // Premier jour : lundi
-  aspectRatio: 2.5, // Ratio largeur/hauteur
-  headerToolbar: {
-    left: 'title', // Ce qui s'affiche sur la gauche du header
-    right: 'prev today next', // Ce qui s'affiche sur la droite du header
-  },
+  aspectRatio: isMobile.value ? 1 : 2.5, // Ratio largeur/hauteur
+  headerToolbar: isMobile.value
+    ? {
+        left: 'title',
+        right: 'prev,next',
+      }
+    : {
+        left: 'title', // Ce qui s'affiche sur la gauche du header
+        right: 'prev today next', // Ce qui s'affiche sur la droite du header
+      },
   eventColor: '#1f2937', // Gestion de la couleur d'un évènement
   eventBorderColor: '#374151', // Gestion de la culeur de la border d'un évènement
   showNonCurrentDates: false, // Masque les jours du mois précédent et du mois suivant
   events: events.value, // Ensemble des évènements à placer dans le calendrier
+  displayEventTime: false, // Masque l'affichage de "Toute la journée" en vue listMonth
+  listDaySideFormat: false as const, // Masque l'affichage du jour de la semaine en vue listMonth
 
   // Gestion de l'affichage des évènements dans le calendrier
   eventContent(arg: EventContentArg) {
@@ -67,20 +80,32 @@ const calendarOptions = computed(() => ({
       )
       .join('')
 
-    return {
-      html: `
-        <div class="m-1 whitespace-normal">
-        <div class="flex">
-          ${tagsProgram}
-        </div>
-        <div class="font-bold">
-          ${arg.event.title}
-        </div>
-        <div class="flex">
-          ${tagsHtml}
-        </div>
+    if (isMobile.value) {
+      return {
+        html: `
+        <div class="m-1 text-xs">
+          <div class="font-bold">
+            ${arg.event.title}
+          </div>
         </div>
       `,
+      }
+    } else {
+      return {
+        html: `
+        <div class="m-1 whitespace-normal">
+          <div class="flex">
+            ${tagsProgram}
+          </div>
+          <div class="font-bold">
+            ${arg.event.title}
+          </div>
+         <div class="flex">
+          ${tagsHtml}
+          </div>
+        </div>
+      `,
+      }
     }
   },
 
@@ -108,8 +133,33 @@ const calendarOptions = computed(() => ({
     emit('activity-click', info.event.extendedProps.activity)
   },
 }))
+
+// LIFECYCLE
+onMounted(() => {
+  const mobileWidth = window.matchMedia('(max-width: 1024px)')
+  isMobile.value = mobileWidth.matches
+
+  currentView.value = isMobile.value ? 'listMonth' : 'dayGridMonth'
+
+  const api = calendarRef.value?.getApi()
+  if (api) api.changeView(currentView.value)
+
+  mobileWidth.addEventListener('change', (e) => {
+    isMobile.value = e.matches
+    setView(e.matches ? 'listMonth' : 'dayGridMonth')
+  })
+})
+
+// FUNCTIONS
+function setView(view: string) {
+  const api = calendarRef.value?.getApi()
+  if (!api) return
+
+  currentView.value = view
+  api.changeView(view)
+}
 </script>
 
 <template>
-  <FullCalendar :options="calendarOptions" />
+  <FullCalendar ref="calendarRef" :options="calendarOptions" />
 </template>

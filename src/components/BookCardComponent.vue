@@ -14,17 +14,15 @@ const emit = defineEmits<{
 
 <template>
   <div
-    class="bg-gray-900 border border-gray-800 rounded-xl p-3 cursor-pointer hover:scale-105 hover:bg-gray-700 transition flex flex-col h-full"
+    class="bg-gray-900 border border-gray-800 rounded-xl p-2 md:p-3 cursor-pointer md:hover:scale-105 md:hover:bg-gray-700 transition flex flex-col h-full"
     @click="emit('click', book)"
   >
     <div class="flex justify-center">
-      <img :src="book.cover" :alt="book.title" class="w-auto h-70 object-cover rounded-md" />
+      <img :src="book.cover" :alt="book.title" class="w-full aspect-2/3 object-cover rounded-md" />
     </div>
 
-    <div class="mt-3 flex-1 flex items-center justify-center text-center">
-      <h3 class="text-xl font-bold line-clamp-2">
-        {{ book.title }}
-      </h3>
+    <div class="mt-2 md:mt-3 flex-1 flex items-center justify-center text-center">
+      <h3 class="text-sm md:text-xl font-bold line-clamp-2">{{ book.title }}</h3>
     </div>
   </div>
 </template>

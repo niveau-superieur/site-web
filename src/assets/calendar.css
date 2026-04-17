@@ -1,0 +1,20 @@
+/* Masque le point du calendar en vue listMonth */
+.fc .fc-list-event-graphic {
+  display: none;
+}
+
+/* Modifie la couleur du background des blocs indiquant le jour et la date en vue listMonth */
+.fc .fc-list-day-cushion {
+  background: #1f2937;
+}
+
+/* Permet de maintenir le bloc du jour et de la date au-dessus des events affichés dans la vue listMonth */
+.fc .fc-list-day {
+  position: relative;
+  z-index: 5;
+}
+
+/* Modifie le hover des events pour la vue listMonth */
+.fc .fc-list-event:hover td {
+  background-color: #374151 !important;
+}
