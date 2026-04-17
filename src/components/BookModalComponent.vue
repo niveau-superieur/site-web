@@ -14,7 +14,7 @@ const emit = defineEmits<{
   (e: 'close'): void
 }>()
 
-// LOCK SCROLL
+// LIFECYCLE
 onMounted(() => {
   document.body.style.overflow = 'hidden'
 })
@@ -26,37 +26,37 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="fixed inset-0 flex items-center justify-center z-50 backdrop-blur-sm bg-black/30"
+    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-black/30 p-4"
     @click="emit('close')"
   >
     <div
-      class="bg-gray-900 p-6 rounded-xl w-150 max-h-200 overflow-auto border border-gray-800"
+      class="bg-gray-900 p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto border border-gray-800"
       @click.stop
     >
       <div class="flex flex-col items-center text-center mb-4">
-        <img :src="book.cover" :alt="book.title" class="w-60 h-auto rounded-sm" />
+        <img :src="book.cover" :alt="book.title" class="w-32 md:w-60 h-auto rounded-sm" />
 
-        <h2 class="text-2xl font-bold m-4">
+        <h2 class="text-lg md:text-2xl font-bold mt-4">
           {{ book.title }}
         </h2>
       </div>
 
-      <p class="mb-2"><strong>Auteur :</strong> {{ book.author }}</p>
+      <p class="mb-2 text-sm md:text-base"><strong>Auteur :</strong> {{ book.author }}</p>
 
-      <p class="mb-2"><strong>Pages :</strong> {{ book.pageCount }}</p>
+      <p class="mb-2 text-sm md:text-base"><strong>Pages :</strong> {{ book.pageCount }}</p>
 
-      <p class="mb-2">
+      <p class="mb-2 text-sm md:text-base">
         <strong>Temps de lecture :</strong>
         {{ formatDuration(book.readingTime) }}
       </p>
 
-      <div class="mb-2 flex items-center gap-2">
+      <div class="mb-2 flex items-center gap-2 text-sm md:text-base">
         <strong>Note :</strong>
         <StarRatingComponent :rating="book.rating" />
       </div>
       <div class="mt-4 h-px bg-gray-800"></div>
 
-      <p class="mt-4 whitespace-pre-line">
+      <p class="mt-4 whitespace-pre-line text-sm md:text-base">
         {{ book.summary }}
       </p>
 

@@ -37,25 +37,27 @@ const socialMedias: SocialMedia[] = [
 <template>
   <div class="h-px bg-gray-800 mx-16"></div>
 
-  <footer class="px-12 py-6 flex items-center justify-between">
-    <span class="text-md">Suivez-moi sur les plateformes !</span>
+  <footer
+    class="px-4 md:px-12 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
+  >
+    <span class="text-md text-center"> Suivez-moi sur les plateformes !</span>
 
-    <div class="flex items-center gap-6">
+    <div class="flex flex-wrap justify-center items-center gap-4 md:gap-6">
       <a
         v-for="socialMedia in socialMedias"
         :key="socialMedia.name"
         :href="socialMedia.href"
         target="_blank"
         rel="noopener noreferrer"
-        class="flex items-center gap-2 opacity-80 hover:opacity-100 transition-colors"
+        class="flex items-center gap-2 opacity-80 hover:opacity-100 transition"
       >
         <img :src="socialMedia.icon" :alt="socialMedia.name" class="h-6 w-auto rounded-sm" />
         {{ socialMedia.name }}
       </a>
     </div>
 
-    <div class="flex flex-row items-center">
-      <span class="text-md pr-4">Mail de contact : niveausuperieurns@gmail.com</span>
+    <div class="flex flex-col md:flex-row items-center gap-4 text-center md:text-right">
+      <span class="text-md"> Mail de contact : niveausuperieurns@gmail.com</span>
       <img
         src="@/assets/images/niveauSuperieurLogo.png"
         alt="Logo"

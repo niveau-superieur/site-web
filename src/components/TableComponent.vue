@@ -29,43 +29,45 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
 </script>
 
 <template>
-  <table class="w-full border-collapse">
-    <thead>
-      <tr>
-        <th
-          v-for="column in columns"
-          :key="String(column.field)"
-          class="py-3 px-3 cursor-pointer select-none border bg-gray-900 border-gray-700"
-          @click="toggleSort(column.field, column.sortable)"
+  <div class="w-full overflow-x-auto">
+    <table class="w-full min-w-150 border-collapse text-sm md:text-base">
+      <thead>
+        <tr>
+          <th
+            v-for="column in columns"
+            :key="String(column.field)"
+            class="py-2 md:py-3 px-2 md:px-3 cursor-pointer select-none border bg-gray-900 border-gray-700 whitespace-nowrap"
+            @click="toggleSort(column.field, column.sortable)"
+          >
+            {{ column.label }}
+
+            <span v-if="sortField === column.field">
+              {{ sortDirection === 'asc' ? '▲' : '▼' }}
+            </span>
+
+            <span v-else-if="column.sortable" class="opacity-30">⇅</span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr
+          v-for="row in data"
+          :key="JSON.stringify(row)"
+          class="hover:bg-gray-900"
+          @click="emit('row-click', row)"
         >
-          {{ column.label }}
-
-          <span v-if="sortField === column.field">
-            {{ sortDirection === 'asc' ? '▲' : '▼' }}
-          </span>
-
-          <span v-else-if="column.sortable" class="opacity-30">⇅</span>
-        </th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr
-        v-for="row in data"
-        :key="JSON.stringify(row)"
-        class="hover:bg-gray-900"
-        @click="emit('row-click', row)"
-      >
-        <td
-          v-for="column in columns"
-          :key="String(column.field)"
-          class="py-2 px-3 border border-gray-800"
-        >
-          <slot :name="String(column.field)" :value="row[column.field]" :row="row">
-            {{ column.format ? column.format(row[column.field], row) : row[column.field] }}
-          </slot>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+          <td
+            v-for="column in columns"
+            :key="String(column.field)"
+            class="py-2 px-2 md:px-3 border border-gray-800 whitespace-nowrap"
+          >
+            <slot :name="String(column.field)" :value="row[column.field]" :row="row">
+              {{ column.format ? column.format(row[column.field], row) : row[column.field] }}
+            </slot>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>

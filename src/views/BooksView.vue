@@ -38,29 +38,34 @@ const onRowClick = (book: Book) => {
 </script>
 
 <template>
-  <div class="flex justify-between align-middle">
-    <TitleComponent :label="`Toutes les lectures (${books.length})`" />
+  <div class="px-4 md:px-0">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+      <TitleComponent :label="`Toutes les lectures (${books.length})`" />
 
-    <SwitchComponent v-model="displayMode" :options="displayOptions" />
-  </div>
+      <SwitchComponent v-model="displayMode" :options="displayOptions" class="mb-4 md:mb-0" />
+    </div>
 
-  <TableComponent
-    v-if="displayMode === 'table'"
-    :columns="columns"
-    :data="sortedData"
-    :sort-field="sortField"
-    :sort-direction="sortDirection"
-    @sort="setSort"
-    @row-click="onRowClick"
-  />
-  <div v-else class="grid grid-cols-8 gap-4">
-    <BookCardComponent
-      v-for="book in sortedData"
-      :key="book.title"
-      :book="book"
-      @click="onRowClick"
+    <TableComponent
+      v-if="displayMode === 'table'"
+      :columns="columns"
+      :data="sortedData"
+      :sort-field="sortField"
+      :sort-direction="sortDirection"
+      @sort="setSort"
+      @row-click="onRowClick"
     />
-  </div>
+    <div
+      v-else
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4"
+    >
+      <BookCardComponent
+        v-for="book in sortedData"
+        :key="book.title"
+        :book="book"
+        @click="onRowClick"
+      />
+    </div>
 
-  <BookModalComponent v-if="selectedBook" :book="selectedBook" @close="selectedBook = null" />
+    <BookModalComponent v-if="selectedBook" :book="selectedBook" @close="selectedBook = null" />
+  </div>
 </template>

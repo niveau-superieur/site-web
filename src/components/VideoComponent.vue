@@ -7,8 +7,8 @@ defineProps<{ video: Video; reverse?: boolean }>()
 <template>
   <div
     :class="[
-      'flex gap-6 rounded-xl p-6',
-      reverse ? 'flex-row-reverse border-2 border-gray-900' : 'flex-row bg-gray-900',
+      'flex flex-col md:gap-6 gap-4 rounded-xl p-4 md:p-6',
+      reverse ? 'md:flex-row-reverse border-2 border-gray-800' : 'md:flex-row bg-gray-900',
     ]"
   >
     <div class="flex-1 aspect-video">
@@ -20,13 +20,13 @@ defineProps<{ video: Video; reverse?: boolean }>()
       ></iframe>
     </div>
 
-    <div class="flex-1 flex flex-col gap-6">
-      <h2 class="text-2xl font-bold">{{ video.title }}</h2>
-      <p class="whitespace-pre-line">{{ video.description }}</p>
+    <div class="flex-1 flex flex-col gap-4 md:gap-6">
+      <h2 class="text-lg md:text-2xl font-bold">{{ video.title }}</h2>
+      <p class="text-sm md:text-base whitespace-pre-line">{{ video.description }}</p>
 
       <div v-if="video.costs" class="space-y-1">
         <h3 class="font-semibold">{{ video.costs.label }}</h3>
-        <ul class="list-disc list-inside">
+        <ul class="list-disc list-inside text-sm md:text-base">
           <li v-for="item in video.costs.items" :key="item.label">
             <a :href="item.url" target="_blank" class="text-blue-400 hover:underline">{{
               item.label
@@ -37,7 +37,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
 
       <div v-if="video.links" class="space-y-1">
         <h3 class="font-semibold">{{ video.links.label }}</h3>
-        <ul class="list-disc list-inside">
+        <ul class="list-disc list-inside text-sm md:text-base">
           <li v-for="item in video.links.items" :key="item.label">
             <a :href="item.url" target="_blank" class="text-blue-400 hover:underline">{{
               item.label
@@ -48,7 +48,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
 
       <div v-if="video.misc?.length" class="space-y-1">
         <h3 class="font-semibold">Divers</h3>
-        <ul class="list-disc list-inside">
+        <ul class="list-disc list-inside text-sm md:text-base">
           <li v-for="item in video.misc" :key="item">{{ item }}</li>
         </ul>
       </div>

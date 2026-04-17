@@ -9,10 +9,11 @@ import { formatPrice, formatToolType, truncateText } from '@/utils/formatUtils'
 // PLAIN VARS
 const columns: Column<Tool>[] = [
   { label: 'Nom', field: 'name', sortable: false },
-  { label: 'Type', field: 'type', sortable: true, format: formatToolType },
-  { label: 'Utilisation', field: 'usage', sortable: false },
-  { label: 'Lien', field: 'url', sortable: false },
   { label: 'Prix', field: 'price', sortable: true, format: formatPrice },
+  { label: 'Utilisation', field: 'usage', sortable: false },
+  { label: 'Type', field: 'type', sortable: true, format: formatToolType },
+
+  { label: 'Lien', field: 'url', sortable: false },
 ]
 
 // COMPOSABLES
@@ -38,8 +39,10 @@ const { sortField, sortDirection, setSort, sortedData } = useTable<Tool>(tools)
         target="_blank"
         rel="noopener noreferrer"
         class="text-blue-400 underline"
-      >
-        {{ truncateText(value, 100) }}
+        ><span class="md:hidden">Lien</span>
+        <span class="hidden md:inline">
+          {{ truncateText(value, 100) }}
+        </span>
       </a>
     </template>
   </TableComponent>

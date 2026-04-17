@@ -6,7 +6,7 @@ import NavigationBarComponent from './components/NavigationBarComponent.vue'
 <template>
   <div class="bg-gray-950 text-gray-50 min-h-screen">
     <NavigationBarComponent />
-    <main class="m-12">
+    <main class="m-4 md:m-12">
       <RouterView />
     </main>
     <FooterComponent />

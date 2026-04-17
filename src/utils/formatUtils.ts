@@ -33,7 +33,7 @@ export function formatRating(rating: number): string {
     const diff = rating - i
 
     if (diff >= 1) stars.push('★')
-    else if (diff >= 0.5) stars.push('⯨')
+    else if (diff >= 0.5) stars.push('½')
   }
 
   return stars.join(' ')

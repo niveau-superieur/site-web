@@ -33,14 +33,14 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="fixed inset-0 flex items-center justify-center z-50 backdrop-blur-sm bg-black/30"
+    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-black/30 p-4"
     @click="emit('close')"
   >
     <div
-      class="bg-gray-900 p-6 rounded-xl w-150 max-h-200 overflow-auto border border-gray-800"
+      class="bg-gray-900 p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto border border-gray-800"
       @click.stop
     >
-      <div class="flex flex-wrap mb-4 justify-between">
+      <div class="flex flex-col md:flex-row md:justify-between gap-2 mb-4">
         <div class="flex flex-wrap gap-1">
           <span
             v-for="program in activityPrograms"
@@ -52,12 +52,12 @@ onUnmounted(() => {
         </div>
         <p>{{ formatDateFR(activity.date) }}</p>
       </div>
-      <h2 class="text-xl font-bold mb-2">{{ activity.name }}</h2>
+      <h2 class="text-lg sm:text-xl font-bold mb-2">{{ activity.name }}</h2>
       <div class="flex flex-wrap gap-1 mb-2">
         <span
           v-for="tag in activity.tags"
           :key="tag.label"
-          :class="['px-1 rounded text-sm', colorTags600[tag.color]]"
+          :class="['px-2 py-0.5 rounded text-xs md:text-sm', colorTags600[tag.color]]"
         >
           {{ tag.label }}
         </span>
@@ -71,7 +71,7 @@ onUnmounted(() => {
 
       <div class="mt-2 h-px bg-gray-800 mx-16"></div>
 
-      <p class="m-2 whitespace-pre-line">
+      <p class="text-sm md:text-base m-2 whitespace-pre-line">
         {{ activity.description }}
       </p>
 
