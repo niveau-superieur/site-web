@@ -35,7 +35,7 @@ const socialMedias: SocialMedia[] = [
 </script>
 
 <template>
-  <div class="h-px bg-gray-800 mx-16"></div>
+  <div class="separator h-px mx-16"></div>
 
   <footer
     class="px-4 md:px-12 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6"

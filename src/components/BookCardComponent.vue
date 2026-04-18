@@ -14,7 +14,7 @@ const emit = defineEmits<{
 
 <template>
   <div
-    class="bg-gray-900 border border-gray-800 rounded-xl p-2 md:p-3 cursor-pointer md:hover:scale-105 md:hover:bg-gray-700 transition flex flex-col h-full"
+    class="card-hover rounded-xl p-2 md:p-3 cursor-pointer md:hover:scale-105 transition flex flex-col h-full"
     @click="emit('click', book)"
   >
     <div class="flex justify-center">

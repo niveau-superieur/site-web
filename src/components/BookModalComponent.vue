@@ -26,13 +26,10 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-black/30 p-4"
+    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-blur p-4"
     @click="emit('close')"
   >
-    <div
-      class="bg-gray-900 p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto border border-gray-800"
-      @click.stop
-    >
+    <div class="card p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto" @click.stop>
       <div class="flex flex-col items-center text-center mb-4">
         <img :src="book.cover" :alt="book.title" class="w-32 md:w-60 h-auto rounded-sm" />
 
@@ -54,16 +51,14 @@ onUnmounted(() => {
         <strong>Note :</strong>
         <StarRatingComponent :rating="book.rating" />
       </div>
-      <div class="mt-4 h-px bg-gray-800"></div>
+      <div class="mt-4 h-px separator"></div>
 
       <p class="mt-4 whitespace-pre-line text-sm md:text-base">
         {{ book.summary }}
       </p>
 
       <div class="flex justify-end mt-6">
-        <button @click="emit('close')" class="px-4 py-2 bg-gray-800 rounded hover:bg-gray-700">
-          Fermer
-        </button>
+        <button @click="emit('close')" class="button px-4 py-2 rounded">Fermer</button>
       </div>
     </div>
   </div>

@@ -11,7 +11,7 @@ import { dndAdventures } from '@/data/dndAdventures'
     <a
       href="https://nosy-seeder-540.notion.site/Nouvelle-aventure-33d48197325e8110a714fded86777eb6"
       target="_blank"
-      class="px-4 py-2 bg-gray-800 rounded hover:bg-gray-700 w-fit"
+      class="button px-4 py-2 rounded w-fit"
     >
       Template
     </a>

@@ -36,7 +36,7 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
           <th
             v-for="column in columns"
             :key="String(column.field)"
-            class="py-2 md:py-3 px-2 md:px-3 cursor-pointer select-none border bg-gray-900 border-gray-700 whitespace-nowrap"
+            class="py-2 md:py-3 px-2 md:px-3 cursor-pointer select-none border card whitespace-nowrap"
             @click="toggleSort(column.field, column.sortable)"
           >
             {{ column.label }}
@@ -54,13 +54,13 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
         <tr
           v-for="row in data"
           :key="JSON.stringify(row)"
-          class="hover:bg-gray-900"
+          class="hover-primary"
           @click="emit('row-click', row)"
         >
           <td
             v-for="column in columns"
             :key="String(column.field)"
-            class="py-2 px-2 md:px-3 border border-gray-800 whitespace-nowrap"
+            class="py-2 px-2 md:px-3 card-reverse whitespace-nowrap"
           >
             <slot :name="String(column.field)" :value="row[column.field]" :row="row">
               {{ column.format ? column.format(row[column.field], row) : row[column.field] }}

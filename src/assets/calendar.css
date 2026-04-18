@@ -5,7 +5,7 @@
 
 /* Modifie la couleur du background des blocs indiquant le jour et la date en vue listMonth */
 .fc .fc-list-day-cushion {
-  background: #1f2937;
+  background: #3788d8;
 }
 
 /* Permet de maintenir le bloc du jour et de la date au-dessus des events affichés dans la vue listMonth */
@@ -14,7 +14,53 @@
   z-index: 5;
 }
 
-/* Modifie le hover des events pour la vue listMonth */
+/* Couleur des évènements en thème dark */
+.dark .fc .fc-daygrid-event,
+.dark .fc .fc-list-event {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+}
+
+/* Couleur des évènements au survol pour le thème light */
+.fc .fc-daygrid-event:hover,
 .fc .fc-list-event:hover td {
-  background-color: #374151 !important;
+  background-color: #2a68a5;
+}
+
+/* Couleur des évènements au survol pour le thème dark */
+.dark .fc .fc-daygrid-event:hover,
+.dark .fc .fc-list-event:hover td {
+  background-color: #374151;
+}
+
+/* Couleurs des boutons de navigation du planning en thème light */
+.fc .fc-button,
+.fc .fc-button-primary:disabled {
+  background-color: #e5e7eb;
+  border: 1px solid #d1d5db;
+  color: #111827;
+}
+
+/* Couleurs des boutons de navigation du planning en thème dark */
+.dark .fc .fc-button,
+.dark .fc-button-primary:disabled {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #f9fafb;
+}
+
+/* Couleur du hover des boutons de navigation du planning en thème light */
+.fc .fc-button:hover,
+.fc .fc-button-primary:hover {
+  background-color: #d1d5db;
+  border: 1px solid #d1d5db;
+  color: #111827;
+}
+
+/* Couleur du hover des boutons de navigation du planning en thème dark */
+.dark .fc-button:hover,
+.dark .fc-button-primary:hover {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #f9fafb;
 }

@@ -49,8 +49,6 @@ const calendarOptions = computed(() => ({
         left: 'title', // Ce qui s'affiche sur la gauche du header
         right: 'prev today next', // Ce qui s'affiche sur la droite du header
       },
-  eventColor: '#1f2937', // Gestion de la couleur d'un évènement
-  eventBorderColor: '#374151', // Gestion de la culeur de la border d'un évènement
   showNonCurrentDates: false, // Masque les jours du mois précédent et du mois suivant
   events: events.value, // Ensemble des évènements à placer dans le calendrier
   displayEventTime: false, // Masque l'affichage de "Toute la journée" en vue listMonth

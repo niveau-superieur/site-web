@@ -33,13 +33,10 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-black/30 p-4"
+    class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-blur p-4"
     @click="emit('close')"
   >
-    <div
-      class="bg-gray-900 p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto border border-gray-800"
-      @click.stop
-    >
+    <div class="card p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto" @click.stop>
       <div class="flex flex-col md:flex-row md:justify-between gap-2 mb-4">
         <div class="flex flex-wrap gap-1">
           <span
@@ -69,19 +66,14 @@ onUnmounted(() => {
 
       <p v-if="activity.distance"><strong>Distance :</strong> {{ activity.distance }} km</p>
 
-      <div class="mt-2 h-px bg-gray-800 mx-16"></div>
+      <div class="separator mt-2 h-px mx-16"></div>
 
       <p class="text-sm md:text-base m-2 whitespace-pre-line">
         {{ activity.description }}
       </p>
 
       <div class="flex justify-end">
-        <button
-          @click="emit('close')"
-          class="mt-2 px-4 py-2 bg-gray-800 rounded hover:bg-gray-700 justify-end-safe"
-        >
-          Fermer
-        </button>
+        <button @click="emit('close')" class="button px-4 py-2 rounded">Fermer</button>
       </div>
     </div>
   </div>
