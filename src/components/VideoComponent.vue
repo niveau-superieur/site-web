@@ -8,7 +8,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
   <div
     :class="[
       'flex flex-col md:gap-6 gap-4 rounded-xl p-4 md:p-6',
-      reverse ? 'md:flex-row-reverse border-2 border-gray-800' : 'md:flex-row bg-gray-900',
+      reverse ? 'md:flex-row-reverse card-reverse' : 'md:flex-row card',
     ]"
   >
     <div class="flex-1 aspect-video">
@@ -28,9 +28,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
         <h3 class="font-semibold">{{ video.costs.label }}</h3>
         <ul class="list-disc list-inside text-sm md:text-base">
           <li v-for="item in video.costs.items" :key="item.label">
-            <a :href="item.url" target="_blank" class="text-blue-400 hover:underline">{{
-              item.label
-            }}</a>
+            <a :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
           </li>
         </ul>
       </div>
@@ -39,9 +37,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
         <h3 class="font-semibold">{{ video.links.label }}</h3>
         <ul class="list-disc list-inside text-sm md:text-base">
           <li v-for="item in video.links.items" :key="item.label">
-            <a :href="item.url" target="_blank" class="text-blue-400 hover:underline">{{
-              item.label
-            }}</a>
+            <a :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
           </li>
         </ul>
       </div>

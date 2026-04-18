@@ -38,7 +38,7 @@ const { sortField, sortDirection, setSort, sortedData } = useTable<Tool>(tools)
         :href="value"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-blue-400 underline"
+        class="link hover:underline"
         ><span class="md:hidden">Lien</span>
         <span class="hidden md:inline">
           {{ truncateText(value, 100) }}

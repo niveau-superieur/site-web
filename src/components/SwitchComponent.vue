@@ -20,16 +20,12 @@ const select = (value: T) => {
 </script>
 
 <template>
-  <div class="flex items-center h-9 rounded overflow-hidden">
+  <div class="flex w-fit items-center h-9 rounded overflow-hidden switch">
     <button
       v-for="option in options"
       :key="option.value"
       class="px-4 py-2"
-      :class="[
-        modelValue === option.value
-          ? 'bg-gray-800'
-          : 'bg-gray-900 text-gray-600 hover:bg-gray-700 hover:text-gray-100',
-      ]"
+      :class="[modelValue === option.value ? 'switch-option-active' : 'switch-option']"
       @click="select(option.value)"
     >
       {{ option.label }}

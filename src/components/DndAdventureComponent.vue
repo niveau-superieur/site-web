@@ -10,7 +10,7 @@ defineProps<{ dndAdventure: DndAdventure; reverse?: boolean }>()
     target="_blank"
     :class="[
       'flex flex-col md:flex-row gap-4 md:gap-6 rounded-xl p-4 md:p-6 transition hover:scale-',
-      reverse ? 'md:flex-row-reverse border-2 border-gray-900' : 'bg-gray-900',
+      reverse ? 'md:flex-row-reverse card-reverse' : 'card',
     ]"
   >
     <div class="w-full md:w-1/2">
