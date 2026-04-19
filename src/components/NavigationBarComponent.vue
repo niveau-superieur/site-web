@@ -94,7 +94,7 @@ const toggleMenu = (menuName: string) => {
 
 <template>
   <div class="sticky top-0 z-100">
-    <nav class="bg-main px-8 h-20 flex items-center justify-between">
+    <nav ref="menuRef" class="bg-main px-8 h-20 flex items-center justify-between">
       <div class="flex items-center">
         <button class="md:hidden mr-4" @click="mobileOpen = !mobileOpen">☰</button>
 
