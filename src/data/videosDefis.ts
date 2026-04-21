@@ -2,6 +2,30 @@ import type { Video } from '@/types/video'
 
 export const videosDefis: Video[] = [
   {
+    title: '50 Aventures D&D en 50 jours !',
+    youtubeId: 'HCJNi3H4Gaw',
+    description:
+      "Le monde entier est sur le point de basculer. Des dirigeants corrompus et malfaisants s'associent pour commettre les pires horreurs imaginables.\nMais assez de politique internationale, aujourd'hui c'est Donjons & Dragons !\nLe monde entier est sur le point de basculer. Des dirigeants corrompus et malfaisants s'associent pour commettre les pires horreurs imaginables... mais un groupe d'aventuriers d'élite est là pour mettre fin à leurs méfaits !\n\n50 jours pour créer 50 aventures pour D&D, c'est possible ?",
+    costs: {
+      label: 'Coûts - 79.40€',
+      items: [
+        {
+          label: 'Notion - Version gratuite',
+          url: 'https://www.notion.com/fr/product',
+        },
+        {
+          label: "Générateurs d'images (Principalement Gemini) - Version gratuite",
+          url: 'https://gemini.google.com/app',
+        },
+        {
+          label: 'Création des cartes - Dungeondraft - 20€',
+          url: 'https://dungeondraft.net/',
+        },
+      ],
+    },
+    misc: ["Ajout d'un site web fait avec Notion"],
+  },
+  {
     title: 'Géocaching - Les 300 trésors de Rennes',
     youtubeId: 'B8GBceW5Mr8',
     description:
