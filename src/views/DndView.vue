@@ -18,7 +18,7 @@ import { dndAdventures } from '@/data/dndAdventures'
   </div>
   <TitleComponent :label="`Toutes les aventures (${dndAdventures.length})`" />
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
     <DndAdventureComponent
       v-for="(adventure, index) in dndAdventures"
       :key="adventure.title"
