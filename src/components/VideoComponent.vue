@@ -8,7 +8,7 @@ defineProps<{ video: Video; reverse?: boolean }>()
   <div
     :class="[
       'flex flex-col md:gap-6 gap-4 rounded-xl p-4 md:p-6',
-      reverse ? 'md:flex-row-reverse card-reverse' : 'md:flex-row card',
+      reverse ? 'lg:flex-row-reverse card-reverse' : 'lg:flex-row card',
     ]"
   >
     <div class="flex-1 aspect-video">

@@ -42,7 +42,7 @@ onUnmounted(() => {
           <span
             v-for="program in activityPrograms"
             :key="program.id"
-            :class="['px-2 rounded-sm', colorTags800[program.tagColor]]"
+            :class="['px-2 rounded-sm text-light', colorTags800[program.tagColor]]"
           >
             {{ program.name }}
           </span>
@@ -54,7 +54,7 @@ onUnmounted(() => {
         <span
           v-for="tag in activity.tags"
           :key="tag.label"
-          :class="['px-2 py-0.5 rounded text-xs md:text-sm', colorTags600[tag.color]]"
+          :class="['px-2 py-0.5 rounded text-xs md:text-sm text-light', colorTags600[tag.color]]"
         >
           {{ tag.label }}
         </span>
