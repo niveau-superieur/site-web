@@ -34,6 +34,10 @@ const navigation: NavigationItem[] = [
     href: '/planning',
   },
   {
+    name: 'Statistiques',
+    href: '/stats',
+  },
+  {
     name: 'Ressources',
     href: '/resources',
     submenu: [
@@ -98,7 +102,7 @@ const toggleMenu = (menuName: string) => {
       <div class="flex items-center">
         <button class="md:hidden mr-4" @click="mobileOpen = !mobileOpen">☰</button>
 
-        <RouterLink to="/" class="flex items-center mr-15">
+        <RouterLink to="/" class="flex items-center mr-15 shrink-0">
           <img
             src="@/assets/images/niveauSuperieurLogo.png"
             alt="Logo"

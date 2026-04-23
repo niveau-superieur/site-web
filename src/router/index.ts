@@ -1,8 +1,9 @@
-import BooksView from '@/views/BooksView.vue'
-import DndView from '@/views/DndView.vue'
 import HomeView from '@/views/HomeView.vue'
 import PlanningView from '@/views/PlanningView.vue'
-import ToolsView from '@/views/ToolsView.vue'
+import BooksView from '@/views/resources/BooksView.vue'
+import DndView from '@/views/resources/DndView.vue'
+import ToolsView from '@/views/resources/ToolsView.vue'
+import StatsView from '@/views/StatsView.vue'
 import VideoView from '@/views/VideoView.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/planning',
       name: 'planning',
       component: PlanningView,
+    },
+    {
+      path: '/stats',
+      name: 'statistics',
+      component: StatsView,
     },
     {
       path: '/resources',

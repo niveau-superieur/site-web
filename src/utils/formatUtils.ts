@@ -9,16 +9,23 @@ export function formatDateFR(date: Date | string): string {
 }
 
 /**
- * Transforme une durée en minutes en un string au format HH h MM min
+ * Transforme une durée en minutes en un string au format JJ j HH h MM min
  * @param minutes - le nombre de minutes à transformer
- * @returns un string au format HH h MM min
+ * @returns un string au format JJ j HH h MM min
  */
 export function formatDuration(minutes: number): string {
-  const h = Math.floor(minutes / 60)
-  const m = minutes % 60
-  const hPart = h > 0 ? `${h} h` : ''
-  const mPart = m > 0 ? `${m} min` : ''
-  return [hPart, mPart].filter(Boolean).join(' ')
+  const days = Math.floor(minutes / 1440)
+  const hours = Math.floor((minutes % 1440) / 60)
+  const mins = minutes % 60
+
+  const parts = []
+  const pad = (n: number) => String(n).padStart(2, '0')
+
+  if (days) parts.push(`${pad(days)} j`)
+  if (hours || days) parts.push(`${pad(hours)} h`)
+  parts.push(`${pad(mins)} min`)
+
+  return parts.join(' ')
 }
 
 /**
