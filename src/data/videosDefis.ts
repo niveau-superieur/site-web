@@ -7,7 +7,7 @@ export const videosDefis: Video[] = [
     description:
       "Le monde entier est sur le point de basculer. Des dirigeants corrompus et malfaisants s'associent pour commettre les pires horreurs imaginables.\nMais assez de politique internationale, aujourd'hui c'est Donjons & Dragons !\nLe monde entier est sur le point de basculer. Des dirigeants corrompus et malfaisants s'associent pour commettre les pires horreurs imaginables... mais un groupe d'aventuriers d'élite est là pour mettre fin à leurs méfaits !\n\n50 jours pour créer 50 aventures pour D&D, c'est possible ?",
     costs: {
-      label: 'Coûts - 79.40€',
+      label: 'Coûts - 20€',
       items: [
         {
           label: 'Notion - Version gratuite',
@@ -80,7 +80,7 @@ export const videosDefis: Video[] = [
       ],
     },
     links: {
-      label: 'Coûts - 257.57€',
+      label: 'Liens',
       items: [
         {
           label: "Tableau d'entrainement",

@@ -11,6 +11,11 @@
     @apply text-gray-950 dark:text-gray-100;
   }
 
+  /* Texte light permanent */
+  .text-light {
+    @apply text-gray-100;
+  }
+
   /* Liens cliquables */
   .link {
     @apply text-blue-400;
@@ -24,6 +29,11 @@
   /* Hover pour le TableComponent */
   .hover-primary {
     @apply hover:bg-gray-200 dark:hover:bg-gray-900;
+  }
+
+  /* Hover pour le TableComponent */
+  .hover-secondary {
+    @apply hover:bg-gray-300 dark:hover:bg-gray-800;
   }
 
   /* Carte de base avec un comportement de hover */

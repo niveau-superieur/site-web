@@ -20,7 +20,7 @@ function openActivity(activity: Activity) {
 </script>
 
 <template>
-  <div class="border rounded-xl p-4 space-y-2">
+  <div class="rounded-xl p-4 space-y-2 card">
     <div class="flex flex-col sm:flex-row sm:justify-between gap-1 items-center">
       <h2 class="text-lg sm:text-xl font-bold">{{ stat.name }}</h2>
       <div class="text-xs sm:text-base">{{ stat.startDate }} - {{ stat.endDate }}</div>
@@ -52,7 +52,7 @@ function openActivity(activity: Activity) {
           <button
             v-for="activity in highlight.activities ?? []"
             :key="activity.name + activity.date"
-            class="px-2 py-1 rounded border hover-primary text-xs sm:text-sm"
+            class="px-2 py-1 rounded border hover-secondary text-xs sm:text-sm"
             @click="openActivity(activity)"
           >
             {{ activity.name }}
