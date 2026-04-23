@@ -16,4 +16,13 @@ export type Program = {
   id: ProgramId
   name: string
   tagColor: ColorTag800
+  highlights?: Highlight[]
 }
+
+export type Highlight = {
+  label: string
+  type: HighlightType
+  tags?: ActivityTag[]
+}
+
+export type HighlightType = 'longest-duration' | 'longest-distance' | 'tag-activities' | 'count'
