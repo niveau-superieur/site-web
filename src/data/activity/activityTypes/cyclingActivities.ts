@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Zwift - Souple',
+    date: '2026-04-26',
+    duration: 111,
+    distance: 39.85,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Three Step Sisters in Watopia\n\nWarm up\n20 min @ 101-126 W\n\nActive\n1:10:00 @ 152-175 W\n\nCool Down\n20 min @ 101-126 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Base aérobie',
+    date: '2026-04-24',
+    duration: 95,
+    distance: 40.85,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Tides and Temples in Watopia\n\nWarm up\n10 min @ 126-152 W\n\nActive\n1:15:00 @ 152-175 W\n\nCool Down\n10 min @ 126-152 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Tempo 20min',
+    date: '2026-04-22',
+    duration: 70,
+    distance: 29.77,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Cobbled Crown in Richmond\n\nWarm up\n10 min @ 118-139 W\n\nMontée en puissance en 4 étapes\n2 min @ 126-152 W\n2 min @ 139-163 W\n2 min @ 152-175 W\n2 min @ 163-188 W\n\nRecovery\n5 min @ 126-152 W\n\nHard\n20 min @ 163-188 W\nEasy\n12 min @ 126-152 W\n\nCool Down\n15 min @ 118-139 W`,
+  },
+  {
     name: 'Triathlon - Zwift - 4x3x5min puissance',
     date: '2026-04-18',
     duration: 29,

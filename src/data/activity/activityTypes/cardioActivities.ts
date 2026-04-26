@@ -3,6 +3,14 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-04-21',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Récup 20 secondes entre les exos\n\nClimbers 30 sec\nChaise 1 min\nPlanche 1 min\nSquats 50 sec\nPompes 30 sec\nLevées de bassin (bridge) 40 sec\nRussian Twist 30 sec\nFentes avant (lunges) 40 sec\nPlanche costale (à droite puis à gauche) 1 min`,
+  },
+  {
     name: `Triathlon - Circuit training`,
     date: '2026-04-16',
     duration: 20,

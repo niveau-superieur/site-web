@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Relax Swim`,
+    date: '2026-04-25',
+    duration: 45,
+    distance: 2.3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n20 min @ 02:59-03:28 sec/100m\n\nRecovery\n5 min @ 02:56-03:32 sec/100m\n\nCool Down\n20 min @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 3x((2x100) + 200)`,
+    date: '2026-04-23',
+    duration: 45,
+    distance: 2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n200 m @ 103-120 bpm\n- 2x(50 crawl souple, 25 Educ poings fermés, 25 crawl vite) Récup 25sec\n\nWarm up\n300 m @ 103-120 bpm\n- 3x100 progressif sur le 100 ( début facile finir le 100 à fond)\n\nWarm up\n200 m @ 103-120 bpm\n- 2x100 :\n50 (2 coups de bras à droite, respi, 2 coups de bras à gauche, respi)\n50 crawl\n\nActive\n400 m @ 120-138 bpm\n- 2x100 25 vite 75 souple, Récup 20sec\n- 200 Pull+plaquettes, amplitude Récup 20sec\n\nActive\n400 m @ 120-138 bpm\n- 2x100 1 facile, 2 moyen, 3 vite, Récup 20sec\n- 200 Pull+plaquettes, amplitude Récup 20sec\n\nActive\n400 m @ 120-138 bpm\n- 2x100 meilleure moyenne possible, Récup 20sec\n- 200 Pull+plaquettes, amplitude Récup 20sec\n\nCool Down\n200 m @ 103-120 bpm\n- 200 : 2 à 3 nages changer tous les 25m`,
+  },
+  {
+    name: `Triathlon - Natation - 3x4x100 progressif`,
+    date: '2026-04-21',
+    duration: 50,
+    distance: 2.2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n600 m @ 02:59-03:28 sec/100m\n6x100 2nages R 10sec\n\nWarm up\n200 m @ 02:59-03:28 sec/100m\n8x25 touché épaules R 5sec\n\nMontée en puissance en 4 étapes\n#1 en plaquettes\n100 m @ 02:44-03:12 sec/100m\n100 m @ 02:22-02:44 sec/100m\n100 m @ 02:05-02:22 sec/100m\n100 m @ 01:52-02:05 sec/100m\n\nMontée en puissance en 4 étapes\n#2 en pullbuoy\n100 m @ 02:44-03:12 sec/100m\n100 m @ 02:22-02:44 sec/100m\n100 m @ 02:05-02:22 sec/100m\n100 m @ 01:52-02:05 sec/100m\n\nMontée en puissance en 4 étapes\n#3 en crawl (nage complète)\n100 m @ 02:44-03:12 sec/100m\n100 m @ 02:22-02:44 sec/100m\n100 m @ 02:05-02:22 sec/100m\n100 m @ 01:52-02:05 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - 10x200 + 8x50`,
     date: '2026-04-17',
     duration: 55,

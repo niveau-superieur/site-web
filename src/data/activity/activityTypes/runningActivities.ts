@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Easy Souple`,
+    date: '2026-04-26',
+    duration: 31,
+    distance: 5.97,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Recovery\n30 min @ 05:17-05:54 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Fartlek 10x30sec 100%`,
+    date: '2026-04-24',
+    duration: 51,
+    distance: 10.18,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n10 min @ 05:17-05:54 min/km\n\nRépéter 10 fois\nHard\n30 sec @ 03:24-03:47 min/km\nEasy\n2:30 @ 05:17-05:54 min/km\n\nCool Down\n10 min @ 05:17-05:54 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-04-22',
+    duration: 80,
+    distance: 13.06,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Rituel de chaque semaine même parcours d'environ 13 à 16 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n13.0 km @ 119-132 bpm`,
+  },
+  {
     name: `Triathlon - Course à pied - Rennes Urban Trail 🏃`,
     date: '2026-04-19',
     duration: 125,
