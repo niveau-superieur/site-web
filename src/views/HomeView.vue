@@ -58,7 +58,7 @@ const lastVideo: Video = videosDefis[0]!
   </section>
 
   <section class="px-4 md:px-0">
-    <TitleComponent label="Avancement de la prochaine vidéo" />
+    <TitleComponent label="Avancement du prochain défi" />
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-6">
       <ProgressBarComponent
@@ -70,8 +70,8 @@ const lastVideo: Video = videosDefis[0]!
     </div>
   </section>
 
-  <section class="px-4 md:px-0">
-    <TitleComponent label="Dernière vidéo" />
+  <section class="mt-2 px-4 md:px-0">
+    <TitleComponent label="Dernier défi réalisé" />
     <VideoComponent :video="lastVideo" />
   </section>
 </template>
