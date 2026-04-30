@@ -3,7 +3,6 @@ import BookCardComponent from '@/components/BookCardComponent.vue'
 import BookModalComponent from '@/components/BookModalComponent.vue'
 import SwitchComponent from '@/components/SwitchComponent.vue'
 import TableComponent, { type Column } from '@/components/TableComponent.vue'
-import TitleComponent from '@/components/TitleComponent.vue'
 import { useTable } from '@/composables/useTable'
 import { books } from '@/data/books'
 import type { Book } from '@/types/book'
@@ -38,10 +37,9 @@ const onRowClick = (book: Book) => {
 </script>
 
 <template>
-  <div class="px-4 md:px-0">
+  <div class="px-4 md:px-0 space-y-4">
     <div class="flex flex-col md:flex-row md:items-center md:justify-between">
-      <TitleComponent :label="`Toutes les lectures (${books.length})`" />
-
+      <h1 class="text-main-heading">Toutes les lectures ({{ books.length }})</h1>
       <SwitchComponent v-model="displayMode" :options="displayOptions" class="mb-4 md:mb-0" />
     </div>
 

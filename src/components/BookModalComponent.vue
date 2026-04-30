@@ -29,35 +29,37 @@ onUnmounted(() => {
     class="fixed inset-0 flex items-center justify-center z-200 backdrop-blur-sm bg-blur p-4"
     @click="emit('close')"
   >
-    <div class="card p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto" @click.stop>
+    <div
+      class="card p-4 md:p-6 rounded-xl md:max-w-2xl max-h-full overflow-y-auto space-y-2"
+      @click.stop
+    >
       <div class="flex flex-col items-center text-center mb-4">
         <img :src="book.cover" :alt="book.title" class="w-32 md:w-60 h-auto rounded-sm" />
 
-        <h2 class="text-lg md:text-2xl font-bold mt-4">
+        <h2 class="text-heading">
           {{ book.title }}
         </h2>
       </div>
 
-      <p class="mb-2 text-sm md:text-base"><strong>Auteur :</strong> {{ book.author }}</p>
+      <p><strong>Auteur :</strong> {{ book.author }}</p>
+      <p><strong>Pages :</strong> {{ book.pageCount }}</p>
 
-      <p class="mb-2 text-sm md:text-base"><strong>Pages :</strong> {{ book.pageCount }}</p>
-
-      <p class="mb-2 text-sm md:text-base">
+      <p>
         <strong>Temps de lecture :</strong>
         {{ formatDuration(book.readingTime) }}
       </p>
 
-      <div class="mb-2 flex items-center gap-2 text-sm md:text-base">
+      <div class="flex items-center gap-2">
         <strong>Note :</strong>
         <StarRatingComponent :rating="book.rating" />
       </div>
-      <div class="mt-4 h-px separator"></div>
+      <div class="h-px separator"></div>
 
-      <p class="mt-4 whitespace-pre-line text-sm md:text-base">
+      <p class="whitespace-pre-line">
         {{ book.summary }}
       </p>
 
-      <div class="flex justify-end mt-6">
+      <div class="flex justify-end">
         <button @click="emit('close')" class="button px-4 py-2 rounded">Fermer</button>
       </div>
     </div>

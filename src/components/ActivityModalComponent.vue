@@ -49,12 +49,12 @@ onUnmounted(() => {
         </div>
         <p>{{ formatDateFR(activity.date) }}</p>
       </div>
-      <h2 class="text-lg sm:text-xl font-bold mb-2">{{ activity.name }}</h2>
+      <h2 class="text-heading mb-2">{{ activity.name }}</h2>
       <div class="flex flex-wrap gap-1 mb-2">
         <span
           v-for="tag in activity.tags"
           :key="tag.label"
-          :class="['px-2 py-0.5 rounded text-xs md:text-sm text-light', colorTags600[tag.color]]"
+          :class="['px-2 py-0.5 rounded text-light', colorTags600[tag.color]]"
         >
           {{ tag.label }}
         </span>
@@ -68,7 +68,7 @@ onUnmounted(() => {
 
       <div class="separator mt-2 h-px mx-16"></div>
 
-      <p class="text-sm md:text-base m-2 whitespace-pre-line">
+      <p class="m-2 whitespace-pre-line">
         {{ activity.description }}
       </p>
 

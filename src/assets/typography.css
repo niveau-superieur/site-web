@@ -1,0 +1,15 @@
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .text-main-heading {
+    @apply text-2xl md:text-4xl font-bold;
+  }
+
+  .text-heading {
+    @apply text-lg sm:text-xl md:text-2xl font-bold;
+  }
+
+  .text-subheading {
+    @apply text-base md:text-xl font-semibold;
+  }
+}

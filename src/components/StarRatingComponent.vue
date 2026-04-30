@@ -20,7 +20,7 @@ const ratingToArray = (rating: number): string[] => {
 </script>
 
 <template>
-  <div class="flex gap-1 text-yellow-400 text-xl">
+  <div class="flex gap-1 text-yellow-400 text-subheading">
     <span v-for="(star, index) in ratingToArray(rating)" :key="index">
       <span v-if="star === 'full'">★</span>
       <span v-else-if="star === 'half'"> ½</span>
