@@ -117,7 +117,7 @@ const toggleMenu = (menuName: string) => {
               v-if="!item.submenu"
               :to="item.href"
               :class="[
-                'px-4 py-2 rounded-md text-md font-bold nav-item flex items-center',
+                'px-4 py-2 rounded-md font-bold nav-item flex items-center',
                 isActive(item.href) ? 'nav-item-active' : '',
               ]"
             >
@@ -128,7 +128,7 @@ const toggleMenu = (menuName: string) => {
               v-else
               @click="toggleMenu(item.name)"
               :class="[
-                'px-4 py-2 rounded-md text-md font-bold nav-item flex items-center cursor-pointer',
+                'px-4 py-2 rounded-md font-bold nav-item flex items-center cursor-pointer',
                 isActive(item.href, item.submenu) ? 'nav-item-active' : '',
               ]"
             >
@@ -154,13 +154,13 @@ const toggleMenu = (menuName: string) => {
         <!-- MENU MOBILE -->
         <div
           v-if="mobileOpen"
-          class="absolute top-16 left-0 w-3/4 bg-main flex flex-col p-4 space-y-2 md:hidden mobile-menu"
+          class="absolute top-16 left-0 bg-main flex flex-col p-4 space-y-2 md:hidden mobile-menu rounded-md"
         >
           <div v-for="item in navigation" :key="item.name">
             <RouterLink
               v-if="!item.submenu"
               :to="item.href"
-              class="px-4 py-2 rounded-md font-bold nav-item-mobile"
+              class="px-4 py-2 rounded-md font-bold nav-item-mobile text-left block"
               @click="mobileOpen = false"
             >
               {{ item.name }}
@@ -170,7 +170,7 @@ const toggleMenu = (menuName: string) => {
               v-else
               @click="toggleMenu(item.name)"
               :class="[
-                'px-4 py-2 rounded-md font-bold nav-item-mobile',
+                'px-4 py-2 rounded-md font-bold nav-item-mobile text-left block',
                 isActive(item.href, item.submenu) ? 'nav-item-active' : '',
               ]"
             >

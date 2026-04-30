@@ -22,7 +22,7 @@ const emit = defineEmits<{
     </div>
 
     <div class="mt-2 md:mt-3 flex-1 flex items-center justify-center text-center">
-      <h3 class="text-sm md:text-xl font-bold line-clamp-2">{{ book.title }}</h3>
+      <h3 class="text-subheading line-clamp-2">{{ book.title }}</h3>
     </div>
   </div>
 </template>

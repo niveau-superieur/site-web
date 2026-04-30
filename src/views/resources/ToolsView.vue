@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import TableComponent, { type Column } from '@/components/TableComponent.vue'
-import TitleComponent from '@/components/TitleComponent.vue'
 import { useTable } from '@/composables/useTable'
 import { tools } from '@/data/tools'
 import type { Tool } from '@/types/tool'
@@ -22,7 +21,7 @@ const { sortField, sortDirection, setSort, sortedData } = useTable<Tool>(tools)
 
 <template>
   <div class="flex justify-between align-middle">
-    <TitleComponent :label="`Matériel et logiciels utilisés`" />
+    <h1 class="text-main-heading mb-4">Matériel et logiciels utilisés</h1>
   </div>
 
   <TableComponent

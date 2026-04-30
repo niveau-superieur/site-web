@@ -21,12 +21,12 @@ defineProps<{ video: Video; reverse?: boolean }>()
     </div>
 
     <div class="flex-1 flex flex-col gap-4 md:gap-6">
-      <h2 class="text-lg md:text-2xl font-bold">{{ video.title }}</h2>
-      <p class="text-sm md:text-base whitespace-pre-line">{{ video.description }}</p>
+      <h2 class="text-heading">{{ video.title }}</h2>
+      <p class="whitespace-pre-line">{{ video.description }}</p>
 
       <div v-if="video.costs" class="space-y-1">
-        <h3 class="font-semibold">{{ video.costs.label }}</h3>
-        <ul class="list-disc list-inside text-sm md:text-base">
+        <h3 class="text-subheading">{{ video.costs.label }}</h3>
+        <ul class="list-disc list-inside">
           <li v-for="item in video.costs.items" :key="item.label">
             <a :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
           </li>
@@ -34,8 +34,8 @@ defineProps<{ video: Video; reverse?: boolean }>()
       </div>
 
       <div v-if="video.links" class="space-y-1">
-        <h3 class="font-semibold">{{ video.links.label }}</h3>
-        <ul class="list-disc list-inside text-sm md:text-base">
+        <h3 class="text-subheading">{{ video.links.label }}</h3>
+        <ul class="list-disc list-inside">
           <li v-for="item in video.links.items" :key="item.label">
             <a :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
           </li>
@@ -43,8 +43,8 @@ defineProps<{ video: Video; reverse?: boolean }>()
       </div>
 
       <div v-if="video.misc?.length" class="space-y-1">
-        <h3 class="font-semibold">Divers</h3>
-        <ul class="list-disc list-inside text-sm md:text-base">
+        <h3 class="text-subheading">Divers</h3>
+        <ul class="list-disc list-inside">
           <li v-for="item in video.misc" :key="item">{{ item }}</li>
         </ul>
       </div>

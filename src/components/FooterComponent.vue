@@ -40,7 +40,7 @@ const socialMedias: SocialMedia[] = [
   <footer
     class="px-4 md:px-12 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6"
   >
-    <span class="text-md text-center"> Suivez-moi sur les plateformes !</span>
+    <span class="text-center"> Suivez-moi sur les plateformes !</span>
 
     <div class="flex flex-wrap justify-center items-center gap-4 md:gap-6">
       <a
@@ -57,7 +57,7 @@ const socialMedias: SocialMedia[] = [
     </div>
 
     <div class="flex flex-col md:flex-row items-center gap-4 text-center md:text-right">
-      <span class="text-md"> Mail de contact : niveausuperieurns@gmail.com</span>
+      <span> Mail de contact : niveausuperieurns@gmail.com</span>
       <img
         src="@/assets/images/niveauSuperieurLogo.png"
         alt="Logo"

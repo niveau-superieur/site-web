@@ -24,8 +24,8 @@ defineProps<{ dndAdventure: DndAdventure; reverse?: boolean }>()
     </div>
 
     <div class="flex-1 flex-col">
-      <h2 class="text-xl md:text-2xl mb-2 font-bold">{{ dndAdventure.title }}</h2>
-      <p class="text-sm md:text-base whitespace-pre-line">{{ dndAdventure.description }}</p>
+      <h2 class="text-heading mb-2">{{ dndAdventure.title }}</h2>
+      <p class="whitespace-pre-line">{{ dndAdventure.description }}</p>
     </div>
   </a>
 </template>

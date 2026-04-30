@@ -30,7 +30,7 @@ const toggleSort = (field: keyof T, sortable?: boolean) => {
 
 <template>
   <div class="w-full overflow-x-auto">
-    <table class="w-full min-w-150 border-collapse text-sm md:text-base">
+    <table class="w-full min-w-150 border-collapse">
       <thead>
         <tr>
           <th
