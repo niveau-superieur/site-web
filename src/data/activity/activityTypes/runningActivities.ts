@@ -3,6 +3,24 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-04-29',
+    duration: 81,
+    distance: 13.49,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `On est aller se perdre dans les chemins de campagne pendant un moment avant de rattraper un circuit connu\n\nActive\n13.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 8x600 récup 400`,
+    date: '2026-04-27',
+    duration: 69,
+    distance: 14.13,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n3.00 km @ 05:17-06:11 min/km\nSouple\n\nRépéter 8 fois\nHard\n0.60 km @ 03:52-04:06 min/km\nEasy\n0.40 km @ 05:39-06:48 min/km\n\nCool Down\n3.00 km @ 05:17-06:11 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - Easy Souple`,
     date: '2026-04-26',
     duration: 31,

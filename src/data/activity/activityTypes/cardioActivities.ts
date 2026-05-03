@@ -3,6 +3,22 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Circuit training`,
+    date: '2026-05-03',
+    duration: 40,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `- 15 minutes sur le vélo elliptique des parents\n- 20 Jumpingjacks\n- 20 Superman\n- 20 Montées de genoux\n- 10 Inchworms\n- 2x30 Squats (R15")\n- 20 Fentes avant\n- 3x15 Soulevé de terre à 30kg (R15")\n- 20 Pompes\n- 2x1' Planche (R15")\n- 40 Levées de bassin\n- 20 Pistol Squats (10 gauche/10 droite)\n- 2x1' Chaise (R15")\n- 40 Levées de bassin 1 jambe (20 gauche/20droite)\n- 50 Arm leg raise\n- 2x1' Planche latérale (1' gauche/1' droite)\n- 40 Climbers\n- 10 Burpees`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-04-28',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 3 fois, 15 sec entre les exos, 1min entre chaque boucle :\n- 40 Jumpingjacks\n- 20 Pas du patineur (10 gauche/10 droite)\n- 40 Montées de genoux\n- 10 Sauts de grenouille\n- 20 Pompes\n- 30 Squats\n- 1 minute de corde à sauter\n- 20 Planche avec rotation (10 gauche/10 droite)\n- 20 Planche avec 1 jambe qui s'écarte(10 gauche/10 droite)\n- 10 Burpees\n- 20 Crunchs\n- 30 Fentes avant`,
+  },
+  {
     name: `Triathlon - Réveil matin`,
     date: '2026-04-21',
     duration: 10,
