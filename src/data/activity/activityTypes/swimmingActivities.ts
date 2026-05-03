@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Amplitude-Appuis`,
+    date: '2026-05-03',
+    duration: 61,
+    distance: 2.7,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n500 m @ 02:36-02:59 sec/100m\n10x50 25 crawl 25 brasse\n\nActive\n2000 m @ 01:49-01:59 sec/100m\n- 4x50 25 Educ poings fermés, 25 crawl souple R:10sec\n- 200 crawl amplitude\n- 4x50 25 Educ doigts surface, 25 crawl souple R:10sec\n- 200 crawl amplitude\n- 4x50 25 Educ grand chien, 25 crawl souple R:10sec\n- 200 crawl amplitude\n- 4x50 25 Waterpolo, 25 crawl souple R:10sec\n- 200 crawl amplitude\n- 4x50 25 petit chien, 25 crawl souple R:10sec\n- 200 crawl amplitude\n\nCool Down\n200 m @ 02:36-02:59 sec/100m souple récup`,
+  },
+  {
+    name: `Triathlon - Natation eau libre`,
+    date: '2026-05-01',
+    duration: 89,
+    distance: 3.6,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Remplacement des 3700m de prévu par une séance en eau libre, parce que 1er mai donc piscine fermée.\nAu programme, départ de la base nautique de l'Île Grande pour rejoindre la plage du Dourlin, celle du camping municipal, ce qui représente 3700m sur Maps (et 3600 au final).\n\nProblème : la pleine mer est à 6h49... donc flemme de nager de nuit, on partira à 8h.\nMa maman m'accompagne dans l'épreuve, mais elle part du bout de la plage de Toul Gwenn.\n\nLes premiers mètres sont fait en brasse, le temps de trouver la volonté de mettre la tête dans l'eau, et après aucun problème ! Mer calme et pas trop froide. Il faudra quand même marcher un peu au niveau du pont parce qu'il n'y avait plus assez d'eau 😅\nEt en sortant, la combinaison aura provoqué une grosse brûlure dans le coup, il faudra mettre une crème anti-frictions la prochaine fois !`,
+  },
+  {
+    name: `Triathlon - Natation - Un classique!!!! mais tellement efficace 20x100`,
+    date: '2026-04-27',
+    duration: 64,
+    distance: 3.0,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n600 m @ 02:59-03:28 sec/100m\n6 x100m récup 15 sec - 3 ou 4 nages changer tout les 25m\n\nActive 20x100\n2000 m @ 01:58-02:22 sec/100m\n- 20x100m vite, récup 15sec Objectif faire la meilleure moyenne possible\n\nCool Down\n400 m @ 02:59-03:28 sec/100m\nsauf crawl souple`,
+  },
+  {
     name: `Triathlon - Natation - Relax Swim`,
     date: '2026-04-25',
     duration: 45,

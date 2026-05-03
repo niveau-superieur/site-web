@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Zwift - 6x6 min',
+    date: '2026-04-30',
+    duration: 70,
+    distance: 33.38,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Figure 8 in Watopia\n\nWarm up\n15 min @ 126-163 W\n\nRépéter 6 fois\nHard\n6 min @ 163-175 W 85-95 rpm\nEasy\n3 min @ 126-152 W\n\nCool Down\n1 min @ 126-152 W`,
+  },
+  {
+    name: "Triathlon - Zwift - 10-8-6-4-2-1min effort de course récup demi temps d'effort",
+    date: '2026-04-29',
+    duration: 112,
+    distance: 44.35,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Snowman in Watopia\n\nWarm up\n10 min @ 107-128 W\n\nMontée en puissance en 4 étapes\n4 min @ 118-139 W\n3 min @ 139-161 W\n2 min @ 161-182 W\n1 min @ 182-203 W\n\nRecovery\n5 min @ 107-128 W\n\nMontée en puissance en 4 étapes\n4 min @ 118-139 W\n3 min @ 139-161 W\n2 min @ 161-182 W\n1 min @ 182-203 W\n\nRecovery\n5 min @ 107-128 W\n\nActive\n10 min @ 175-201 W\n\nRecovery\n5 min @ 126-152 W\n\nActive\n8 min @ 175-201 W\n\nRecovery\n4 min @ 126-152 W\n\nActive\n6 min @ 175-201 W\n\nRecovery\n3 min @ 126-152 W\n\nActive\n4 min @ 175-201 W\n\nRecovery\n2 min @ 126-152 W\n\nActive\n2 min @ 175-201 W\n\nRecovery\n1 min @ 126-152 W\n\nActive\n1 min @ 175-201 W\n\nCool Down\n19 min @ 101-126 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - 10x(1+1)',
+    date: '2026-04-28',
+    duration: 201,
+    distance: 46.86,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Quatch Quest in Watopia\n\nPremière fois sur Alpes du Zwift, en 1h41'49" !\nJe crois qu'il existe un Succès si la montée est passée en sub 1h.\nClairement ça aurait pu être plus rapide si je n'étais pas sur la séance d'entraînement, mais pas 2x plus vite !\n\nWarm up\n25 min @ 126-152 W\n\nMontée en puissance en 4 étapes\n4 min @ 139-163 W\n3 min @ 152-175 W\n2 min @ 163-188 W\n1 min @ 175-201 W\n\nRecovery\n25 min @ 126-152 W\n\nRépéter 10 fois\nHard\n15 sec @ 214-240 W\nEasy\n2:45 @ 126-152 W\n\nRecovery\n25 min @ 126-152 W\n\nRépéter 10 fois\nEasy\n3 min @ 126-152 W\nHard\n1 min @ 175-201 W\nHarder\n1 min @ 201-227 W\n\nCool Down\n25 min @ 126-152 W`,
+  },
+  {
     name: 'Triathlon - Zwift - Souple',
     date: '2026-04-26',
     duration: 111,
