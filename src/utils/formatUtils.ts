@@ -1,10 +1,20 @@
 /**
  * Transforme une date au format ISo en date au format DD/MM/YYYY
  * @param date - la date à transformer
+ * @param emptyValue - la valeur à renvoyer si la date n'existe pas ou n'est pas au bon format
  * @returns un string de la date au format DD/MM/YYYY
  */
-export function formatDateFR(date: Date | string): string {
+export function formatDateFR(date: Date | string | undefined, emptyValue: string = '-'): string {
+  if (!date || (typeof date === 'string' && date.trim() === '')) {
+    return emptyValue
+  }
+
   const d = typeof date === 'string' ? new Date(date) : date
+
+  if (isNaN(d.getTime())) {
+    return emptyValue
+  }
+
   return new Intl.DateTimeFormat('fr-FR').format(d)
 }
 
