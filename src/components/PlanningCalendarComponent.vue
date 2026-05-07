@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ActivityTag } from '@/data/activity/activityTags'
 import { activities, programs, type ProgramId } from '@/data/activity/programs'
-import { colorTags600, colorTags800 } from '@/theme/colorTags'
+import { colorTags } from '@/theme/colorTags'
 import type { Program } from '@/types/activity'
 import { formatDuration } from '@/utils/formatUtils'
 import type { EventClickArg, EventContentArg, EventInput, EventMountArg } from '@fullcalendar/core'
@@ -63,7 +63,7 @@ const calendarOptions = computed(() => ({
     const tagsProgram = programs
       .map(
         (program: Program) =>
-          `<span class="px-1 mr-1 rounded-md ${colorTags800[program.tagColor]}">
+          `<span class="px-1 mr-1 rounded-md ${colorTags[program.tagColor]}">
             ${program.name}
           </span>`,
       )
@@ -72,7 +72,7 @@ const calendarOptions = computed(() => ({
     const tagsHtml = tags
       .map(
         (tag: ActivityTag) =>
-          `<span class="px-1 rounded-md mr-1 text-xs ${colorTags600[tag.color]}">
+          `<span class="px-1 rounded-md mr-1 text-xs ${colorTags[tag.color]}">
             ${tag.label}
           </span>`,
       )

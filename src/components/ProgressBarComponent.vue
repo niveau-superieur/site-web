@@ -6,7 +6,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="card rounded-md p-4 w-full">
+  <div class="rounded-md p-4 w-full">
     <span class="text-subheading text-center block mb-3">{{ label }}</span>
 
     <div class="relative w-full flex items-center">

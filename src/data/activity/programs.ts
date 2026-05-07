@@ -12,7 +12,7 @@ import { swimmingActivities } from './activityTypes/swimmingActivities'
 export const calisthenicsTMAEasyProgram: Program = {
   id: 'calisthenicsTMAEasyProgram',
   name: 'Callisthénie - The Movement Athlete - Facile',
-  tagColor: 'violet',
+  tagColor: 'violet700',
   highlights: [
     {
       label: 'Plus longue activité',
@@ -29,7 +29,7 @@ export const calisthenicsTMAEasyProgram: Program = {
 export const readingNovelProgram: Program = {
   id: 'readingNovelProgram',
   name: 'Lecture - 5h/jour',
-  tagColor: 'yellow',
+  tagColor: 'yellow700',
   highlights: [
     {
       label: 'Plus longue activité',
@@ -41,7 +41,7 @@ export const readingNovelProgram: Program = {
 export const runningMarathonProgram: Program = {
   id: 'runningMarathonProgram',
   name: 'Course à pied - Marathon',
-  tagColor: 'lime',
+  tagColor: 'lime700',
   highlights: [
     {
       label: 'Plus longue activité',
@@ -67,7 +67,7 @@ export const runningMarathonProgram: Program = {
 export const geocachingRennesProgram: Program = {
   id: 'geocachingRennesProgram',
   name: 'Géocaching - Rennes intra-rocade',
-  tagColor: 'sky',
+  tagColor: 'sky700',
   highlights: [
     {
       label: 'Plus longue activité',
@@ -83,7 +83,7 @@ export const geocachingRennesProgram: Program = {
 export const zwiftPlatineProgram: Program = {
   id: 'zwiftPlatineProgram',
   name: 'Zwift - Platine',
-  tagColor: 'orange',
+  tagColor: 'orange700',
   highlights: [
     {
       label: 'Plus longue activité',
@@ -104,7 +104,7 @@ export const zwiftPlatineProgram: Program = {
 export const triathlonIronmanProgram: Program = {
   id: 'triathlonIronmanProgram',
   name: 'Triathlon - Ironman',
-  tagColor: 'cyan',
+  tagColor: 'cyan700',
   highlights: [
     {
       label: 'Nombre de sessions de natation',
@@ -167,7 +167,7 @@ export const triathlonIronmanProgram: Program = {
 export const dndAdventuresProgram: Program = {
   id: 'dndAdventuresProgram',
   name: 'Aventures D&D',
-  tagColor: 'lime',
+  tagColor: 'lime700',
   highlights: [
     {
       label: 'Plus longue activité',

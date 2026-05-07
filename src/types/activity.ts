@@ -1,6 +1,6 @@
 import type { ActivityTag } from '@/data/activity/activityTags'
 import type { ProgramId } from '@/data/activity/programs'
-import type { ColorTag800 } from '@/theme/colorTags'
+import type { ColorTag } from '@/theme/colorTags'
 
 export type Activity = {
   name: string
@@ -15,7 +15,7 @@ export type Activity = {
 export type Program = {
   id: ProgramId
   name: string
-  tagColor: ColorTag800
+  tagColor: ColorTag
   highlights?: Highlight[]
 }
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { programs } from '@/data/activity/programs'
-import { colorTags600, colorTags800 } from '@/theme/colorTags'
+import { colorTags } from '@/theme/colorTags'
 import type { Activity, Program } from '@/types/activity'
 import { formatDateFR, formatDuration } from '@/utils/formatUtils'
 import { computed, onMounted, onUnmounted } from 'vue'
@@ -42,7 +42,7 @@ onUnmounted(() => {
           <span
             v-for="program in activityPrograms"
             :key="program.id"
-            :class="['px-2 rounded-sm text-light', colorTags800[program.tagColor]]"
+            :class="['px-2 rounded-sm text-light', colorTags[program.tagColor]]"
           >
             {{ program.name }}
           </span>
@@ -54,7 +54,7 @@ onUnmounted(() => {
         <span
           v-for="tag in activity.tags"
           :key="tag.label"
-          :class="['px-2 py-0.5 rounded text-light', colorTags600[tag.color]]"
+          :class="['px-2 py-0.5 rounded text-light', colorTags[tag.color]]"
         >
           {{ tag.label }}
         </span>
