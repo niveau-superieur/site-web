@@ -14,7 +14,7 @@ defineProps<{
         <div class="w-full h-full overflow-hidden rounded-md">
           <img
             v-if="progress === 100"
-            src="@/assets/images/achievement100.png"
+            src="@/assets/images/games/achievement100.png"
             class="w-full h-full object-contain dark:block"
           />
         </div>
