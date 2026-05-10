@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Zwift - Triathlon M de test',
+    date: '2026-05-10',
+    duration: 76,
+    distance: 40.48,
+    tags: [activityTags.sport, activityTags.virtualCycling, activityTags.test],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Three Little Sisters in Watopia\n\n40km en séance libre, et j'ai amélioré ma FTP (209 -> 213).\nUn peu moins de D+ que la tentative précédente (70m d'écart) mais ça reste proportionnelement beaucoup plus que ce qui est prévu pour l'Ironman.\n\n2ème triathlon M en non officiel pour tester la progression et voir ce qui manque ou ce qui peut être amélioré (nutrition, équipement, prépa, etc...)\n\nLes conditions du triathlon :\n- Nage en eau libre en conditions réelles (j'ai juste mis des chaussons pour ne pas me défoncer les pieds sur les cailloux en sortant de l'eau)\n- Vélo sur home trainer (prévu sur route mais trop de rafales de vent pour le faire sereinement)\n- Course à pied sur le parcours de la Tro Enez Veur (à peu près, un changement à cause de travaux sur une section et un autre pour ajouter de la distance et atteindre les 10km pile poil)\n\nRésultats (et écarts par rapport au précédent) :\nNatation (1500m) : 31'06" (+1'15", précédent en piscine)\nT1 : 9'26" (-14'01")\nCyclisme (40km) : 1h15'50" (-17'58", précédent en extérieur)\nT2 : 3'23" (-17'20")\nCourse à pied (10km) : 44'53" (-3'52")\nTotal : 2h44'39" (-51'55")\n\nClairement mieux que la précédente tentative (sans parler des transitions ^^) et je met la régression en natation sur le compte de la différence entre les conditions de piscine et celles de l'extérieur\nTrès content du résultat, reste à voir s'il pourra être amélioré sur le 1er triathlon M officiel.\n\n`,
+  },
+  {
+    name: 'Triathlon - Zwift - 20min tempo + 5x2min',
+    date: '2026-05-08',
+    duration: 135,
+    distance: 25.53,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Tour of Fire and Ice in Watopia\n\n3ème montée de l'Alpe du Zwift, en 1h38'45"\n\nWarm up\n20 min @ 101-126 W\n\nMontée en puissance en 6 étapes\n6 min @ 116-141 W\n5 min @ 128-154 W\n4 min @ 141-167 W\n3 min @ 154-180 W\n2 min @ 167-190 W\n1 min @ 182-205 W\n\nRecovery\n12 min @ 105-131 W\n\nActive\n20 min @ 175-201 W\n\nRecovery\n10 min @ 105-131 W\n\nRépéter 5 fois\nHard\n2 min @ 205-231 W\nEasy\n3 min @ 105-131 W\n\nCool Down\n20 min @ 101-126 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - 8x30sec',
+    date: '2026-05-05',
+    duration: 80,
+    distance: 27.09,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ 2018 Worlds Short Lap in Innsbruck\n\nWarm up\n20 min @ 128-150 W\n\nMontée en puissance en 4 étapes\n4 min @ 139-163 W\n3 min @ 152-175 W\n2 min @ 163-188 W\n1 min @ 175-201 W\n\nRecovery\n6 min @ 126-152 W\n\nRépéter 8 fois\nHard\n30 sec @ 214-240 W\nEasy\n2:30 @ 126-152 W\n\nCool Down\n20 min @ 101-152 W`,
+  },
+  {
     name: 'Triathlon - Zwift - 6x6 min',
     date: '2026-04-30',
     duration: 70,
