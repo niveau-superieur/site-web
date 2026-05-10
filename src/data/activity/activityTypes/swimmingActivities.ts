@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Triathlon M de test`,
+    date: '2026-05-10',
+    duration: 31,
+    distance: 1.535,
+    tags: [activityTags.sport, activityTags.swimming, activityTags.test],
+    programs: ['triathlonIronmanProgram'],
+    description: `2ème triathlon M en non officiel pour tester la progression et voir ce qui manque ou ce qui peut être amélioré (nutrition, équipement, prépa, etc...)\n\nLes conditions du triathlon :\n- Nage en eau libre en conditions réelles (j'ai juste mis des chaussons pour ne pas me défoncer les pieds sur les cailloux en sortant de l'eau)\n- Vélo sur home trainer (prévu sur route mais trop de rafales de vent pour le faire sereinement)\n- Course à pied sur le parcours de la Tro Enez Veur (à peu près, un changement à cause de travaux sur une section et un autre pour ajouter de la distance et atteindre les 10km pile poil)\n\nRésultats (et écarts par rapport au précédent) :\nNatation (1500m) : 31'06" (+1'15", précédent en piscine)\nT1 : 9'26" (-14'01")\nCyclisme (40km) : 1h15'50" (-17'58", précédent en extérieur)\nT2 : 3'23" (-17'20")\nCourse à pied (10km) : 44'53" (-3'52")\nTotal : 2h44'39" (-51'55")\n\nClairement mieux que la précédente tentative (sans parler des transitions ^^) et je met la régression en natation sur le compte de la différence entre les conditions de piscine et celles de l'extérieur\nTrès content du résultat, reste à voir s'il pourra être amélioré sur le 1er triathlon M officiel.`,
+  },
+  {
+    name: `Triathlon - Natation - Séance libre 2400m`,
+    date: '2026-05-09',
+    duration: 56,
+    distance: 2.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `La séance de base prévoit 2400m, dont 20x100m, mais comme c'est vraiment éclaté comme séance (20x100 sérieux, c'est ultra chiant !), je remplace par une séance libre de la même distance, en plus ça permet de s'habituer à nager en eau libre et dans une eau plus fraîche.`,
+  },
+  {
+    name: `Triathlon - Natation - 8x200 + 8x50`,
+    date: '2026-05-04',
+    duration: 55,
+    distance: 2.6,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm-up\n400 m @ 02:59-03:28 sec/100m souple focus technique\n\nActive\n1600 m @ 02:13-02:32 sec/100m\n8x200 R:20 sec allure course\n\nActive\n400 m @ 01:58-02:13 sec/100m\n8x50m 25 hard 25 souple R: 10sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - Amplitude-Appuis`,
     date: '2026-05-03',
     duration: 61,
