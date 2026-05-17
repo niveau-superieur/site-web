@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Long easy-souple 70%max avec 2x4x1min`,
+    date: '2026-05-16',
+    duration: 100,
+    distance: 19.46,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n14 min @ 05:44-06:42 min/km\n\nRépéter 4 fois\nHard\n1 min @ 03:35-04:01 min/km\nEasy\n30 sec @ 05:39-06:48 min/km\n\nRecovery\n1 hr @ 04:54-06:48 min/km\n\nRépéter 4 fois\nHard\n1 min @ 03:35-04:01 min/km\nEasy\n30 sec @ 05:39-06:48 min/km\n\nCool Down\n14 min @ 05:44-06:42 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 2x10x150/150m (30/30sec)`,
+    date: '2026-05-12',
+    duration: 75,
+    distance: 14.13,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n3.00 km @ 05:44-06:42 min/km\n\nRépéter 10 fois\nHard\n0.15 km @ 03:35-04:01 min/km\nEasy\n0.15 km @ 05:44-06:42 min/km\n\nRecovery\n2.00 km @ 05:44-06:42 min/km\n\nRépéter 10 fois\nHard\n0.15 km @ 03:35-04:01 min/km\nEasy\n0.15 km @ 05:44-06:42 min/km\n\nCool Down\n3.00 km @ 05:44-06:42 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-05-11',
+    duration: 74,
+    distance: 13.72,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Rituel de chaque semaine même parcours d'environ 13 à 16 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n13.0 km @ 05:13-05:49 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - Triathlon M de test`,
     date: '2026-05-10',
     duration: 45,
