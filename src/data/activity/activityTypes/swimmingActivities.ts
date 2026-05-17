@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Séance libre`,
+    date: '2026-05-15',
+    duration: 38,
+    distance: 1.6,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `3400m de prévus, mais j'ai préféré une séance libre encore une fois.\nSéance faite très tôt le matin, l'eau était bien froide et descendante, donc beaucoup de courant.\nMoins de distance que prévue, mais entre l'eau bien froide et le courant bien violent c'était plus fatiguant que prévu !\nEt après il n'y avait plus d'eau pour une deuxième boucle`,
+  },
+  {
+    name: `Triathlon - Natation - Séance libre`,
+    date: '2026-05-14',
+    duration: 109,
+    distance: 5.5,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `3000m de prévus pour la séance, mais avec la séance raccourcie de la veille j'ai préféré faire une séance longue pour rattraper les 2500m manquants.\nDonc un total de 5500m, 3000m de crawl et 2500m de pullbuoy.\nAucun problème, pas grand monde sur la ligne donc j'étais dans ma bulle tout du long, et la température est plus sympa qu'hier 😊`,
+  },
+  {
+    name: `Triathlon - Natation - Séance libre`,
+    date: '2026-05-13',
+    duration: 21,
+    distance: 1.05,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `3500m de prévus pour la séance, donc je voulais refaire un circuit depuis la base nautique jusqu'à la plage du Dourlin.\nMais... pas assez d'eau pour passer sous le pont (pas du tout d'eau même) et conditions dangereuses, vent et eau agitée, je ne voyais pas ma main devant moi, j'ai flippé de me prendre un cailloux, donc j'ai préféré arrêter à 1000m.`,
+  },
+  {
     name: `Triathlon - Natation - Triathlon M de test`,
     date: '2026-05-10',
     duration: 31,

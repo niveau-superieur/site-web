@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Zwift - 2x1h allure course',
+    date: '2026-05-16',
+    duration: 210,
+    distance: 102.61,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Fuhgeddaboudit in New York\n\nPremière séance où je passe les 100km !\n\nWarm up\n30 min @ 126-163 W\n\nActive\n1 hr @ 175-214 W\n\nRecovery\n30 min @ 139-175 W\n\nActive\n1 hr @ 182-218 W\n\nCool Down\n30 min @ 126-163 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Facile',
+    date: '2026-05-14',
+    duration: 120,
+    distance: 51.18,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ NYC KOM After Party in New York\n\nRecovery\n2 hr @ 126-152 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Tempo 4x8min',
+    date: '2026-05-13',
+    duration: 91,
+    distance: 33.48,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Glyph Heights in Watopia\n\nWarm up\n10 min @ 113-139 W\n\nMontée en puissance en 4 étapes\n2 min @ 126-163 W\n2 min @ 152-175 W\n2 min @ 163-188 W\n2 min @ 175-201 W\n\nRecovery\n5 min @ 126-152 W\n\nRépéter 4 fois\nHard\n8 min @ 175-201 W\nEasy\n6 min @ 126-152 W\n\nCool Down\n11 min @ 101-126 W`,
+  },
+  {
     name: 'Triathlon - Zwift - Triathlon M de test',
     date: '2026-05-10',
     duration: 76,
