@@ -4,6 +4,38 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-05-29',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois sans récup entre les exos, 1 min de récup entre chaque boucle :\n- 30 Climbers\n- 30 Levées de bassin 1 jambe (15G/15D)\n- 20 Triceps Pull Down (élastique à 35kg)\n- 1 min Chaise\n- 30 extensions triceps debout buste penché (6kg/haltère)\n- 15 Dips\n- 15 Superman\n- 20 Rotation épaule (10G/10D, élastique 35kg)\n- 30 Arm-leg raise\n- 1 min Planche\n- 20 Curl biceps (10G/10D, 10kg/haltère)\n- 20 Pullover (20kg)\n- 40 Gainage latéral avec rotation (20G/20D)\n- 20 Russian twist\n- 15 Pompes`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-05-27',
+    duration: 28,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit de 16 exos à enchaîner sans pause :\n- 60 Genoux-coude\n- 50 Levées de bassins\n- 40 Squats\n- 1 min Gainage 1 jambe (30"G/30"D)\n- 60 Curl biceps (5kg/haltère)\n- 50 Russian twist\n- 40 Dips\n- 30 Sauts sur box\n- 60 Montées de genoux\n- 50 Superman\n- 80 Gainage latéral avec rotation (40G/40D)\n- 30 Pompes\n- 60 Jumpingjacks\n- 50 Arm-leg raise\n- 40 Touché talon\n- 30 Tractions`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-05-20',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `10" de récup entre chaque exo, 20" tous les 3 exos :\n- 40 Climbers\n- 40 Fentes avant\n- 40 Montées de genoux\n- 1 min Gainage 1 jambe (30"G/30"D)\n- 30 Squats\n- 30 Jumpingjacks\n- 20 Pompes\n- 1 min Chaise\n- 20 Burpees\n- 20 Planche latérale avec rotation (10G/10D)\n- 20 Pistol squats (10G/10D)\n- 10 Sauts de grenouille`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-05-19',
+    duration: 24,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 3 fois, 1 min de récup entre chaque boucle :\n- 30 Jumpingjacks\n- 30 Squats\n- 30 Dips\n- 20 Climbers\n- 20 Superman\n- 20 Russian twist\n- 20 Fentes avant (10G+10D)\n- 10 Pompes\n- 10 Burpees`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-05-12',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],
