@@ -533,7 +533,59 @@ Muscle :
 - Band Deadlifts 3*(10-13-16)
 Endurance :
 - Arms Plank Hold 2*(45-55")
-Cooldown (4')`}],Kl=[{name:`Triathlon - Circuit training`,date:`2026-05-12`,duration:30,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`Faire le circuit sans pause entre les exos (sauf ceux précisés) :
+Cooldown (4')`}],Kl=[{name:`Triathlon - Circuit training`,date:`2026-05-29`,duration:30,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`Circuit à faire 2 fois sans récup entre les exos, 1 min de récup entre chaque boucle :
+- 30 Climbers
+- 30 Levées de bassin 1 jambe (15G/15D)
+- 20 Triceps Pull Down (élastique à 35kg)
+- 1 min Chaise
+- 30 extensions triceps debout buste penché (6kg/haltère)
+- 15 Dips
+- 15 Superman
+- 20 Rotation épaule (10G/10D, élastique 35kg)
+- 30 Arm-leg raise
+- 1 min Planche
+- 20 Curl biceps (10G/10D, 10kg/haltère)
+- 20 Pullover (20kg)
+- 40 Gainage latéral avec rotation (20G/20D)
+- 20 Russian twist
+- 15 Pompes`},{name:`Triathlon - Circuit training`,date:`2026-05-27`,duration:28,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`Circuit de 16 exos à enchaîner sans pause :
+- 60 Genoux-coude
+- 50 Levées de bassins
+- 40 Squats
+- 1 min Gainage 1 jambe (30"G/30"D)
+- 60 Curl biceps (5kg/haltère)
+- 50 Russian twist
+- 40 Dips
+- 30 Sauts sur box
+- 60 Montées de genoux
+- 50 Superman
+- 80 Gainage latéral avec rotation (40G/40D)
+- 30 Pompes
+- 60 Jumpingjacks
+- 50 Arm-leg raise
+- 40 Touché talon
+- 30 Tractions`},{name:`Triathlon - Circuit training`,date:`2026-05-20`,duration:20,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`10" de récup entre chaque exo, 20" tous les 3 exos :
+- 40 Climbers
+- 40 Fentes avant
+- 40 Montées de genoux
+- 1 min Gainage 1 jambe (30"G/30"D)
+- 30 Squats
+- 30 Jumpingjacks
+- 20 Pompes
+- 1 min Chaise
+- 20 Burpees
+- 20 Planche latérale avec rotation (10G/10D)
+- 20 Pistol squats (10G/10D)
+- 10 Sauts de grenouille`},{name:`Triathlon - Circuit training`,date:`2026-05-19`,duration:24,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`Circuit à faire 3 fois, 1 min de récup entre chaque boucle :
+- 30 Jumpingjacks
+- 30 Squats
+- 30 Dips
+- 20 Climbers
+- 20 Superman
+- 20 Russian twist
+- 20 Fentes avant (10G+10D)
+- 10 Pompes
+- 10 Burpees`},{name:`Triathlon - Circuit training`,date:`2026-05-12`,duration:30,tags:[V.sport,V.cardio],programs:[`triathlonIronmanProgram`],description:`Faire le circuit sans pause entre les exos (sauf ceux précisés) :
 - 20 Russian twist
 - 20 Climbers
 - 30 Dips
@@ -1036,7 +1088,116 @@ Easy
 #8: fentes avant
 #9: 20sec planche coté droit+20sec planche coté gauche`}],ql=[{name:`Les 8 assassins de l'équinoxe + Lithopédion + Le geyser des mariés`,date:`2025-11-01`,duration:600,tags:[V.creating,V.first],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le geyser des mariés + La loi du plus fort + Le roi bleu + Faux sangblants`,date:`2025-11-02`,duration:660,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le cor de l'Apocalypse`,date:`2025-11-03`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le jardin d'Eden + Le démon de la lune`,date:`2025-11-04`,duration:210,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`L'œil de l'escroc`,date:`2025-11-05`,duration:195,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le sang des âmes sœurs + La mémoire de l'eau`,date:`2025-11-06`,duration:210,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Qui sème le vent…`,date:`2025-11-07`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Spore des profondeurs + Les crocs du désert + Le berger du troupeau`,date:`2025-11-08`,duration:525,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le royaume enseveli + Le dieu de la forêt + Pixies en danger !`,date:`2025-11-09`,duration:390,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`La voie de l'ombre + Envaser`,date:`2025-11-10`,duration:300,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Tout feu, tout flamme + Prison cristalline + La ruine du serpent osseux + tous les jets de dés + ajout de monstres`,date:`2025-11-11`,duration:420,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Le solstice des héros`,date:`2025-11-12`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`La mort n'est qu'un autre chemin`,date:`2025-11-13`,duration:135,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Forteresse de glace + Gardiens du désert + Un anneau pour les gouverner tous + ajout de monstres`,date:`2025-11-14`,duration:345,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`David et Goliath + Maître des airs + Mort et désolation`,date:`2025-11-15`,duration:435,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Mort et désolation + Prédateur et prédateur alpha + La cité des brumes + Hôtel infini`,date:`2025-11-16`,duration:465,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Qui sifflent sur vos têtes + Roulotte de cirque`,date:`2025-11-17`,duration:225,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Trésor maudit`,date:`2025-11-18`,duration:180,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Trésor maudit + Rats du désert`,date:`2025-11-19`,duration:150,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`L'île verdoyante`,date:`2025-11-20`,duration:165,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Village lycanthrope`,date:`2025-11-21`,duration:180,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Spectacle de marionnettes + Gardien de la souffrance`,date:`2025-11-22`,duration:585,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Relique dans la cité souterraine + Stratégie martiale + Ère glaciaire`,date:`2025-11-23`,duration:645,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Tremblement de terre révélateur + Dans l'ombre du volcan`,date:`2025-11-24`,duration:225,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons`},{name:`Collision avec le Labyrinthe sans fin`,date:`2025-11-25`,duration:135,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Rédaction des brouillons.
  Fin des brouillons !`},{name:`Ajout de monstres au bestiaire`,date:`2025-11-26`,duration:240,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing de tous les monstres à créer`},{name:`Ajout de monstres au bestiaire`,date:`2025-11-27`,duration:90,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-11-28`,duration:270,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-11-29`,duration:435,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-11-30`,duration:495,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-12-01`,duration:180,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-12-02`,duration:315,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-12-03`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Remplissage des cartes de monstres`},{name:`Ajout de monstres au bestiaire`,date:`2025-12-04`,duration:105,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing et remplissage de tous les monstres terminé.
-Au total, c'est 289 monstres qui ont été créés 🥵`},{name:`Ajout des PNJ`,date:`2025-12-05`,duration:90,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing de tous les PNJ à créer`},{name:`Ajout des PNJ`,date:`2025-12-06`,duration:375,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing de tous les PNJ à créer + génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-07`,duration:405,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-08`,duration:180,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-09`,duration:165,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-10`,duration:150,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-11`,duration:90,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout de lieux`,date:`2025-12-12`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-13`,duration:150,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-14`,duration:165,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-15`,duration:105,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-16`,duration:105,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-17`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-18`,duration:135,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-19`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-20`,duration:255,tags:[V.creating,V.last],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`}],Jl=[{name:`Triathlon - Zwift - 2x1h allure course`,date:`2026-05-16`,duration:210,distance:102.61,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`🗺️ Fuhgeddaboudit in New York
+Au total, c'est 289 monstres qui ont été créés 🥵`},{name:`Ajout des PNJ`,date:`2025-12-05`,duration:90,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing de tous les PNJ à créer`},{name:`Ajout des PNJ`,date:`2025-12-06`,duration:375,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Listing de tous les PNJ à créer + génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-07`,duration:405,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-08`,duration:180,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-09`,duration:165,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-10`,duration:150,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout des PNJ`,date:`2025-12-11`,duration:90,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des PNJ`},{name:`Ajout de lieux`,date:`2025-12-12`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-13`,duration:150,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-14`,duration:165,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-15`,duration:105,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-16`,duration:105,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-17`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-18`,duration:135,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-19`,duration:120,tags:[V.creating],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`},{name:`Ajout de lieux`,date:`2025-12-20`,duration:255,tags:[V.creating,V.last],programs:[`dndAdventuresProgram`],description:`Génération d'images des lieux`}],Jl=[{name:`Triathlon - Zwift - Easy souple +5x30sec + 10min race pace +5x30sec`,date:`2026-05-28`,duration:131,distance:61.75,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`🗺️ Knights of the Roundabout in France
+
+Warm up
+20 min @ 101-152 W
+
+Répéter 5 fois
+Hard
+30 sec @ 214-240 W
+Easy
+3:30 @ 126-152 W
+
+Active
+10 min @ 175-201 W
+
+Répéter 5 fois
+Hard
+30 sec @ 214-240 W
+Easy
+3:30 @ 126-152 W
+
+Recovery
+40 min @ 126-163 W
+
+Cool Down
+20 min @ 101-152 W`},{name:`Triathlon - Zwift - 50-40-30 min allure course séance écourtée`,date:`2026-05-27`,duration:91,distance:40.8,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`Séance écourtée durant les 40 minutes d'effort, 35°C dans la pièce et je commençais à voir flou.
+C'est le pic de la canicule aujourd'hui, vivement que ça soit passé.
+
+🗺️ Petit Boucle in France
+
+Warm up
+20 min @ 126-163 W
+
+Active
+50 min @ 175-214 W
+
+Recovery
+10 min @ 139-175 W
+
+Active
+40 min @ 182-218 W
+
+Recovery
+10 min @ 139-175 W
+
+Active
+30 min @ 182-218 W
+
+Cool Down
+20 min @ 126-163 W`},{name:`Triathlon - Zwift - Tempo 2x18min`,date:`2026-05-26`,duration:85,distance:40.79,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`Séance difficile avec la canicule, mon appart est dans les combles et je n'ai pas de clim 🥵
+
+🗺️ The Greenway in New York
+
+Warm up
+10 min @ 101-126 W
+
+Montée en puissance en 4 étapes
+2 min @ 126-152 W
+2 min @ 139-163 W
+2 min @ 152-175 W
+2 min @ 163-188 W
+
+Recovery
+4 min @ 126-152 W
+
+Répéter 2 fois
+Hard
+18 min @ 175-201 W
+Easy
+9 min @ 126-152 W
+
+Cool Down
+9 min @ 101-126 W`},{name:`Triathlon - Triathlon de Brocéliande - Vélo`,date:`2026-05-24`,duration:72,distance:39.56,tags:[V.sport,V.cycling,V.competition],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`2ème partie du triathlon, les 40km de vélo.
+Un peu compliqué au début de gérer avec le monde, il faut savoir doubler rapidement et se replacer.
+J'ai utilisé le compteur pour gérer le rythme et la cadence, mais au bout de 26km il s'est décroché et a dégagé dans le fossé 😭 j'ai finis la course à l'aveugle, au ressenti.
+Le compteur a été retrouvé après la course en cherchant dans la zone, merci maman 😊
+
+Temps vélo : 1h11'47"
+Transition 2 : 2'12"`},{name:`Triathlon - Zwift - Tempo 20min`,date:`2026-05-21`,duration:70,distance:33.24,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`🗺️ Danger Noodle in Watopia
+
+Warm up
+8 min @ 101-126 W
+
+Montée en puissance en 4 étapes
+2 min @ 126-152 W
+2 min @ 139-163 W
+2 min @ 152-175 W
+2 min @ 163-188 W
+
+Recovery
+4 min @ 126-152 W
+
+Hard
+20 min @ 163-188 W
+Easy
+15 min @ 126-152 W
+
+Cool Down
+15 min @ 101-126 W`},{name:`Triathlon - Zwift - Tempo 3x10min`,date:`2026-05-19`,duration:91,distance:30.1,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`🗺️ Climber's Gambit in Watopia
+
+Warm up
+20 min @ 101-126 W
+
+Répéter 3 fois
+Hard
+10 min @ 175-201 W
+Easy
+10 min @ 126-152 W
+
+Cool Down
+10 min @ 101-126 W`},{name:`Triathlon - Zwift - 2x1h allure course`,date:`2026-05-16`,duration:210,distance:102.61,tags:[V.sport,V.virtualCycling],programs:[`zwiftPlatineProgram`,`triathlonIronmanProgram`],description:`🗺️ Fuhgeddaboudit in New York
 
 Première séance où je passe les 100km !
 
@@ -2848,7 +3009,66 @@ Temps de lecture : 3 h 23 min
 
 Les meurtres de Molly Southbourne
 Auteur : Tade THOMPSON
-Temps de lecture : 1 h 28 min`}],Zl=[{name:`Triathlon - Course à pied - Long easy-souple 70%max avec 2x4x1min`,date:`2026-05-16`,duration:100,distance:19.46,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Warm up
+Temps de lecture : 1 h 28 min`}],Zl=[{name:`Triathlon - Course à pied - 4x(2min15+15sec)`,date:`2026-05-28`,duration:62,distance:10.85,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Répéter 4 fois
+easy souple
+10 min @ 05:44-06:42 min/km
+tempo
+2:15 @ 04:16-04:54 min/km allure course
+Hard - vite
+15 sec @ 03:35-04:16 min/km
+
+Cool Down
+10 min @ 05:44-06:42 min/km`},{name:`Triathlon - Course à pied - Progressif et 2x4km allure 10km`,date:`2026-05-26`,duration:92,distance:18.18,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Séance très difficile, la fatigue du triathlon est encore présente et courir sous la canicule à midi est stupide et n'arrange rien 🥵
+
+Montée en puissance en 5 étapes
+1.00 km @ 04:40-05:26 min/km
+1.00 km @ 04:16-04:54 min/km
+1.00 km @ 03:59-04:31 min/km
+1.00 km @ 03:41-04:06 min/km
+1.00 km @ 03:28-03:50 min/km
+
+Recovery
+1.00 km @ 05:44-06:42 min/km
+
+Active
+4.00 km @ 04:06-04:28 min/km allure 10km
+
+Recovery
+1.00 km @ 05:44-06:42 min/km
+
+Active
+4.00 km @ 03:56-04:16 min/km Allure 10km
+
+Cool Down
+3.00 km @ 05:44-06:42 min/km`},{name:`Triathlon - Course à pied - Circuit rituel`,date:`2026-05-25`,duration:72,distance:13.06,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Rituel de chaque semaine même parcours d'environ 13 à 16 à 60%-70%
+Bien regarder son cardio, pour pouvoir le comparer par la suite.
+
+Active
+13.0 km @ 05:13-05:49 min/km`},{name:`Triathlon - Triathlon de Brocéliande - Course à pied`,date:`2026-05-24`,duration:49,distance:10.53,tags:[V.sport,V.running,V.competition],programs:[`triathlonIronmanProgram`],description:`3ème et dernière partie du triathlon.
+Heureusement que toute la partie course à pied était à l'ombre et qu'ils avaient rajouté un ravito en voyant la météo.
+Début difficile, mais après quelques kilomètres j'avais pris le rythme.
+
+Temps CAP : 48'29"
+Temps total : 2h34'00"
+Classement général : 51/251
+Classement catégorie : 16/33
+Classement catégorie : 51/216`},{name:`Triathlon - Course à pied - 12x1min, R:3min`,date:`2026-05-22`,duration:68,distance:12.98,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Test d'une séance au cardio, mais pas top niveau ressenti, c'est le début d'une période de canicule et ça se ressent
+
+Warm up
+10 min @ 103-120 bpm
+
+Répéter 12 fois
+Hard
+1 min @ 138-151 bpm
+Easy
+3 min @ 103-120 bpm
+
+Cool Down
+10 min @ 103-120 bpm`},{name:`Triathlon - Course à pied - Circuit rituel`,date:`2026-05-20`,duration:77,distance:13.62,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Rituel de chaque semaine même parcours d'environ 13 à 16 à 60%-70%
+Bien regarder son cardio, pour pouvoir le comparer par la suite.
+
+Active
+13.0 km @ 05:13-05:49 min/km`},{name:`Triathlon - Course à pied - Long easy-souple 70%max avec 2x4x1min`,date:`2026-05-16`,duration:100,distance:19.46,tags:[V.sport,V.running],programs:[`triathlonIronmanProgram`],description:`Warm up
 14 min @ 05:44-06:42 min/km
 
 Répéter 4 fois
@@ -3850,7 +4070,128 @@ RC5'`},{name:`RunMotion - EF60'`,date:`2025-03-11`,duration:61,distance:10.86,ta
 3*6' R2'
 RC5'`},{name:`Marathon - Test Cooper`,date:`2025-02-22`,duration:50,distance:9.92,tags:[V.sport,V.running,V.test],programs:[`runningMarathonProgram`],description:`Echauffement prépa Cooper + test Cooper (12' distance max)
 Objectif : vérifier le niveau de course à pied avant d'attaquer la préparation marathon.
-Résultat : 2750m`}],Ql=[{name:`Triathlon - Natation - Séance libre`,date:`2026-05-15`,duration:38,distance:1.6,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`3400m de prévus, mais j'ai préféré une séance libre encore une fois.
+Résultat : 2750m`}],Ql=[{name:`Triathlon - Natation - Progressif`,date:`2026-05-31`,duration:64,distance:3,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`Warm up
+600 m @ 02:59-03:28 sec/100m
+6x100
+- 50 crawl
+- 25 waterpolo
+- 25 doigts surface, R:15sec
+
+Montée en puissance en 4 étapes
+Crawl
+100 m @ 02:36-02:59 sec/100m
+100 m @ 02:19-02:36 sec/100m
+100 m @ 02:05-02:19 sec/100m
+100 m @ 01:54-02:05 sec/100m
+
+Montée en puissance en 4 étapes
+Plaquettes
+100 m @ 02:36-02:59 sec/100m
+100 m @ 02:19-02:36 sec/100m
+100 m @ 02:05-02:19 sec/100m
+100 m @ 01:54-02:05 sec/100m
+
+Montée en puissance en 4 étapes
+Palmes + plaquettes
+100 m @ 02:36-02:59 sec/100m
+100 m @ 02:19-02:36 sec/100m
+100 m @ 02:05-02:19 sec/100m
+100 m @ 01:54-02:05 sec/100m
+
+Montée en puissance en 4 étapes
+Pullbuoy
+100 m @ 02:36-02:59 sec/100m
+100 m @ 02:19-02:36 sec/100m
+100 m @ 02:05-02:19 sec/100m
+100 m @ 01:54-02:05 sec/100m
+
+Montée en puissance en 4 étapes
+Crawl
+100 m @ 02:36-02:59 sec/100m
+100 m @ 02:19-02:36 sec/100m
+100 m @ 02:05-02:19 sec/100m
+100 m @ 01:54-02:05 sec/100m
+
+Cool Down
+400 m @ 02:59-03:28 sec/100m
+8x50
+25 dos
+25 brasse`},{name:`Triathlon - Natation - 2x(200+2x100+4x50)`,date:`2026-05-30`,duration:83,distance:3.5,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`Passage à la piscine de Bréquigny et ses couloirs de 50m, le bonheur.
+Vraiment cette piscine est trop bien, dommage qu'elle soit si loin
+
+Warm up
+900 m @ 02:59-03:28 sec/100m
+- 300 souple crawl
+- 300 palmes progressif (finir vite)
+- 6x50 (25 touché épaule/25 crawl)
+
+Corps de séance
+1200 m @ 02:13-02:44 sec/100m
+- 200 crawl max
+- 200 crawl souple
+- 2 x 100 crawl max
+- 200 crawl souple
+- 4 x 50 crawl max
+- 200 crawl souple
+
+Corps de séance avec matériel
+1200 m @ 02:13-02:44 sec/100m
+- 200 crawl max palmes
+- 200 crawl souple palmes
+- 2 x 100 crawl max plaquettes
+- 200 crawl souple plaquettes
+- 4 x 50 crawl max palmes + plaquettes
+- 200 crawl souple palmes + plaquettes
+
+Cool Down
+200 m @ 02:59-03:28 sec/100m`},{name:`Triathlon - Natation - Séance libre écourtée`,date:`2026-05-25`,duration:43,distance:1.8,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`Total : 1800/3200
+
+En arrivant dans la piscine, j'ai hésité à repartir.
+Je n'ai jamais vu autant de monde, on aurait dit les photos des plages au Japon noires de monde. Je ne comprends pas comment ça peut être autorisé légalement, si quelqu'un a un problème le maître-nageur ne peut pas intervenir il ne peut même pas circuler !
+Le problème, c'est que l'espace nageur était limité à 2 lignes, et qu'elles étaient blindées aussi.
+J'ai abandonné l'idée de faire la séance prévue pour faire une séance chill, mais il y avait tellement de monde et tellement de gens qui ne respectaient pas les règles sur la ligne que j'ai écourté la séance.
+Put*** de canicule ! 😡`},{name:`Triathlon - Triathlon de Brocéliande - Natation`,date:`2026-05-24`,duration:29,distance:1.6,tags:[V.sport,V.swimming,V.competition],programs:[`triathlonIronmanProgram`],description:`Premier triathlon officiel, un M.
+Grosse chaleur pour l'épreuve, début de la canicule.
+
+Eau à 24.4°C, combi interdite à 24.5°C, parfait 👌
+Le briefing de 10 minutes pour les consignes en plein cagnard alors que tout le monde est en combi ça pique.
+Le départ tout le monde en même temps c'est assez intimidant, la première boucle c'était compliqué avec tout le monde en paquet à nager, je me suis pris des coups de partout.
+L'eau est complètement trouble, je me guidais avec les pieds des gens devant moi ^^
+La deuxième boucle beaucoup plus cool, les écarts se creusent et je peux nager tranquille.
+La première transition c'était un peu le bordel, j'ai galéré à retirer la combi et avec le stress j'ai préféré prendre mon temps plutôt que d'oublier un truc.
+
+Temps natation : 29'09"
+Transition 1 : 2'25"`},{name:`Triathlon - Natation - 4x(300+100)`,date:`2026-05-22`,duration:69,distance:3.5,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`Warm up
+400 m @ 02:36-02:59 sec/100m
+4x100 (75 crawl +25 poings fermés)
+
+Répéter 4 fois
+Hard
+300 m @ 01:49-01:59 sec/100m Allure course : le premier en plaquettes, le second en Pull, le troisieme pull+plaquette, le quatrieme sans materiel
+Easy
+100 m @ 02:27-02:47 sec/100m
+
+Répéter 2 fois
+Hard
+50.0 m @ 01:40-01:49 sec/100m Crawl Vite
+Easy
+50.0 m @ 02:27-02:47 sec/100m
+
+Cool Down
+200 m @ 02:36-02:59 sec/100m
+
+Supplément : 900m pullbuoy tranquille pour compensrr ceux de demain qui seront perdus`},{name:`Triathlon - Natation - Easy-Souple`,date:`2026-05-18`,duration:49,distance:2.4,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`Warm up
+600 m @ 02:59-03:28 sec/100m
+3x200 pullbuoy amplitude récup 20sec
+
+Répéter 4 fois
+Hard
+300 m @ 01:52-02:05 sec/100m #1 et 3 palmes #2 et 4 sans matériel
+Easy
+100 m @ 02:56-03:32 sec/100m souple amplitude + pull buoy
+
+Cool Down
+200 m @ 02:59-03:28 sec/100m`},{name:`Triathlon - Natation - Séance libre`,date:`2026-05-15`,duration:38,distance:1.6,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`3400m de prévus, mais j'ai préféré une séance libre encore une fois.
 Séance faite très tôt le matin, l'eau était bien froide et descendante, donc beaucoup de courant.
 Moins de distance que prévue, mais entre l'eau bien froide et le courant bien violent c'était plus fatiguant que prévu !
 Et après il n'y avait plus d'eau pour une deuxième boucle`},{name:`Triathlon - Natation - Séance libre`,date:`2026-05-14`,duration:109,distance:5.5,tags:[V.sport,V.swimming],programs:[`triathlonIronmanProgram`],description:`3000m de prévus pour la séance, mais avec la séance raccourcie de la veille j'ai préféré faire une séance longue pour rattraper les 2500m manquants.
