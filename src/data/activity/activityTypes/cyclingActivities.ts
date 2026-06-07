@@ -3,6 +3,42 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Triathlon de la Côte de Granit rose - Vélo',
+    date: '2026-06-07',
+    duration: 60,
+    distance: 34.54,
+    tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Partie vélo du triathlon, raccourcie à 34km au lieu des 38 prévus initialement.\nComme je connais le terrain, j'ai pu bombarder sur certains segments, et temporiser sur les montées.\nCircuit très roulant et une section de route qui vient d'être refaite, parfait 😊\nEt des supers bénévoles pour les passages dangereux qui sont là pour prévenir de ralentir et encourager, merci à eux !\n\nTemps vélo : 59'54"`,
+  },
+  {
+    name: 'Triathlon - Zwift - 2x6 min + 6x1min',
+    date: '2026-06-04',
+    duration: 80,
+    distance: 31.67,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Peaky Pavé in France\n\nMontée en puissance en 6 étapes\n6 min @ 118-139 W\n5 min @ 131-152 W\n4 min @ 143-165 W\n3 min @ 156-178 W\n2 min @ 169-190 W\n1 min @ 184-205 W\n\nRecovery\n5 min @ 107-128 W\n\nRépéter 2 fois\nHard\n6min @ 188-205 W\nEasy\n3 min @ 107-118 W\n\nRecovery\n2 min @ 118-128 W\n\nRépéter 6 fois\nHard\n1 min @ 235-257 W\nEasy\n3 min @ 107-118 W\n\nCool Down\n10 min @ 107-128 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Circuit training',
+    date: '2026-06-02',
+    duration: 15,
+    distance: 8.54,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Volcano Circuit CCW in Watopia\n\nPartie vélo tranquille de la séance de cardio training`,
+  },
+  {
+    name: 'Triathlon - Zwift - Tempo 2x20min',
+    date: '2026-06-02',
+    duration: 96,
+    distance: 18.25,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Souvenirs d'une séance identique pour la prépa half-Ironman, j'avais pleuré tellement c'était douloureux !\nAujourd'hui avec la cadence à 90rpm, ça passe BEAUCOUP plus facilement (et c'est pas l'entraînement qui joue comme l'intensité est fonction de la FTP).\nAu final, c'était dur mais pas abominable, pile ce qu'il faut 😊\n\n🗺️ Road to Sky in Watopia\n\nWarm up\n20 min @ 101-126 W\n\nRépéter 2 fois\nHard\n20 min @ 214-240 W\nEasy\n10 min @ 126-152 W\n\nCool Down\n12 min @ 101-126 W`,
+  },
+  {
     name: 'Triathlon - Zwift - Easy souple +5x30sec + 10min race pace +5x30sec',
     date: '2026-05-28',
     duration: 131,

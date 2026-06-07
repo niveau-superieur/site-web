@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Triathlon de la Côte de Granit rose - Natation`,
+    date: '2026-06-07',
+    duration: 28,
+    distance: 1.68,
+    tags: [activityTags.sport, activityTags.swimming, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `2ème triathlon M, cette fois-ci à domicile !\nPour la natation, la différence c'est que cette fois-ci c'est en mer, donc vagues, courant, eau salée et surtout 10°C de moins 🥶\nDifficile de trouver le rythme au début, il aura fallu près de 500m pour bien se caler et se faire plaisir ensuite.\nIl faut jongler entre les vagues (pas trop violentes ça va) et les bouées d'amarrage mais une bonne expérience !\n\nTemps natation : 27'12"`,
+  },
+  {
+    name: `Triathlon - Natation - 2x5x200`,
+    date: '2026-06-06',
+    duration: 67,
+    distance: 3.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n500 m @ 02:59-03:28 sec/100m\n- 100 crawl\n- 200 respiration devant (sighting) tous les 3 cycles de respi\n- 200 : 4x(25 doigts surface 25 crawl)\n\n5x200 pull+plaquettes récup 25sec allure 70.3\n1000 m @ 02:13-02:29 sec/100m\n\nRecovery\n400 m @ 02:56-03:32 sec/100m Amplitude\n\n5x200 palmes récup 25sec focus technique\n1000 m @ 02:13-02:29 sec/100m\n\nCool Down\n500 m @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 10x200 + 8x50`,
+    date: '2026-06-01',
+    duration: 67,
+    distance: 3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Crawl souple focus technique\n400 m @ 02:59-03:28 sec/100m\n\n10x200 recup 20sec\n2000 m @ 02:13-02:29 sec/100m\n\nRecovery\n100m @ 02:56-03:32 sec/100m\n\n8x50m 25 fond 25 souple récup 10sec\n400 m @ 01:58-02:10 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - Progressif`,
     date: '2026-05-31',
     duration: 64,

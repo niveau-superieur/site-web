@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Triathlon de la Côte de Granit rose - Course à pied`,
+    date: '2026-06-07',
+    duration: 44,
+    distance: 9.9,
+    tags: [activityTags.sport, activityTags.running, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `Dernière partie du triathlon, la course à pied, avec une belle montée dès le début mais les spectateurs donnent la motivation pour que ça passe !\nEnsuite, que du circuit roulant, et Renote est vraiment top pour courir sans la foule habituelle qui circule dans tous les sens !\n\nTemps course à pied (à la montre et pas officiel car la T2 et la CAP sont additionnées) : 43'48"\n\nTemps total : 2h14'46"\nNatation : 27'12"\nT1 : 2'31\nVélo : 59'54"\nT2 : 1'22"\nCAP : 43'48"\n\nClassement :\nGénéral : 89/351\nCatégorie : 16/44\nSexe : 85/281`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-06-03',
+    duration: 80,
+    distance: 14.11,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit rituel avec Augustin qui a adoré le passage technique dans les bois 😂\n\nRituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n14.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Allure 10km!!!`,
+    date: '2026-06-01',
+    duration: 82,
+    distance: 15.34,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n20 min @ 05:44-06:42 min/km\n\nRépéter 6 fois\nHard\n20 sec @ 03:24-04:01 min/km\nEasy\n1 min @ 05:39-06:48 min/km\n\nRecovery\n10 min @ 05:39-06:48 min/km\n\nRépéter 6 fois\nHard\n1:30 @ 03:52-04:16 min/km allure 10km\nEasy\n1:30 @ 05:39-06:48 min/km\n\nRecovery\n2 min @ 05:39-06:48 min/km\n\nRépéter 6 fois\nHard\n1 min @ 03:52-04:16 min/km allure 10km\nEasy\n1 min @ 05:39-06:48 min/km\n\nCool Down\n10 min @ 05:44-06:42 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - 4x(2min15+15sec)`,
     date: '2026-05-28',
     duration: 62,
