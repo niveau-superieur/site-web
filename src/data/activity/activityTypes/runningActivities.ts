@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - INTERVALS`,
+    date: '2026-06-12',
+    duration: 72,
+    distance: 14.71,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Dommage que je n'ai pas pris mon téléphone, il y a un chat roux qui rodait autour du lac où je faisais mes boucles et qui était super câlin (il venait entre les jambes des passants !)\n\nWarm up\n2.40 km @ 04:44-06:42 min/km\n\nActive\n0.80 km @ 04:06-04:34 min/km\n\nRecovery\n0.40 km @ 05:44-06:42 min/km\n\nRépéter 4 fois\nHard\n1.60 km @ 03:52-04:16 min/km\nEasy\n0.40 km @ 05:44-06:42 min/km\n\nCool Down\n2.40 km @ 05:44-06:42 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-06-10',
+    duration: 66,
+    distance: 11.75,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Dernière séance avec Augustin le mercredi, qui va découvrir le Kinball sur la même journée.\nOn poursuit les séances ensemble, mais on fera ça le vendredi. L'important c'est de le faire !\nUn peu plus court cette fois-ci pour raisons pro.\n\nRituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n14.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 2x6km allure marathon`,
+    date: '2026-06-09',
+    duration: 93,
+    distance: 19.1,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n2.00 km @ 05:44-06:42 min/km\n\nActive\n6.00 km @ 04:34-04:54 min/km\n\nRecovery\n3.00 km @ 05:44-06:42 min/km\n\nActive\n6.00 km @ 04:34-04:54 min/km\n\nCool Down\n2.00 km @ 05:44-06:42 min/km`,
+  },
+  {
     name: `Triathlon - Triathlon de la Côte de Granit rose - Course à pied`,
     date: '2026-06-07',
     duration: 44,

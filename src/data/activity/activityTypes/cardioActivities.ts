@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-06-11',
+    duration: 33,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Le circuit est bien costaud ! Les 10 Squats à rester en bas pendant 10 secondes à chaque fois c'est interminable, les cuisses en feu à plus pouvoir marcher !\n\n15 minutes de vélo pour s'échauffer, puis enchaîner le circuit 2 fois, sans pause entre les exos, 30" de pause entre chaque boucle :\n- 10 Squats avec 10" statique en bas puis extension\n- 50 Climbers\n- 2x10 Fentes sautées\n- 1 min Gainage 1 jambe (30"G/30"D)\n- 2x40" Chaise, puis 5 extensions\n- 20 Pompes`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-06-09',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, sans pause entre les exos :\n- 15 min vélo tranquille\n- 30 Squats\n- 15 Pompes\n- 10 Descente box avec extension\n- 30 Fentes avant\n- 2x40 Levées de bassin 1 jambe surélevée\n- 10 Sauts de grenouille\n- 30 Calf raises\n- 20 Kettlebell Swing 2 bras (10kg)\n- 10 Sauts sur box\n- 2x15 Montées sur box avec poids (20kg)\n- 40 Climbers\n- 10 Burpees`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-06-05',
     duration: 20,
     tags: [activityTags.sport, activityTags.cardio],

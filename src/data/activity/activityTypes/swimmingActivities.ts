@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - 2x4x200 (+100m chrono sur vitesse lente)`,
+    date: '2026-06-13',
+    duration: 53,
+    distance: 2.6,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n500 m @ 02:59-03:28 sec/100m\n- 100 crawl\n- 200 respiration devant (sighting)\n- 200 : 4x(25 poings fermés 25 crawl)\n\n4x200 pull+plaquettes récup 25sec allure 70.3\n800 m @ 02:13-02:25 sec/100m\n\nRecovery\n200 m @ 02:56-03:32 sec/100m\n\nAmplitude\n4x200 palmes récup 25sec focus technique\n800 m @ 02:13-02:25 sec/100m\n\nCool Down\n100 m @ 02:59-03:28 sec/100m\n\nCool Down sauf crawl.\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - Turbo !!! en allure`,
+    date: '2026-06-12',
+    duration: 56,
+    distance: 3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Petites erreurs sur les étapes, je devais valider tous les 50m pour passer à l'étape suivantes mais soit j'ai oublié soit c'était trop chiant (avec les plaquettes surtout)\n\nWarm up\n300 m @ 02:59-03:28 sec/100m\n3x100m récup 15 sec #1 souple amplitude #2 moyen #3 vite\n\nWarm up\n200 m @ 02:59-03:28 sec/100m\n4x50 , 25 poings fermés 25 souple, départ à 1 m du bord ( sur le T), récup 15 sec\n\nMontée en puissance en 6 étapes\n300m progressif\n50.0 m @ 02:27-02:47 sec/100m\n50.0 m @ 02:17-02:34 sec/100m\n50.0 m @ 02:09-02:24 sec/100m\n50.0 m @ 02:01-02:14 sec/100m\n50.0 m @ 01:55-02:06 sec/100m\n50.0 m @ 01:49-01:59 sec/100m\n\nActive\n200 m @ 02:05-02:22 sec/100m\n150 m @ 02:27-03:12 sec/100m\n50.0 m @ 01:58-02:13 sec/100m max\n\nMontée en puissance en 6 étapes\n300m avec pullbuoy progressif\n50.0 m @ 02:27-02:47 sec/100m\n50.0 m @ 02:17-02:34 sec/100m\n50.0 m @ 02:09-02:24 sec/100m\n50.0 m @ 02:01-02:14 sec/100m\n50.0 m @ 01:55-02:06 sec/100m\n50.0 m @ 01:49-01:59 sec/100m\n\nActive\n200 m @ 02:05-02:22 sec/100m\n150 m @ 02:27-03:12 sec/100m\n50.0 m @ 01:58-02:13 sec/100m vite\n\nMontée en puissance en 6 étapes\n300m avec Pull et plaquettes progressif\n50.0 m @ 02:27-02:47 sec/100m\n50.0 m @ 02:17-02:34 sec/100m\n50.0 m @ 02:09-02:24 sec/100m\n50.0 m @ 02:01-02:14 sec/100m\n50.0 m @ 01:55-02:06 sec/100m\n50.0 m @ 01:49-01:59 sec/100m\n\nActive\n200 m @ 02:05-02:22 sec/100m\n150 m @ 02:27-03:12 sec/100m\n50.0 m @ 01:58-02:13 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m Souple`,
+  },
+  {
+    name: `Triathlon - Natation - 2x(200+2x100+4x50)`,
+    date: '2026-06-11',
+    duration: 55,
+    distance: 3.2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Je me dis que pour une fois je vais aller à la piscine le soir pour changer, mais seul le bassin ludique est ouvert. Heureusement, il y a une ligne d'eau de réservée dedans pour les nageurs.\nSoit j'ai fais la meilleure séance de ma vie, soit la ligne d'eau fait moins de 25m (c'est la deuxième option, elle doit faire 20m, je n'avais pas le même nombre de mouvements de bras par longueur)\n\nWarm up\n600 m @ 02:59-03:28 sec/100m\n- 200 souple crawl\n- 200 palmes progressif (finir vite)\n- 4x50 (25 toucher épaule 25 crawl)\n\nCorps de séance\n1200 m @ 02:13-02:44 sec/100m\n- 200 crawl max\n- 200 crawl souple\n- 2 x 100 crawl max\n- 200 crawl souple\n- 4 x 50 crawl max\n- 200 crawl souple\n\nCorps de séance avec matériel\n1200 m @ 02:13-02:44 sec/100m\n- 200 crawl max palmes\n- 200 crawl souple palmes\n- 2 x 100 crawl max plaquettes\n- 200 crawl souple plaquettes\n- 4 x 50 crawl max palmes + plaquettes\n- 200 crawl souple palmes + plaquettes\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Triathlon de la Côte de Granit rose - Natation`,
     date: '2026-06-07',
     duration: 28,
