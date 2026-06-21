@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Tribreizh - Course à pied`,
+    date: '2026-06-21',
+    duration: 99,
+    distance: 19.9,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Pour finir ce half-Ironman, 3 boucles de 7km autour du lac de Drennec qui a servi pour la natation.\nMais en arrivant après le vélo, mon cerveau ne voulait pas me voir repartir.\nQUE de la souffrance pendant les 21km, à 2 doigts d'abandonner sur la première boucle, et après en pilote automatique sur les 2 suivantes.\nIl faisait tellement chaud, et avec les 3h d'efforts avant, c'était abominable.\nHeureusement que les bénévoles avaient mis à disposition des bacs d'eau pour se tremper, tout le monde faisait ça pour affronter la chaleur 😂\nEn plus j'avais prévu le camelback avec de la bouffe et de l'eau, et je n'ai rien pu manger de solide (juste la gourde avec le mélange ISO 3+/électrolytes) mais à tous les ravitos, c'était coca et flotte.\n\nVraiment très dur comme épreuve, rien à voir avec un M, c'est complètement différent la gestion de l'effort, et la canicule avec plus de 30°C n'a pas aidé.\nMais ravi de l'avoir fait, même si je n'imagine pas pouvoir faire le double un jour...\n\nTemps total : 5h07'18"\nNatation : 35'00"\nT1 : 2'35"\nVélo : 2h47'23"\nT2 : 1'45"\nCAP : 1h40'35"\n\nClassement final : 43/239\nCatégorie (S3) : 5/19\nSexe : 41/205`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-06-19',
+    duration: 67,
+    distance: 11.5,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit un peu plus court cette fois-ci, pour préserver les jambes de Augustin qui a des séquelles du kinball et pour pas me cramer avant le triathlon du week-end\n\nActive\n14.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 6x30/30 + 3x(4-3-2min)`,
+    date: '2026-06-15',
+    duration: 53,
+    distance: 10.82,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Montée en puissance en 4 étapes\n4 min @ 06:11-06:48 min/km\n3 min @ 05:39-06:11 min/km\n2 min @ 05:17-05:39 min/km\n1 min @ 04:54-05:17 min/km\n\nRépéter 6 fois\nHard\n30 sec @ 03:35-04:01 min/km\nEasy\n30 sec @ 05:39-06:48 min/km\n\nRépéter 3 fois\nHard\n4 min @ 04:16-04:34 min/km\nHarder\n3 min @ 04:01-04:16 min/km\nEasy\n2 min @ 05:39-06:48 min/km\n\nCool Down\n10 min @ 06:48-08:33 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - INTERVALS`,
     date: '2026-06-12',
     duration: 72,

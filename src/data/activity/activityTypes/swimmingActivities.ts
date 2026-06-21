@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Tribreizh - Natation`,
+    date: '2026-06-21',
+    duration: 35,
+    distance: 1.9,
+    tags: [activityTags.sport, activityTags.swimming, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `Premier triathlon L, Half-Ironman ou 70.3 selon les préférences.\nPartie natation de 1900m vraiment très bien, dans une eau à 22.7°C, un vrai plaisir.\nPas de grosse différence niveau difficulté avec les 1500m d'un M, mais c'est quand même plus simple de trouver son rythme de croisière dans une eau à 22 plutôt qu'à 15°C 😊\nTemps officiel : 35'00"`,
+  },
+  {
+    name: `Triathlon - Natation - Nage libre`,
+    date: '2026-06-20',
+    duration: 59,
+    distance: 3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Séance compliquée, obligé de faire demi-tour sur le trajet pour aller à Bréquigny parce que j'ai oublié ma montre à charger pour demain, une fois sur place parking blindé parce qu'un évènement sportif a lieu sur le terrain à côté de la piscine, et dans la piscine le bassin intérieur de réservé par une association pour les jeunes. Et la piscine extérieure est noire de monde.\nMais grave stylée la piscine extérieure aussi, déjà c'est 50m aussi et en plus tout est en métal, ça chauffe bien avec le soleil comme ça (c'est chauffé aussi en plus mais à moindre coût comme ça).\nVraiment Bréquigny c'est la meilleure piscine de Rennes !\n\nSéance de 2900m prévue, mais la veille du triathlon je préfère faire un 3000m pullbuoy détente.`,
+  },
+  {
+    name: `Triathlon - Natation - 3800 souple Focus sur sa technique`,
+    date: '2026-06-15',
+    duration: 78,
+    distance: 3.8,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `8x50m 2 nages récup 15 sec\n400 m @ 02:36-02:59 sec/100m\n\n4x(25m crawl-25m pouce le long du corps)\n200 m @ 02:27-02:47 sec/100m\n\nRépéter 2 fois\n600m plaquette +pull (300m vite/ 300m souple)\n300 m @ 01:49-01:59 sec/100m\n300 m @ 02:27-02:47 sec/100m\n\nRépéter 3 fois\n3x400 ( 200m vite / 200m souple)\n200 m @ 01:49-01:59 sec/100m\n200 m @ 02:27-02:47 sec/100m\n\nRépéter 6 fois\n6x(100m à fond / 100m souple poings fermés) 15sec rest\n100 m @ 01:49-01:59 sec/100m\n100 m @ 02:27-02:47 sec/100m\n\nCool Down\n200 m @ 02:36-02:56 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - 2x4x200 (+100m chrono sur vitesse lente)`,
     date: '2026-06-13',
     duration: 53,

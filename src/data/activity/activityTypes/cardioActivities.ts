@@ -3,6 +3,22 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-06-17',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `20 secondes de récup entre les exos :\n- Climbers 30 sec\n- Chaise 1 min\n- planche 1 min\n- Squats 50 sec\n- Pompes 30 sec\n- Levées de bassin (bridge) 40 sec\n- Russian Twist 30 sec\n- Fentes avant (lunges) 40 sec\n- Planche costale (à droite puis à gauche) 1 min`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-06-16',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 10 secondes de repos entre chaque exercice, 20 secondes tous les 3 exos :\n- 40 Climbers\n- 40 Fentes avant (20G/20D)\n- 40 Montées de genoux\n- 1min de gainage 1 jambe (30"G/30"D)\n- 30 Squats\n- 30 Jumpingjacks\n- 20 Pompes\n- 1 minute Chaise\n- 20 Burpees\n- 20 Gainage latéral avec pivot (10G/10D)\n- 20 Pistol squats (10G/10D)\n- 10 Sauts de grenouille`,
+  },
+  {
     name: `Triathlon - Circuit training`,
     date: '2026-06-11',
     duration: 33,
