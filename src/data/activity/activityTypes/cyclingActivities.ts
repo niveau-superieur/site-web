@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Tribreizh - Vélo',
+    date: '2026-06-21',
+    duration: 167,
+    distance: 87.41,
+    tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Et c'est parti pour le vélo, 90km qui ont été vraiment difficiles.\n2 boucles de 45km, avec 2 belles montées VRAIMENT longues même si pas trop raides. Prendre 150m de D+ sur 8km c'est bien chiant ^^ et derrière la descente à 65km/h sur les prolongateurs ça fait vraiment flipper, c'est pas normal d'aller aussi vite en vélo !\nCertains passages du circuit étaient complètement pourris, de la route bien usée qui fait trembler le vélo et des nids de poule par endroit.\nLa première boucle c'était sympa, la deuxième que de la difficulté, la fatigue s'accumule et les côtés semblent interminables.\nTemps officiel : 2h47'23"`,
+  },
+  {
+    name: 'Triathlon - Zwift - Souple',
+    date: '2026-06-17',
+    duration: 74,
+    distance: 28.08,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Royal Pump Room 8 in Yorkshire\n\nSouple\n1:10:00 @ 126-163 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - Souple',
+    date: '2026-06-16',
+    duration: 81,
+    distance: 20.22,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `La séance c'était souple, mais évidemment quand ça grimpe tu veux te donner alors ça finit à 186W de moyenne au lieu des 128W prévus 😅\n\n🗺️ Climb Portal: Col du Télégraphe at 100% Elevation in France\n\nSouple\n1:20:00 @ 107-128 W`,
+  },
+  {
     name: 'Triathlon - Zwift - Long Bike easy',
     date: '2026-06-14',
     duration: 105,
