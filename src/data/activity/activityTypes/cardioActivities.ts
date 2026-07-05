@@ -3,6 +3,14 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Circuit training`,
+    date: '2026-07-02',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Faire 3 boucles, 15 secondes de repos entre chaque exo, 1 minute entre chaque boucle :\n- 40 Jumpingjacks\n- 20 Pas du patineur (10G/10D)\n- 40 Montées de genoux\n- 10 Sauts de grenouille\n- 20 Pompes\n- 30 Squats\n- 40 Montées de genoux\n- 20 Planches avec rotation (10G/10D)\n- 20 Planches avec ouverture de jambe (10G/10D)\n- 10 Burpees\n- 20 Crunchs\n- 30 Fentes avant`,
+  },
+  {
     name: `Triathlon - Réveil matin`,
     date: '2026-06-17',
     duration: 10,
