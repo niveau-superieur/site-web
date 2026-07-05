@@ -21,6 +21,7 @@ export const activityTags = {
   cycling: { label: 'Cyclisme', color: 'cyan600' },
   swimming: { label: 'Natation', color: 'sky600' },
   cardio: { label: 'Cardio', color: 'emerald600' },
+  other: { label: 'Autre', color: 'teal600' },
 } as const satisfies Record<string, Tag>
 
 export type ActivityTag = (typeof activityTags)[keyof typeof activityTags]

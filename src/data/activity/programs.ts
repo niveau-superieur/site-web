@@ -5,6 +5,7 @@ import { cardioActivities } from './activityTypes/cardioActivities'
 import { creatingActivities } from './activityTypes/creatingActivities'
 import { cyclingActivities } from './activityTypes/cyclingActivities'
 import { geocachingActivities } from './activityTypes/geocachingActivities'
+import { miscellaneousActivities } from './activityTypes/miscellaneousActivities'
 import { readingActivities } from './activityTypes/readingActivities'
 import { runningActivities } from './activityTypes/runningActivities'
 import { swimmingActivities } from './activityTypes/swimmingActivities'
@@ -204,4 +205,5 @@ export const activities: Activity[] = [
   ...swimmingActivities,
   ...cardioActivities,
   ...creatingActivities,
+  ...miscellaneousActivities,
 ]

@@ -3,11 +3,51 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Run enchainementà 60% avec 3x6min à 75% (RA) 3min
+`,
+    date: '2026-07-05',
+    duration: 57,
+    distance: 9.88,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Super difficile après 4h10 de vélo de partir pour courir à midi en pleine chaleur !\nJ'étais au bout de ma vie à la fin de la séance !\n\nWarm up\n18 min @ 06:11-07:18 min/km\n\nRépéter 3 fois\nHard\n6 min @ 04:44-05:21 min/km\nEasy\n3 min @ 06:42-08:02 min/km\n\nCool Down\n15 min @ 05:54-06:55 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel
+`,
+    date: '2026-07-03',
+    duration: 71,
+    distance: 11.43,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Séance plus courte que prévue, la séance de Kinball de mercredi est encore bien présente dans les abducteurs !\n\nRituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n15.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 4, 3, 2, 1KM!!! en allure
+`,
+    date: '2026-06-30',
+    duration: 81,
+    distance: 16.05,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n4.00 km @ 05:17-06:11 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n3.00 km @ 04:16-04:34 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n2.00 km @ 04:01-04:16 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n1.00 km @ 03:47-04:01 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nCool Down\n2.00 km @ 06:48-08:33 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel
+`,
+    date: '2026-06-24',
+    duration: 76,
+    distance: 14.15,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Rituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n14.0 km @ 05:13-05:49 min/km`,
+  },
+  {
     name: `Triathlon - Tribreizh - Course à pied`,
     date: '2026-06-21',
     duration: 99,
     distance: 19.9,
-    tags: [activityTags.sport, activityTags.running],
+    tags: [activityTags.sport, activityTags.running, activityTags.competition],
     programs: ['triathlonIronmanProgram'],
     description: `Pour finir ce half-Ironman, 3 boucles de 7km autour du lac de Drennec qui a servi pour la natation.\nMais en arrivant après le vélo, mon cerveau ne voulait pas me voir repartir.\nQUE de la souffrance pendant les 21km, à 2 doigts d'abandonner sur la première boucle, et après en pilote automatique sur les 2 suivantes.\nIl faisait tellement chaud, et avec les 3h d'efforts avant, c'était abominable.\nHeureusement que les bénévoles avaient mis à disposition des bacs d'eau pour se tremper, tout le monde faisait ça pour affronter la chaleur 😂\nEn plus j'avais prévu le camelback avec de la bouffe et de l'eau, et je n'ai rien pu manger de solide (juste la gourde avec le mélange ISO 3+/électrolytes) mais à tous les ravitos, c'était coca et flotte.\n\nVraiment très dur comme épreuve, rien à voir avec un M, c'est complètement différent la gestion de l'effort, et la canicule avec plus de 30°C n'a pas aidé.\nMais ravi de l'avoir fait, même si je n'imagine pas pouvoir faire le double un jour...\n\nTemps total : 5h07'18"\nNatation : 35'00"\nT1 : 2'35"\nVélo : 2h47'23"\nT2 : 1'45"\nCAP : 1h40'35"\n\nClassement final : 43/239\nCatégorie (S3) : 5/19\nSexe : 41/205`,
   },

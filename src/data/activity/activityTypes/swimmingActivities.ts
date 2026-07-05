@@ -3,6 +3,36 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Force!!!
+`,
+    date: '2026-07-04',
+    duration: 79,
+    distance: 3.8,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:59-03:28 sec/100m\n4x100 crawl\n#1 2x(25 poings fermés 25 crawl)\n#2 2x(25 rattrapé devant 25 crawl)\n#3 dégressif (partir à fond et finir souple)\n#4 souple\n\nActive\n800 m @ 02:05-02:44 sec/100m\n4x200 (50 allure course, 150 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5 mouvements\n\nActive\n600 m @ 02:05-02:44 sec/100m\n3x200 avec Pull (100 allure course, 100 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5, 7 mouvements\n\nActive\n400 m @ 02:05-02:44 sec/100m\n2x200 avec Pull et plaquettes (150 allure course, 50 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5, 7, 9 mouvements\n\nActive\n200 Vitesse max\n200 m @ 01:58-02:22 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m brasse, dos`,
+  },
+  {
+    name: `Triathlon - Natation - Respi!!!!
+`,
+    date: '2026-07-03',
+    duration: 66,
+    distance: 3.2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n800 m @ 02:59-03:28 sec/100m\n4x200 : 100crawl+50dos+50brasse, récup 15 sec\n\nActive\n800 m @ 02:13-02:32 sec/100m\n2x400 crawl respi 3, 5, 7, 9,...3, 5, 7, 9,... mouvements, récup 20sec\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n800 m @ 02:13-02:32 sec/100m\n4x200 pull+plaquettes respi 2 ou 4 mouvements, récup 15 sec\n#1-3 respi à droite #2-4 respi à gauche\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 02:13-02:32 sec/100m\n4x(25 crawl -25 doigts surface- 25 crawl- 25 sighting récup 15 sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m Brasse`,
+  },
+  {
+    name: `Triathlon - Natation - 10x100 + 8x100 + 6x100
+`,
+    date: '2026-06-29',
+    duration: 60,
+    distance: 3.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n800 m @ 02:59-03:28 sec/100m\n8x100m: (25 poings fermés+25 crawl+25 touché épaule+25 crawl) récup 15sec\n\nActive\n1000 m @ 02:13-02:32 sec/100m\n10x100m palmes récup 15sec\n\nActive\n800 m @ 02:13-02:32 sec/100m\n8x100m pullbuoy récup 15sec\n\nActive\n600 m @ 02:13-02:32 sec/100m\n6x100m plaquettes récup 15sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Tribreizh - Natation`,
     date: '2026-06-21',
     duration: 35,
