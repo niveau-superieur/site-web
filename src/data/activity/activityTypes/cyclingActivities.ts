@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: 'Triathlon - Zwift - Aérobie Facile avec 6x15min effort IronMan',
+    date: '2026-07-12',
+    duration: 310,
+    distance: 107.41,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ The Mega Pretzel in Watopia\n\nL'un des plus long parcours de Zwift !\nMais aussi l'une des séance les plus difficile que j'ai faite jusque là ! 5h de vélo c'est interminable ! On ajoute la fatigue après la soirée de vendredi et les 34°C dans l'appart, et on a le cocktail parfait pour craquer mentalement ! J'ai failli abandonner à la 6ème série !\nAu total j'ai bu 7.5L d'eau sur la séance quand même !\n\nWarm up\n30 min @ 86-128 W\n\nRépéter 6 fois\nHard\n15 min @ 161-171 W\nEasy\n25 min @ 107-128 W\n\nCool Down\n30 min @ 86-107 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - souple',
+    date: '2026-07-11',
+    duration: 147,
+    distance: 21.29,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Ven-Top in France\n\nUn peu de rab sur cette séance pour terminer l'ascension du Ven-top\n\nWarm up\n20 min @ 128-150 W\n\nActive\n1:20:00 @ 150-182 W\n\nCool Down\n20 min @ 128-150 W`,
+  },
+  {
+    name: 'Triathlon - Zwift - 1h40 avec 4x8min',
+    date: '2026-07-07',
+    duration: 100,
+    distance: 40.93,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Elevation Evaluation in Watopia\n\nMontée en puissance en 6 étapes\n6 min @ 118-139 W\n5 min @ 131-152 W\n4 min @ 143-165 W\n3 min @ 156-178 W\n2 min @ 169-190 W\n1 min @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 4 fois\nHard\n8 min @ 188-214 W\nEasy\n8 min @ 126-139 W\n\nCool Down\n10 min @ 139-163 W`,
+  },
+  {
     name: 'Triathlon - Zwift - Aérobie Facile avec 4x25min effort IronMan',
     date: '2026-07-05',
     duration: 249,
