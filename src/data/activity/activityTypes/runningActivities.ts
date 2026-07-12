@@ -3,8 +3,34 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
-    name: `Triathlon - Course à pied - Run enchainementà 60% avec 3x6min à 75% (RA) 3min
-`,
+    name: `Triathlon - Course à pied - Run enchainement 10km avec 5x1000m allure Iron`,
+    date: '2026-07-12',
+    duration: 51,
+    distance: 8.33,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `J'ai raccourci la séance, j'étais au bout du bout du bout de ma vie 🥵\nTrop chaud, trop soif, trop fatigué, j'ai fait 3 accélérations et puis je suis rentré, la gourde était déjà vide et je voyais des étoiles 🥵\n\nWarm up\n1.50 km @ 06:11-06:42 min/km\n\nRépéter 5 fois\nHard\n1.00 km @ 05:09-05:26 min/km\nEasy\n1.00 km @ 06:11-06:42 min/km\n\nCool Down\n1.50 km @ 06:11-06:42 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 8x2min+8x1min`,
+    date: '2026-07-10',
+    duration: 89,
+    distance: 16.58,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n15 min @ 05:44-06:42 min/km\n\nRépéter 8 fois\nHard\n2 min @ 04:16-04:40 min/km\nEasy\n2 min @ 05:39-06:48 min/km\n\nRecovery\n4 min @ 05:39-06:48 min/km\n\nRépéter 8 fois\nHard\n1 min @ 04:01-04:22 min/km\nEasy\n2 min @ 05:39-06:48 min/km\n\nCool Down\n15 min @ 05:44-06:42 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-07-08',
+    duration: 75,
+    distance: 10.96,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Footing tranquille après petite soirée hier soir, avec Augustin Lvndr en souffrance tout le long, donc on raccourcit le parcours (dur dur l'alcool 😂)\n\nRituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n14.0 km @ 05:13-05:49 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Run enchainementà 60% avec 3x6min à 75% (RA) 3min`,
     date: '2026-07-05',
     duration: 57,
     distance: 9.88,
@@ -13,8 +39,7 @@ export const runningActivities: Activity[] = [
     description: `Super difficile après 4h10 de vélo de partir pour courir à midi en pleine chaleur !\nJ'étais au bout de ma vie à la fin de la séance !\n\nWarm up\n18 min @ 06:11-07:18 min/km\n\nRépéter 3 fois\nHard\n6 min @ 04:44-05:21 min/km\nEasy\n3 min @ 06:42-08:02 min/km\n\nCool Down\n15 min @ 05:54-06:55 min/km`,
   },
   {
-    name: `Triathlon - Course à pied - Circuit rituel
-`,
+    name: `Triathlon - Course à pied - Circuit rituel`,
     date: '2026-07-03',
     duration: 71,
     distance: 11.43,
@@ -23,8 +48,7 @@ export const runningActivities: Activity[] = [
     description: `Séance plus courte que prévue, la séance de Kinball de mercredi est encore bien présente dans les abducteurs !\n\nRituel de chaque semaine même parcours d'environ 14 à 17 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n15.0 km @ 05:13-05:49 min/km`,
   },
   {
-    name: `Triathlon - Course à pied - 4, 3, 2, 1KM!!! en allure
-`,
+    name: `Triathlon - Course à pied - 4, 3, 2, 1KM!!! en allure`,
     date: '2026-06-30',
     duration: 81,
     distance: 16.05,
@@ -33,8 +57,7 @@ export const runningActivities: Activity[] = [
     description: `Warm up\n4.00 km @ 05:17-06:11 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n3.00 km @ 04:16-04:34 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n2.00 km @ 04:01-04:16 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nActive\n1.00 km @ 03:47-04:01 min/km\n\nRecovery\n1.00 km @ 05:39-06:48 min/km\n\nCool Down\n2.00 km @ 06:48-08:33 min/km`,
   },
   {
-    name: `Triathlon - Course à pied - Circuit rituel
-`,
+    name: `Triathlon - Course à pied - Circuit rituel`,
     date: '2026-06-24',
     duration: 76,
     distance: 14.15,

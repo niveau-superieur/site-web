@@ -3,8 +3,34 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
-    name: `Triathlon - Natation - Force!!!
-`,
+    name: `Triathlon - Natation - 10x400!!!!`,
+    date: '2026-07-11',
+    duration: 77,
+    distance: 4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:32-02:56 sec/100m\n400(50 crawl- 50 éduc) continu\n\nActive\n3200 m @ 01:46-02:13 sec/100m\n8x400m récup 25sec\n#1-2 : en crawl #3-4 : en pull #5-6 : en pull+plaquettes #7-8 : en palmes\n\nCool Down\n400 m @ 02:32-02:56 sec/100m\namplitude`,
+  },
+  {
+    name: `Triathlon - Natation - 4x300 et 2x400`,
+    date: '2026-07-09',
+    duration: 67,
+    distance: 3.3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n800 m @ 02:59-03:28 sec/100m\n8x (75 crawl+ 25 doigts surface) récup 10 sec\n\nActive\n1200 m @ 02:13-02:32 sec/100m\n4x300 , 2 en pull, 2 en plaquettes, récup 20sec\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n200 m @ 04:10-05:12 sec/100m\nbattements jambes avec palmes\n\nActive\n800 m @ 02:13-02:32 sec/100m\n2x400 le premier en palmes le second palmes +plaquettes, récup 30sec\n\nCool Down\n200 m @ 02:59-03:47 sec/100m\ndos`,
+  },
+  {
+    name: `Triathlon - Natation - de plus en plus vite!!!!`,
+    date: '2026-07-06',
+    duration: 76,
+    distance: 3.8,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:59-03:28 sec/100m\n\nActive\n800 m @ 02:13-02:32 sec/100m\nen crawl amplitude (prise de chrono)\n\nActive\n800 m @ 02:05-02:22 sec/100m\n2x400 pull récup 25 sec\n\nActive\n800 m @ 01:58-02:13 sec/100m\n4x200 pull+plaquettes récup 20sec\n\nActive\n800 m @ 01:52-02:05 sec/100m\n8x100 palmes plaquettes récup 15 sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - Force!!!`,
     date: '2026-07-04',
     duration: 79,
     distance: 3.8,
@@ -13,8 +39,7 @@ export const swimmingActivities: Activity[] = [
     description: `Warm up\n400 m @ 02:59-03:28 sec/100m\n4x100 crawl\n#1 2x(25 poings fermés 25 crawl)\n#2 2x(25 rattrapé devant 25 crawl)\n#3 dégressif (partir à fond et finir souple)\n#4 souple\n\nActive\n800 m @ 02:05-02:44 sec/100m\n4x200 (50 allure course, 150 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5 mouvements\n\nActive\n600 m @ 02:05-02:44 sec/100m\n3x200 avec Pull (100 allure course, 100 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5, 7 mouvements\n\nActive\n400 m @ 02:05-02:44 sec/100m\n2x200 avec Pull et plaquettes (150 allure course, 50 souple) récup 15 sec\n\nActive\n400 m @ 02:22-02:32 sec/100m\n400 pull et plaquettes respiration 5, 7, 9 mouvements\n\nActive\n200 Vitesse max\n200 m @ 01:58-02:22 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m brasse, dos`,
   },
   {
-    name: `Triathlon - Natation - Respi!!!!
-`,
+    name: `Triathlon - Natation - Respi!!!!`,
     date: '2026-07-03',
     duration: 66,
     distance: 3.2,
@@ -23,8 +48,7 @@ export const swimmingActivities: Activity[] = [
     description: `Warm up\n800 m @ 02:59-03:28 sec/100m\n4x200 : 100crawl+50dos+50brasse, récup 15 sec\n\nActive\n800 m @ 02:13-02:32 sec/100m\n2x400 crawl respi 3, 5, 7, 9,...3, 5, 7, 9,... mouvements, récup 20sec\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n800 m @ 02:13-02:32 sec/100m\n4x200 pull+plaquettes respi 2 ou 4 mouvements, récup 15 sec\n#1-3 respi à droite #2-4 respi à gauche\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 02:13-02:32 sec/100m\n4x(25 crawl -25 doigts surface- 25 crawl- 25 sighting récup 15 sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m Brasse`,
   },
   {
-    name: `Triathlon - Natation - 10x100 + 8x100 + 6x100
-`,
+    name: `Triathlon - Natation - 10x100 + 8x100 + 6x100`,
     date: '2026-06-29',
     duration: 60,
     distance: 3.4,

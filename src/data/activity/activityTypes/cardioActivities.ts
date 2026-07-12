@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-07-09',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois, 15" entre chaque exo, 1 minute entre chaque boucle :\n- 40 Montées de genoux\n- 20 Arm leg raises (10G/10D)\n- 10 Sauts de grenouille\n- 10 Burpees\n- 40 Climbers\n- 40 Squats sumo\n- 15 Dips\n- 40 Gainage latéral avec rotation (20G/20D)\n- 40 Squats\n- 20 Pompes spiderman\n- 40 Russian twists\n- 40 Fentes avant (20G/20D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-07-08',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 3 fois, 15" entre chaque exo, 1 minute entre chaque boucle :\n- 40 Montées de genoux\n- 40 Squats\n- 20 Pas du patineur (10G/10D)\n- 1 minute Gainage latéral (30"G/30"D)\n- 40 Squats sumo\n- 40 Jumpingjacks\n- 1 minute Planche\n- 40 Levées de bassin\n- 20 Pompes\n- 1 minute Chaise\n- 40 Russian twists\n- 20 Arm leg raises (10G/10D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-07-02',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],
