@@ -4,6 +4,30 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-07-22',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois, 15 secondes de récup entre les exos, 1 minute entre chaque boucle :\n- 40 Montées de genoux\n- 20 Arm leg raises\n- 10 Sauts de grenouille\n- 10 Burpees\n- 40 Climbers\n- 40 Squats sumo\n- 15 Dips\n- 40 Gainage latéral avec rotation (20G/20D)\n- 40 Squats\n- 20 Pompes spiderman\n- 40 Russian twist\n- 40 Fentes avant (20G/20D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-07-16',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `- 40 Montées de genoux\n- 15 Dips\n- 20 Superman\n- 30 sec Gainage latéral (15"G/15"D)\n- 10 Sauts de grenouille\n- 20 Pompes\n- 1 min Planche\n- 20 Burpees\n- 40 Fentes avant (20G/20D)\n- Finir le temps restant des 30 minutes sur vélo tranquille`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-07-13',
+    duration: 15,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, sans pause entre les exos :\n- 30 Jumpingjacks\n- 40 Montées de genoux\n- 10 Pompes\n- 20 Squats sumo\n- 20 Squats\n- 20 Fentes avant (10G/10D)\n- 10 Pompes\n- 20 Coups de poing\n- 20 Extension triceps à l'élastique (35kg)\n- 20 Curl biceps à la barre (20kg)\n- 10 Pompes\n- 20 Battements de jambes ciseaux\n- 20 Climbers\n- 20 Russian twists`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-07-09',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],
