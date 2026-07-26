@@ -3,6 +3,42 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Séance libre`,
+    date: '2026-07-25',
+    duration: 107,
+    distance: 5,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Les 3 prochaines semaines (dont celle-ci) sont focus natation, mais je n'étais vraiment pas en forme jeudi vendredi.\nPlutôt que de faire 2 séances natation le même jour, je tente une séance longue, un 5000m en longeant la côte, parce que c'est mieux en cas de problème d'avoir le bord pas trop loin et aussi parce que quand je nage sans voir le fond c'est chiant et un peu flippant aussi 😰\nUn vrai bonheur cette séance, rythme tranquille, beau temps, pas trop de vagues, juste la séance parfaite quoi 😊`,
+  },
+  {
+    name: `Triathlon - Natation - Effort de course sur 4x300`,
+    date: '2026-07-22',
+    duration: 65,
+    distance: 3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:59-03:28 sec/100m\n4x100 (75 crawl +25 touché épaules)\n\nWarm up\n200 m @ 02:47-03:12 sec/100m\n4x(25 battements de jambes + 25 crawl)\n\nRépéter 4 fois\nHard\n300 m @ 01:49-01:59 sec/100m Allure course\n#1 plaquettes, #2 pull, #3 pull+plaquette, #4 sans materiel\nEasy\n100 m @ 02:27-02:47 sec/100m\n\nRépéter 6 fois\nHard\n50.0 m @ 01:46-01:49 sec/100m Crawl Vite\nEasy\n50.0 m @ 02:27-02:47 sec/100m\n\nCool Down\n200 m @ 02:36-02:56 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 10x50 + 4x200`,
+    date: '2026-07-18',
+    duration: 51,
+    distance: 2.5,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 03:32-04:26 sec/100m\n4x100m (#1 crawl/#2 brasse/#3 dos/#4 crawl) récup 15 sec\n\nActive\n500 m @ 02:13-02:32 sec/100m\n10x50 crawl +plaquettes récup 15 sec\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n800 m @ 02:13-02:32 sec/100m\n4x200 amplitude, récup 20 sec\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 02:13-02:32 sec/100m\n400 pull+ plaquettes, effort course\n\nCool Down\n200 m @ 03:32-04:26 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - Amplitude 3x600`,
+    date: '2026-07-14',
+    duration: 59,
+    distance: 3,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n600 m @ 02:59-03:28 sec/100m\n6x100m (25 brasse-75crawl)\n\nActive\n600 m @ 02:13-02:32 sec/100m\nPalmes amplitude\n\nActive\n600 m @ 02:05-02:22 sec/100m\nPullbuoy amplitude\n\nActive\n600 m @ 01:58-02:13 sec/100m\nPlaquettes amplitude\n\nCool Down\n600 m @ 02:59-03:28 sec/100m\nCrawl focus technique`,
+  },
+  {
     name: `Triathlon - Natation - 10x400!!!!`,
     date: '2026-07-11',
     duration: 77,

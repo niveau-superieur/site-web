@@ -3,6 +3,53 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Souple`,
+    date: '2026-07-21',
+    duration: 131,
+    distance: 62.32,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `C'était vraiment la séance de trop.\nPas le choix de la faire parce que dimanche je cours, et je veux pas faire de vélo la veille, mais avec le début de semaine bien costaud j'ai tenu la moitié du temps avant de passer à 85% de l'effort demandé, à 145W et pas 170W.\n\n🗺️ Petit Boucle in France\n\nSouple\n2 hr @ 152-188 W 80-90 rpm`,
+  },
+  {
+    name: `Triathlon - Zwift - 1h30 environ avec 3x10min`,
+    date: '2026-07-20',
+    duration: 90,
+    distance: 47.01,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Three Musketeers in France\n\nWarm up\n15 min @ 139-163 W\n\nRépéter 3 fois\nHard\n10 min @ 188-214 W\nEasy\n10 min @ 126-139 W\n\nCool Down\n15 min @ 139-163 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Aérobie Facile`,
+    date: '2026-07-19',
+    duration: 150,
+    distance: 46.03,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Muir And The Mountain in Watopia\n\nWarm up\n30 min @ 86-107 W\n\nActive\n1:30:00 @ 128-150 W\n\nCool Down\n30 min @ 86-107 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 5x4min`,
+    date: '2026-07-17',
+    duration: 55,
+    distance: 26.88,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `C'est pas la rue Casse Pattes de La Roche Jaune avec sa pente de la mort super raide et son double virage à 90° à la fin mais le circuit est sympa malgré ça 😊\n\n🗺️ Casse-Pattes in France\n\nWarm up\n10 min @ 139-163 W\n\nRépéter 5 fois\nHard\n4 min @ 175-201 W 80-90 rpm\nEasy\n4 min @ 126-152 W\n\nCool Down\n5 min @ 113-139 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Circuit training`,
+    date: '2026-07-16',
+    duration: 18,
+    distance: 9.09,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Loop de loop de loop in Paris
+
+Circuit tranquille à la fin de la séance cardio`,
+  },
+  {
     name: 'Triathlon - Zwift - Aérobie Facile avec 6x15min effort IronMan',
     date: '2026-07-12',
     duration: 310,
