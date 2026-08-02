@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - 4x1500 à 4 allures`,
+    date: '2026-08-02',
+    duration: 44,
+    distance: 9.01,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n3.00 km @ 04:56-05:30 min/km\n\nHard\n1.50 km @ 04:22-04:56 min/km\nHarder\n1.50 km @ 03:19-03:38 min/km\nEasy\n1.50 km @ 04:56-05:40 min/km\n\nCool Down\n1.50 km @ 05:30-06:25 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-07-31',
+    duration: 74,
+    distance: 12,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Petit changement de circuit pour aller faire découvrir Thorigné à Augustin, et sa superbe côte grise qu'il a adorée (un nouveau passage la semaine prochaine par là peut être ^^)\n\nRituel de chaque semaine même parcours d'environ 15 à 18 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n16.0 km @ 05:00-05:35 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 2x8x1min VMA`,
+    date: '2026-07-30',
+    duration: 80,
+    distance: 15.93,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `La première série est difficile, la seconde la machine est lancée et ça se passe mieux !\n\nWarm up\n20 min @ 05:04-05:50 min/km\nsouple focus sur être le plus économe possible\n\nRépéter 8 fois\nVMA\n1 min @ 03:19-03:34 min/km\nEasy\n30 sec @ 06:01-07:08 min/km\n\nRecovery\n16 min @ 05:30-06:25 min/km\n\nRépéter 8 fois\nVMA\n1 min @ 03:19-03:34 min/km\nEasy\n30 sec @ 06:01-07:08 min/km\n\nCool Down\n20 min @ 06:01-07:08 min/km\nsouple focus sur être le plus économe possible`,
+  },
+  {
     name: `Triathlon - Course à pied - 20km de la Côte de granit rose`,
     date: '2026-07-26',
     duration: 90,

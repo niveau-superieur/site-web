@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - 4x500 + 8x(50+150)`,
+    date: '2026-08-01',
+    duration: 87,
+    distance: 4.2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Echauffement\n400 m @ 02:36-02:56 sec/100m\n4x(75 crawl+25 brasse)\n\nPullbuoy, recup 1min\n500 m @ 02:05-02:32 sec/100m\n\nPlaquettes, recup 1min\n500 m @ 02:05-02:32 sec/100m\n\nPalmes, recup 1min\n500 m @ 02:05-02:32 sec/100m\n\nCrawl complet sans matériel, recup 1min\n500 m @ 02:05-02:32 sec/100m\n\nRépéter 8 fois\nHard\n50.0 m @ 01:46-01:52 sec/100m\nEasy\n150 m @ 02:56-03:32 sec/100m\n\nCool Down\n200 m @ 02:36-02:56 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 20x100!!!`,
+    date: '2026-07-31',
+    duration: 73,
+    distance: 3.5,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:59-03:28 sec/100m\n2x200 ( 50 crawl souple - 100 rattrapé -50crawl vite)\n\nWarm up\n400 m @ 02:59-05:12 sec/100m\n4x100 (50 battements jambes pull devant bras tendus +50 amplitude pull entre les jambes)\n\nActive 20x100 effort Iron\n2000 m @ 02:12-02:27 sec/100m\n20x100 récup 15 sec\n#1-5 en pull buoy\n#6-10 en pull+ plaquettes\n#11-15 en palmes\n#16-20 en crawl\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 01:49-01:59 sec/100m\n8x50 récup 30sec vitesse max\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - Mixte avec test de 400 en amplitude`,
+    date: '2026-07-28',
+    duration: 74,
+    distance: 3.6,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n300 m @ 02:59-03:28 sec/100m\n2x150 (crawl/dos/brasse par 50m)\n\nWarm up\n100 m @ 03:47-04:38 sec/100m\n\nRépéter 4 fois\nHard\n400 m @ 01:58-02:13 sec/100m\n1. Pull - 2. Pull + plaquettes - 3. Palmes - 4. Palmes + plaquettes\nEasy\n100 m @ 01:52-02:05 sec/100m\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 02:13-02:32 sec/100m\nprise chrono\n\nRecovery\n100 m @ 02:56-03:32 sec/100m\n\nActive\n400 m @ 02:13-02:32 sec/100m\n8x50 (25 pullbuoy, puis 25 jambes pull comme une planche)\n\nCool Down\n200 m @ 03:32-04:26 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - Séance libre`,
     date: '2026-07-25',
     duration: 107,

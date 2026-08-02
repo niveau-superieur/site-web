@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Long "ride" souple`,
+    date: '2026-08-02',
+    duration: 210,
+    distance: 100.68,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Heart of Montmartre in Paris\n\nWarm up\n20 min @ 107-128 W\n\nActive\n2:40:00 @ 150-182 W\n\nCool Down\n30 min @ 107-128 W`,
+  },
+  {
+    name: `Triathlon - Zwift - avec 7x5min`,
+    date: '2026-08-01',
+    duration: 100,
+    distance: 51.33,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Bon Voyage in France\n\nWarm up\n10 min @ 118-139 W\n\nMontée en puissance en 5 étapes\n5 min @ 128-150 W\n4 min @ 139-161 W\n3 min @ 150-171 W\n2 min @ 161-182 W\n1 min @ 171-193 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 7 fois\nTravail Puissance\n5 min @ 188-205 W 80-90 rpm\nEasy\n3 min @ 126-152 W 85-95 rpm\n\nCool Down\n14 min @ 101-126 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 3x3x5min puissance`,
+    date: '2026-07-29',
+    duration: 70,
+    distance: 24.09,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Première séance avec le nouveau pneu arrière, l'ancien pneu était en fin de vie. Le revêtement s'est complètement décollé, probablement à cause de la chaleur (canicule + chaleur du home trainer ç'était trop).\nLe changement était un cauchemar, j'ai tellement forcé pour mettre le nouveau pneu que j'en ai percé une chambre à air. En 2026, on pense à retourner sur la Lune mais pas à créer un système de changement de pneu plus simple, faut toujours forcer à s'en péter les veines !\nMais une fois le changement fait, c'est tellement mieux ! Plus de bruit et beaucoup plus facile, le revêtement devait faire un appel d'air ou un truc comme ça, ça faisait un bordel et ça freinait en continu.\n\n🗺️ Hell of the North in France\n\nWarm up\n5 min @ 118-139 W\n\nMontée en puissance en 4 étapes\n4 min @ 128-150 W\n3 min @ 139-161 W\n2 min @ 150-171 W\n1 min @ 161-182 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 3 fois\ndifficile travail puissance\n5 min @ 175-201 W 85-90 rpm\nTrés difficile travail puissance\n5 min @ 214-227 W 80-85 rpm\nfacile travail vitesse de jambes\n5 min @ 126-152 W 95-105 rpm\n\nCool Down\n5 min @ 101-126 W`,
+  },
+  {
     name: `Triathlon - Zwift - Souple`,
     date: '2026-07-21',
     duration: 131,
