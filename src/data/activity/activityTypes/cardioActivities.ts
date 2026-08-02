@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-07-30',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Et on enchaîne avec un deuxième circuit training, j'ai pris du retard dans la semaine pas le choix, mais ça pique 🥵\n\nCircuit à faire 1 fois, 15 secondes entre les exos :\n- 3x20 Montées de genoux\n- 3x20 Jumpingjacks\n- 2x15 squats\n- 2x10 Levées de bassin 1 jambe (1 série G/1 série D)\n- 2x20 Montées sur box\n- 2x10 Montées sur box avec poids (10kg)\n- 2x10 Bulgarian squats (10kg)\n- 1 minute Gainage 1 jambe (30"G/30"D)\n- 20 Squats lestés (10kg)\nÉtirements jusqu'à la fin des 20 minutes`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-07-30',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Pour les mouvements de nage, je n'ai qu'un seul élastique, et il sert pour le tirage vertical. Pour pas perdre de temps à switcher l'élastique, j'ai pris 2 vieilles chambres à air de vélo, donc pour la résistance je sais pas ce que ça vaut 😂\n\nCircuit à faire 2 fois, 15 secondes entre les exos, 1 minute entre chaque boucle :\n- 40 Jumpingjacks\n- 40 Squats sumo\n- 40 Battements de jambes ciseaux\n- 20 Curl biceps à la barre (20kg)\n- 40 Mouvements de nage papillon avec les bras\n- 40 Jumpingjacks\n- 40 Squats\n- 40 Climbers\n- 20 Tirage vertical triceps (élastique à 35kg)\n- 40 Mouvements de nage crawl (20G/20D)\n- 40 Jumpingjacks\n- 40 Fentes avant\n- 40 Russian twists\n- 20 Curl biceps à la barre (20kg)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-07-22',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],
