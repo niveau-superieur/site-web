@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - 2000 non stop!!!`,
+    date: '2026-08-08',
+    duration: 56,
+    distance: 2.8,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n400 m @ 02:32-03:28 sec/100m\n25 crawl - 25 rattrapé devant - 25 crawl - 25 waterpolo\n\nActive\n2000 m @ 02:10-02:22 sec/100m\n\nCool Down\n400 m @ 02:32-03:28 sec/100m\nsouple`,
+  },
+  {
+    name: `Triathlon - Natation - Mixte`,
+    date: '2026-08-05',
+    duration: 59,
+    distance: 3.0,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n300 m @ 02:36-02:59 sec/100m\n3x(crawl /touché épaule / crawl / brasse)\n\nTravail respiration\n300 m @ 02:36-02:59 sec/100m\nrespiration 3/5/7/9 /...max et recommencer\n\nActive\n400 m @ 01:49-01:59 sec/100m\n4 x 100: Crawl vite, récup 20sec\n\nActive\n400 m @ 01:49-01:59 sec/100m\n8x 50 : 1-3-5-7 en jambes avec pull devant comme une planche + 2-4-6-8 en bras pull-buoy., récup 20sec\n\nActive\n400 m @ 01:49-01:59 sec/100m\n400m palmes - objectif : allonger la glisse\n\nActive\n1000 m @ 01:49-01:59 sec/100m\n5 x 200 Crawl plaquettes allure récup 20sec\n\nCool Down\n200 m @ 02:36-02:59 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 4x100+3x100+2x100 vite`,
+    date: '2026-08-03',
+    duration: 63,
+    distance: 3.0,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n800 m @ 02:59-03:28 sec/100m\n- 200 souple\n- 3x100 (25 bras droit 25 crawl 25 bras gauche 25 crawl)\n- 6x50 (25 pouce le long du corps 25 crawl )\n\nActive\n400 m @ 02:32-02:44 sec/100m\n- 400 palmes\n\nActive\n400 m @ 02:22-02:32 sec/100m\n- 4x100 vite récup 15sec\n\nActive\n300 m @ 02:32-02:44 sec/100m\n- 300 pullbuoy faire le moins de mouvements possible, rechercher la glisse\n\nActive\n300 m @ 02:13-02:22 sec/100m\n-3 x100 vite récup 15sec\n\nActive\n300 m @ 02:32-02:44 sec/100m\n- 300 pullbuoy faire le moins de mouvements possible, rechercher la glisse\n\nActive\n300 m @ 02:05-02:13 sec/100m\n- 3x100 vite récup 15sec\n\nCool Down\n200 m @ 02:59-03:28 sec/100m\nsouple en brasse`,
+  },
+  {
     name: `Triathlon - Natation - 4x500 + 8x(50+150)`,
     date: '2026-08-01',
     duration: 87,

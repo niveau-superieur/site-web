@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-08-07',
+    duration: 12,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 40" d'effort, 20" de récup :\n- Jumpingjacks\n- Pompes spiderman\n- Gainage latéral avec rotation à droite\n- Fentes avant\n- Burpees\n- Gainage latéral avec rotation à gauche\n- Superman\n- Climbers\n- Levées de bassin surélevé 1 jambe jambe droite\n- Arm leg plank\n- Battements de jambes ciseaux\n- Levées de bassin surélevé 1 jambe jambe gauche`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-08-03',
+    duration: 15,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 15" entre chaque exo :\n- 30 Jumpingjacks\n- 40 Montées de genoux\n- 10 Pompes\n- 20 Squats sumo\n- 20 Squats\n- 20 Fentes avant\n- 10 Pompes\n- 20 Boxe punches\n- 20 Tirage triceps à l'élastique (résistance 35kg)\n- 20 Curl biceps à la barre (barre à 20kg)\n- 10 Pompes\n- 20 Battements de jambes ciseaux\n- 20 Climbers\n- 20 Russian twists`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-07-30',
     duration: 20,
     tags: [activityTags.sport, activityTags.cardio],
