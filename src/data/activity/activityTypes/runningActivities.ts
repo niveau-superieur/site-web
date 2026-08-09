@@ -3,6 +3,24 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-08-07',
+    duration: 97,
+    distance: 15.48,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Enfin un vrai circuit long avec Augustin, qui s'est très bien passé grâce au débat qui fait se focus sur autre chose que la course (1 homme VS 100 enfants, combat à mort à mains nues, qui gagne ? N'hésitez pas à proposer votre version en commentaire ^^)\n\nRituel de chaque semaine même parcours d'environ 15 à 18KM à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n16.0 km @ 05:00-05:35 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 3x3000m`,
+    date: '2026-08-05',
+    duration: 96,
+    distance: 20.16,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Très difficile ces 3000m à ce rythme !\n\nWarm up\n3.00 km @ 05:04-05:55 min/km\n\nRépéter 3 fois\nHard\n3.00 km @ 03:38-04:06 min/km\nEasy\n1.00 km @ 05:08-05:55 min/km\n\nCool Down\n5.00 km @ 05:08-06:25 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - 4x1500 à 4 allures`,
     date: '2026-08-02',
     duration: 44,

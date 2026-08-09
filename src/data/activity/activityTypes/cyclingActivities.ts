@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Aérobie Facile avec 6x20min effort IronMan`,
+    date: '2026-08-08',
+    duration: 440,
+    distance: 127.9,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `ALORS...\nIl y en a des choses à dire sur cette session.\nDéjà je me suis dit que ça pourrait être bien de tenter une nocturne, la session devait durer 5h30, autant le faire quand les températures sont les plus fraiches. Le home trainer fait du bruit mais en ce moment je n'ai de voisins autant en profiter.\nEt ça a dérapé.\nJe pensais que les 6h30 estimées par Zwift sur le circuit étaient incorrectes (c'est très souvent le cas, je met régulièrement moins de temps que prévu pour faire un circuit). Et il s'avère qu'il y avait un piège, à savoir l'Alpe du Zwift à la toute fin du circuit (1km de D+ sur 12km à faire après 115km...)\nEt j'ai terminé les 5h30 pile au pied de l'Alpe.\nPlutôt que d'aller courir, je me suis dit que j'allais terminer le circuit, et j'ai ajouté 2h pour monter l'Alpe (c'est nul pour info, j'ai un record à 1h20 et je tourné à 1h30 et je suis très moyen)\nMais ça me fait finir la session après 7h20 d'effort, complètement rincé, et à 5h du matin.\nEt pour la nuit à rattraper, c'est mort, le chat a faim à 9h et le fait bien comprendre 😂\nMais au moins le 2ème plus long circuit de Zwift est validé !\n\n🗺️ The Uber Pretzel in Watopia\n\nWarm up\n30 min @ 107-128 W\n\nRépéter 6 fois\nHard\n20 min @ 137-158 W\nEasy\n30 min @ 107-128 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Souple`,
+    date: '2026-08-08',
+    duration: 116,
+    distance: 52.85,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Road to Ruins in Watopia\n\nWarm up\n20 min @ 126-152 W\n\nActive\n1:20:00 @ 161-182 W\n\nCool Down\n20 min @ 126-152 W`,
+  },
+  {
+    name: `Triathlon - Zwift - qualité de "jambes" en %FTP`,
+    date: '2026-08-04',
+    duration: 88,
+    distance: 40.17,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Double Espresso in Paris\n\nWarm up\n7 min @ 118-139 W\n\nMontée en puissance en 4 étapes\n2 min @ 118-139 W\n2 min @ 139-161 W\n2 min @ 161-182 W\n2 min @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 6 fois\nTravail sur une jambe\n30 sec @ 75-96 W\n3x(30 sec jambes droite, puis 30sec jambes gauche)\nrécup avec 2 jambes\n1 min @ 128-150 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 4 fois\nTravail puissance au dessus de l'effort de course\n3 min @ 182-203 W 75-85 rpm\nEasy\n6 min @ 126-152 W 85-95 rpm\n\nVitesse de jambes\n5 min @ 152-163 W 95-105 rpm\n\nCool Down\n10 min @ 126-152 W`,
+  },
+  {
     name: `Triathlon - Zwift - Long "ride" souple`,
     date: '2026-08-02',
     duration: 210,
