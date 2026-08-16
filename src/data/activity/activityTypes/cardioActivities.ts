@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-08-14',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-08-14',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, sans pause entre les exos.\nPour les circuits à l'élastique, j'utilise 2 chambres à air pour la résistance, donc aucune idée de la force de résistance.\nCircuit technique donc bien se concentrer sur l'exécution du mouvement et pas sur la rapidité :\n- 30 Climbers\n- 20 Butterfly à l'élastique\n- 20 Curl biceps à la barre (barre à 20kg)\n- 1 minute gainage 1 jambe (30"G/30"D)\n- 60 Mouvements de crawl avec élastique (30G/30D)\n- 40 Rotation épaule avec élastique (20G/20D)\n- 20 Butterfly inversé à l'élastique\n- 20 Chest press à l'élastique\n- 40 Gainage latéral avec rotation (20G/20D)\n- 20 Mouvements papillon avec élastique\n- 20 Tirage vertical triceps à l'élastique (début du mouvement, avec les bras qui s'élèvent au-dessus des épaules)\n- 10 Superman\n- 40 Mouvements papillon avec élastique (fin du mouvement, bras qui reviennent vers l'arrière)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-08-07',
     duration: 12,
     tags: [activityTags.sport, activityTags.cardio],
