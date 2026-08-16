@@ -3,6 +3,15 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Séance libre`,
+    date: '2026-08-15',
+    duration: 147,
+    distance: 6.7,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Plutôt que de faire les 3 séances tranquilles prévues pour la semaine (pour un total de 6000m), je tente le tour complet de l'Île Grande.\nAvec un coefficient de 101 et une pleine mer à 9h, c'est le moment idéal.\nLa première partie, une fois passée la pointe ouest, c'est compliqué, c'est le passage au large et avec des creux de 1m environ, pas top pour nager. Sans parler du fait que c'est terrifiant de ne pas voir le fond en nageant 😰\nArrivé à la pointe de la LPO, je me rends compte que je fonce vers les rochers qui affleurent et avec les vagues c'est suicidaire de passer par là, c'est pour ça que ça repique vers le nord soudainement pour contourner le danger.\nEnsuite c'est un peu plus calme, les vagues ne sont plus de côté mais légèrement de dos jusqu'à la base nautique. Et passé la base, c'est le calme plat jusqu'au bout.\nJ'avais une bouée avec de l'eau et des gels pour tenir l'effort, et un kayak qui me suivait pour la sécu (même si on s'est perdus de vue au large avec la houle 😅)\nAu total 6700m tranquille, qui se sont très bien passés, parfois avec le courant qui porte et parfois dans le nez, mais pas de difficulté majeure et pas d'épuisement durant la sortie (un gros coup de fatigue dans l'après-midi quand même)`,
+  },
+  {
     name: `Triathlon - Natation - 2000 non stop!!!`,
     date: '2026-08-08',
     duration: 56,

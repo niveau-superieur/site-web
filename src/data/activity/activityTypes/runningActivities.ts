@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - juste apres le vélo 10 min allure course`,
+    date: '2026-08-16',
+    duration: 9,
+    distance: 2,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Et juste après le vélo c'est parti pour 10 petites minutes à allure course en théorie, en pratique un peu plus vite pour suivre la famille en vélo qui se rend à la plage.\nEt ça enchaine sur quelques longueurs en natation et un retour en courant également, mais pas d'enregistrement pour ça.\n\nActive\n2.00 km @ 04:45-05:25 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-08-13',
+    duration: 85,
+    distance: 10.78,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Horrible idée cette course le midi avec Augustin, c'est la canicule (encore) et il fait 35°C.\nAprès 8 bornes à lutter, on finit par marcher pour ne pas finir en PLS au bord de la route.\n\nRituel de chaque semaine même parcours d'environ 15 à 18 à 60%-70%\nBien regarder son cardio, pour pouvoir le comparer par la suite.\n\nActive\n16.0 km @ 05:00-05:35 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 4x1000m allure course`,
+    date: '2026-08-11',
+    duration: 49,
+    distance: 9.1,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n1.00 km @ 05:30-06:25 min/km\n\nRépéter 4 fois\nHard\n1.00 km @ 04:49-05:21 min/km\nEasy\n1.00 km @ 05:40-06:25 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - Circuit rituel`,
     date: '2026-08-07',
     duration: 97,
