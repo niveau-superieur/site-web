@@ -3,12 +3,48 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Souple`,
+    date: '2026-08-30',
+    duration: 270,
+    distance: 127.77,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Paris Toujours in Paris\n\nSouple\n4:30:00 @ 139-182 W 80-90 rpm`,
+  },
+  {
+    name: `Triathlon - Zwift - VO2max 2x12x30/30`,
+    date: '2026-08-29',
+    duration: 130,
+    distance: 49.89,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Knickerbocker Reverse in New York\n\nWarm up\n30 min @ 118-139 W\n\nRépéter 12 fois\nHard\n30 sec @ 227-240 W 95-105 rpm\nEasy\n30 sec @ 126-152 W\n\nRecovery\n46 min @ 128-150 W\n\nRépéter 12 fois\nHard\n30 sec @ 227-240 W 95-105 rpm\nEasy\n30 sec @ 126-152 W\n\nCool Down\n30 min @ 118-139 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Souple 4x(3+2+1)`,
+    date: '2026-08-24',
+    duration: 60,
+    distance: 30.61,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Green to Screen in New York\n\nWarm up\n26 min @ 139-163 W\n\nRépéter 4 fois\nHard\n3 min @ 163-188 W\nHarder\n2 min @ 188-214 W\nEasy\n1 min @ 126-152 W\n\nCool Down\n10 min @ 139-163 W`,
+  },
+  {
+    name: `Triathlon - Vélo - Sortie libre`,
+    date: '2026-08-19',
+    duration: 60,
+    distance: 29.88,
+    tags: [activityTags.sport, activityTags.cycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Objectif : faire une sortie de 1h30 sans se prendre la tête, mais malgré le beau temps, il y a des grosses rafales de vent qui me font zigzaguer sur la route.\nJe raccourcis la séance et je prends les routes moins passantes sur le retour.`,
+  },
+  {
     name: `Triathlon - Vélo - Sortie libre`,
     date: '2026-08-16',
     duration: 116,
     distance: 60.64,
     tags: [activityTags.sport, activityTags.cycling],
-    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    programs: ['triathlonIronmanProgram'],
     description: `Remplacement de la séance de 2h tranquille sur Zwift par une sortie libre tranquille, pour profiter de l'air frais de la côte.\nSortie à la cool au feeling, sans itinéraire de prévu.\nOn commence tôt la séance (8h) pour ne pas être gêné ou gêner les voitures et profiter de la fraicheur.`,
   },
   {
@@ -206,7 +242,7 @@ export const cyclingActivities: Activity[] = [
     duration: 167,
     distance: 87.41,
     tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
-    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    programs: ['triathlonIronmanProgram'],
     description: `Et c'est parti pour le vélo, 90km qui ont été vraiment difficiles.\n2 boucles de 45km, avec 2 belles montées VRAIMENT longues même si pas trop raides. Prendre 150m de D+ sur 8km c'est bien chiant ^^ et derrière la descente à 65km/h sur les prolongateurs ça fait vraiment flipper, c'est pas normal d'aller aussi vite en vélo !\nCertains passages du circuit étaient complètement pourris, de la route bien usée qui fait trembler le vélo et des nids de poule par endroit.\nLa première boucle c'était sympa, la deuxième que de la difficulté, la fatigue s'accumule et les côtés semblent interminables.\nTemps officiel : 2h47'23"`,
   },
   {
@@ -287,7 +323,7 @@ export const cyclingActivities: Activity[] = [
     duration: 60,
     distance: 34.54,
     tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
-    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    programs: ['triathlonIronmanProgram'],
     description: `Partie vélo du triathlon, raccourcie à 34km au lieu des 38 prévus initialement.\nComme je connais le terrain, j'ai pu bombarder sur certains segments, et temporiser sur les montées.\nCircuit très roulant et une section de route qui vient d'être refaite, parfait 😊\nEt des supers bénévoles pour les passages dangereux qui sont là pour prévenir de ralentir et encourager, merci à eux !\n\nTemps vélo : 59'54"`,
   },
   {
@@ -350,7 +386,7 @@ export const cyclingActivities: Activity[] = [
     duration: 72,
     distance: 39.56,
     tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
-    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    programs: ['triathlonIronmanProgram'],
     description: `2ème partie du triathlon, les 40km de vélo.\nUn peu compliqué au début de gérer avec le monde, il faut savoir doubler rapidement et se replacer.\nJ'ai utilisé le compteur pour gérer le rythme et la cadence, mais au bout de 26km il s'est décroché et a dégagé dans le fossé 😭 j'ai finis la course à l'aveugle, au ressenti.\nLe compteur a été retrouvé après la course en cherchant dans la zone, merci maman 😊\n\nTemps vélo : 1h11'47"\nTransition 2 : 2'12"`,
   },
   {

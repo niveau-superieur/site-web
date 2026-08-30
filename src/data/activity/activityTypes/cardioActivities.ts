@@ -3,6 +3,38 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-08-26',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-08-26',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 15 secondes entre les exos :\n- 3x20 Montées de genoux\n- 3x20 Jumpingjacks\n- 2x15 squats\n- 2x10 Levées de bassin 1 jambe (1 série G/1 série D)\n- 2x20 Montées sur box\n- 2x10 Montées sur box avec poids (10kg)\n- 2x10 Bulgarian squats (10kg)\n- 1 minute Gainage 1 jambe (30"G/30"D)\n- 20 Squats lestés (10kg)\nÉtirements jusqu'à la fin des 20 minutes`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-08-22',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-08-17',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 3 fois, 10" de récup entre chaque exo, 1' entre chaque boucle :\n- 20 Jumpingjacks\n- 20 Pompes\n- 30 Squats\n- 40 Battements de jambes ciseaux\n- 20 Jumpingjacks\n- 40 Climbers\n- 30 Fentes avant\n- 1' gainage 1 jambe (30"G/30"D)\n- 20 Jumpingjacks\n- 20 Arm leg raises\n- 1 min chaise\n- 40 Gainage latéral avec rotation (20G/20D)`,
+  },
+  {
     name: `Triathlon - Circuit training`,
     date: '2026-08-14',
     duration: 10,
