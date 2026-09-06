@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - 600+4x200+6x100`,
+    date: '2026-09-05',
+    duration: 88,
+    distance: 4.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Répéter 6 fois\nWarm up\n50.0 m @ 02:36-02:59 sec/100m\nRecup\n50.0 m @ 02:59-03:28 sec/100m\nbrasse\n\nEducatif\n200 m @ 03:12-03:47 sec/100m\n4x(25m crawl-25m educ pouce le long du corps)\n\nActive\n600m plaquette +pull (300m vite/ 300m souple)\n600 m @ 01:58-02:05 sec/100m\n\nrécup\n100 m @ 02:27-02:47 sec/100m\n\nRépéter 4 fois\nSimulation de départ\n200 m @ 01:52-02:00 sec/100m\nAllure IM\n200 m @ 02:08-02:16 sec/100m\nFacile\n50.0 m @ 02:27-02:47 sec/100m\n\nRépéter 6 fois\nHard\n100 m @ 01:44-01:54 sec/100m vite\nrécup\n50.0 m @ 02:27-02:47 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - Souple facile`,
+    date: '2026-09-03',
+    duration: 47,
+    distance: 2.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n300 m @ 69-86 bpm\nsouple\n\nActive\n400 m @ 120-138 bpm\n8x50 (25 educ poings fermés - 25 crawl)\n\nActive\n1200 m @ 120-138 bpm\n4x300m palmes Glisse-amplitudes\n\nActive\n300 m @ 120-138 bpm\n6x50 (25 educ pouce le long du corps 25 crawl)\n\nCool Down\n200 m @ 69-86 bpm\nsouple`,
+  },
+  {
+    name: `Triathlon - Natation - Effort de course sur 5x300`,
+    date: '2026-08-31',
+    duration: 56,
+    distance: 2.8,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `C'est la fin des vacances scolaires, et ça se voit.\nTous ceux qui ont abusé sur la bouffe/boisson/farniente se motivent à reprendre le sport, c'est donc le retour des lignes à 4/5/6 personnes.\nHeureusement, il ne reste qu'un mois et demi dans ces conditions avant l'épreuve finale\n\nWarm up\n400 m @ 02:59-03:28 sec/100m\n4x100 (75 crawl +25 doigt surface)\n\nRépéter 2 fois\nHard\n50.0 m @ 01:44-01:48 sec/100m Crawl Vite\nEasy\n50.0 m @ 02:47-02:59 sec/100m\n\nRépéter 5 fois\nHard\n300 m @ 02:08-02:19 sec/100m\n#1 - Plaquettes\n#2 - Pullbuoy\n#3 - Pullbuoy + plaquettes\n#4 - Sans matériel\n#5 - Pullbuoy\nEasy\n100 m @ 02:59-03:28 sec/100m\n\nCool Down\n200 m @ 02:59-03:28 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - Simulation de longue Distance`,
     date: '2026-08-29',
     duration: 80,

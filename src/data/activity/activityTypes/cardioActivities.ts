@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Réveil matin`,
+    date: '2026-09-04',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-09-01',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
     date: '2026-08-26',
     duration: 10,
     tags: [activityTags.sport, activityTags.cardio],

@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Objectif 28km *** super important`,
+    date: '2026-09-06',
+    duration: 140,
+    distance: 25.91,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Séance difficile, 30°C dehors après 5h sur le vélo, un départ à midi sans autre nourriture que les gels et des compotes...\nGlobalement ça s'est bien passé jusqu'au moment où j'ai ralenti en pensant qu'un noeud s'était fait sur le camelback, mais il était juste vide.\nAprès ça, c'était abominable, je n'avais plus d'eau et j'étais à 21km sur les 28. J'ai donc raccourci la séance et je suis rentré au plus vite pour ne pas crever de soif (j'avais des vertiges en arrivant)\nAu final 26km sur les 28, pas trop loin du compte\n\nActive\n2:45:00 @ 04:49-05:21 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-09-04',
+    duration: 87,
+    distance: 16.76,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Course habituelle avec Augustin Lvndr sur une bonne partie du circuit à mon allure, et une séparation avant le deuxième tour du golf.\nJ'ai tout donné pour le rattraper ensuite mais ça n'a pas suffit, il est bien trop rapide pour moi !\n\nActive\n18.0 km @ 05:00-05:35 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 10km avec 6 km allure 70.3`,
+    date: '2026-09-02',
+    duration: 52,
+    distance: 10.9,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n2.00 km @ 05:30-06:25 min/km\n\nActive\n6.00 km @ 04:29-04:49 min/km\n\nCool Down\n2.00 km @ 05:30-06:25 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - enchainement juste après le vélo`,
     date: '2026-08-30',
     duration: 60,
