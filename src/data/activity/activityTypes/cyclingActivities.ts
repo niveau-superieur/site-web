@@ -3,6 +3,42 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Long "ride" souple, *** super important`,
+    date: '2026-09-06',
+    duration: 304,
+    distance: 89.64,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Four Horsemen in Watopia\n\nWarm up\n30 min @ 128-150 W\n\nActive\n4 hr @ 139-171 W\n\nCool Down\n30 min @ 128-150 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 3h00 avec 8x8min allure course - Partie 2`,
+    date: '2026-09-05',
+    duration: 141,
+    distance: 55.1,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Knickerbocker in New York\n\nWarm up\n40 min @ 128-150 W 80-90 rpm\n\nRépéter 8 fois\nEffort 70.3\n8 min @ 150-171 W 85-90 rpm\nEasy\n6 min @ 118-139 W\n\nCool Down\n28 min @ 107-128 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 3h00 avec 8x8min allure course - Partie 1`,
+    date: '2026-09-05',
+    duration: 60,
+    distance: 22.1,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `ALORS...\nMême problème qu'il y a quelques mois avec l'ascension du col de je ne sais plus quoi, le PC qui crashe au moment de faire la capture vidéo du finish...\nJe précise que ça n'a rien à voir avec Zwift, je viens même de découvrir que la séance est enregistrée en cas de plantage, c'est pour ça que j'ai pu l'importer (je vais peut être le faire pour la première séance qui a cra&sh aussi si je retrouve le jour où c'est arrivé)\nJe précise aussi que j'ai une carte graphique AMD, que le problème vient de là, que tout est à jour, que c'est un bug que j'ai depuis plus d'un an, que c'est un sujet très connu qui n'est toujours pas corrigé, et que je regrette d'avoir quitté Nvidia du coup, qui n'a jamais eu le moindre défaut (oui je suis salé d'avoir du relancer ma séance)\n\nWarm up\n40 min @ 128-150 W 80-90 rpm\n\nRépéter 8 fois\nEffort 70.3\n8 min @ 150-171 W 85-90 rpm\nEasy\n6 min @ 118-139 W\n\nCool Down\n28 min @ 107-128 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 4x3x5min puissance`,
+    date: '2026-09-01',
+    duration: 86,
+    distance: 40.13,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Empire Elevation in New York\n\nWarm up\n5 min @ 107-128 W\n\nMontée en puissance en 4 étapes\n1:15 @ 118-139 W\n1:15 @ 139-161 W\n1:15 @ 161-182 W\n1:15 @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 4 fois\ndifficile travail puissance\n5 min @ 175-193 W 85-90 rpm\nTrés difficile travail puissance\n5 min @ 214-231 W 80-85 rpm\nfacile travail vitesse de jambes\n5 min @ 128-146 W 95-105 rpm\n\nCool Down\n10 min @ 128-146 W`,
+  },
+  {
     name: `Triathlon - Zwift - Souple`,
     date: '2026-08-30',
     duration: 270,
