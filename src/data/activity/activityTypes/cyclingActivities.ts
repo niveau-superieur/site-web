@@ -3,6 +3,24 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - 4x12min`,
+    date: '2026-09-12',
+    duration: 120,
+    distance: 55.78,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Figure 8 Reverse in Watopia\n\nWarm up\n25 min @ 126-152 W\n\nRépéter 4 fois\n12 min @ 171-193 W 80-90 rpm\nSouple\n8 min @ 126-152 W 90-95 rpm\n\nCool Down\n15 min @ 126-152 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 1h10 avec 20min 70.3 pace`,
+    date: '2026-09-08',
+    duration: 73,
+    distance: 26.85,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Roule Ma Poule in France\n\nWarm up\n25 min @ 107-128 W\n\nActive allure 70.3\n20 min @ 150-171 W\n\nCool Down\n25 min @ 107-128 W`,
+  },
+  {
     name: `Triathlon - Zwift - Long "ride" souple, *** super important`,
     date: '2026-09-06',
     duration: 304,

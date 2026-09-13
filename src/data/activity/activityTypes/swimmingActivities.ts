@@ -3,6 +3,24 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - 2000 non stop!!! ou plus en open water si possible`,
+    date: '2026-09-12',
+    duration: 39,
+    distance: 2,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Active\n2000 m @ 02:10-02:22 sec/100m`,
+  },
+  {
+    name: `Triathlon - Natation - 5x500 Rechercher la glisse`,
+    date: '2026-09-12',
+    duration: 48,
+    distance: 2.5,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Warm up\n500 m @ 02:56-03:32 sec/100m\n10x(25m rattrapé devant- 25m crawl ) 15 sec de récup\n\nActive\n1500 m @ 02:16-02:29 sec/100m\n3x500 focus sur la glisse faire le moins de mouvements possible tout en gardant une bonne vitesse, récup 45sec ( 1er en plaquettes, le 2eme en pullbuoy+plaquettes, le 3eme avec palmes)\n\nCool Down\n500 m @ 02:56-03:32 sec/100m`,
+  },
+  {
     name: `Triathlon - Natation - 600+4x200+6x100`,
     date: '2026-09-05',
     duration: 88,

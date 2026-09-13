@@ -3,6 +3,22 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Circuit training`,
+    date: '2026-09-11',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois, sans pause entre les exos, 1 minute entre les boucles :\n- 20 Climbers\n- 40 Levées de bassin 1 jambe (20G/20D)\n- 20 Pompes\n- 20 Squats\n- 40 Butterfly à l'élastique\n- 20 Superman\n- 20 Extension triceps à l'élastique\n- 20 Arm-leg raises\n- 40 Gainage latéral avec rotation (20G/20D)\n- 40 Crawl à l'élastique\n- 1' Planche\n- 20 Curl biceps (barre à 20kg)\n- 20 Russian twists`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-09-08',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, sans pause entre les exercices :\n- 60 Genoux-coude\n- 50 Levées de bassin\n- 40 Squats\n- 1' Gainage 1 jambe (30"G/30"D)\n- 60 Curl biceps (barre à 20kg)\n- 50 Russian twists\n- 40 Dips\n- 30 Sauts sur box\n- 60 Montées de genoux\n- 50 Superman\n- 80 Gainage latéral avec rotation (40G/40D)\n- 30 Pompes\n- 60 Jumping jacks\n- 50 Arm-leg raise\n- 40 Touché talon\n- 30 Tractions`,
+  },
+  {
     name: `Triathlon - Réveil matin`,
     date: '2026-09-04',
     duration: 10,
