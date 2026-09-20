@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - 5x2000m allure 10km`,
+    date: '2026-09-18',
+    duration: 98,
+    distance: 20.1,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Grosse séance qui tabasse bien, à 4 min du km ça commence à piquer le lendemain des 4h30 de vélo !\n\nWarm up\n2.50 km @ 05:30-06:25 min/km\n\nRépéter 5 fois\nHard\n2.00 km @ 03:51-04:11 min/km\nEasy\n1.00 km @ 05:30-06:25 min/km\n\nCool Down\n1.50 km @ 05:30-06:25 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 8km avec 6 km allure Full`,
+    date: '2026-09-17',
+    duration: 41,
+    distance: 8.31,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `On enchaine dans la foulée du vélo pour 8 petits kilomètres qui passeront bien\n\nActive\n6.00 km @ 04:49-05:21 min/km\n\nCool Down\n2.00 km @ 05:21-06:01 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-09-16',
+    duration: 65,
+    distance: 10.31,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit rituel avec la dream team, le classique Augustin habitué des séances rituelles, et l'inattendu Lilian qui permet de faire le trio gagnant !\nCircuit plus court qu'à l'accoutumée mais grosse compétition dimanche de prévue qui va compenser\n\nActive\n18.0 km @ 05:00-05:35 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - 3x3000m allure 70.3`,
     date: '2026-09-10',
     duration: 79,

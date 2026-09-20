@@ -3,6 +3,15 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Aquamuros !`,
+    date: '2026-09-20',
+    duration: 185,
+    distance: 8.4,
+    tags: [activityTags.sport, activityTags.swimming],
+    programs: ['triathlonIronmanProgram'],
+    description: `Pour cette dernière semaine d'effort avant l'affûtage, j'ai remplacé les 3 séances de natation par une seule séance : l'Aquamuros.\nUne compétition de nage en eau libre de 10km le long des remparts de Saint-Malo.\nBien que je ne soit pas entrainé pour ce genre de compétition, c'est à peu près le volume hebdomadaire de natation du programme.\nAu programme de la compétition : 2 boucles de 5km, qui sont remplacées à la dernière minute par 4 boucles de 2.5km (ça me va, je n'avais pas pensé au ravito à prendre en nageant, alors revenir à terre tous les 2.5km ça permet de prendre un ravito à chaque passage à terre)\nL'eau est à 19.3°C, mais surprise du jour, la météo n'est pas clémente, le temps est nuageux mais il y a une houle qui a transformé le parcours en épreuve de chaque instant. Sur les 2.5km, il y a 500m de calme autour du passage à terre, mais arrivé au large, les vagues sont vraiment pénibles, c'est galère pour trouver un rythme, pour voir les bouées, pour garder le cap, pour ne pas boire la tasse, en bref c'est chiant.\nLes organisateurs prennent la décision de raccourcir l'épreuve aux vues des conditions difficiles, et c'est 3 boucles sur les 4 qui seront réalisées pour tous les concurrent.\nComme la montre n'était pas autorisée, je l'ai habilement dissimulée dans le maillot 🤫mais du coup je ne sais pas ce qui s'est passé mais le tracé a foiré (épaisseur maillot/combi qui a fait foiré le GPS ?)\nLa distance est plus ou moins la bonne, les 3 boucles font 7.5km et avec les dérives dues aux vagues j'ai sûrement fait du rab.\nAu final, une super première expérience de nage en compétition malgré des conditions de nages difficiles. A retenter sur un 10km en lac peut être pour voir.\n\nRésultat :\n- Général : 62/82 (11 abandons)\n- Catégorie (Maitre 1/2) : 37/62 (bug ? je compte 37/52 sur la liste globale)\n- Temps : 2h55'28"`,
+  },
+  {
     name: `Triathlon - Natation - 2000 non stop!!! ou plus en open water si possible`,
     date: '2026-09-12',
     duration: 39,

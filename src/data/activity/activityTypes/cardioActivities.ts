@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-09-20',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois, 15" entre chaque exo, 20" tous les 3 exos :\n- 30 Climbers\n- 5 Burpees\n- 30 Fentes avant\n- 1min Gainage 1 jambe (30"G/30"D)\n- 5 Burpees\n- 30 Squats\n- 20 Pompes\n- 5 Burpees\n- 1 min Chaise\n- 40 Gainage latéral avec rotation (20G/20D)\n- 5 Burpees\n- 40 Pistol squats (20G/20D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-09-15',
+    duration: 40,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois sans pause entre les exos :\n- 20 Jumpingjacks\n- 20 Superman\n- 20 Montées de genoux\n- 10 Inchworms\n- 2x30 Squats (15" entre chaque série)\n- 20 Fentes avant (10G/10D)\n- 3x15 Soulevés de terre (haltères à 10kg chacune)\n- 20 Pompes\n- 2x1min Planche (15" entre chaque série)\n- 40 Levées de bassin\n- 20 Pistol squats (10G/10D)\n- 2x1min Chaise (15" entre chaque série)\n- 40 Levées de bassin 1 jambe (20G/20D)\n- 50 Arm leg raise\n- 2x1min Planche latérale (1min G/1min D)\n- 40 Climbers\n- 10 Burpees\n- Finir les 40 minutes allouées avec du vélo tranquille`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-09-11',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],
