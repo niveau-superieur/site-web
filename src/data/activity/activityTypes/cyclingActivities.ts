@@ -3,6 +3,42 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - Bike 75%`,
+    date: '2026-09-17',
+    duration: 275,
+    distance: 140.71,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Pour cette grosse session, pas de nouveau circuit, mais des boucles sur le Volcano Circuit pour un défi Zwift.\nLe but était d'en faire 25, mais en 4h30 ça en fera 34 !\n\n🗺️ Volcano Circuit in Watopia\n\nWarm up\n30 min @ 128-150 W\n\nActive\n3:30:00 @ 150-171 W\n\nCool Down\n30 min @ 128-150 W`,
+  },
+  {
+    name: `Triathlon - Zwift - qualité de "jambes"`,
+    date: '2026-09-16',
+    duration: 65,
+    distance: 31.32,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Red Zone Repeats in Makuri Islands\n\nWarm up\n12 min @ 139-163 W\n\nRépéter 4 fois\nTravail sur une jambe (2x30sec jambe droite, puis 2x30sec jambe gauche)\n30 sec @ 75-96 W\nrécup avec 2 jambes\n1 min @ 128-150 W\n\nRécupération\n5 min @ 128-150 W\n\nRépéter 3 fois\nTravail puissance au dessus de sa FTP\n3 min @ 218-240 W 72-80 rpm\nEasy\n6 min @ 128-150 W\n\nVitesse de jambes\n5 min @ 150-167 W 98-108 rpm\n\nCool Down\n10 min @ 126-152 W`,
+  },
+  {
+    name: `Triathlon - Zwift - avec 6x5min`,
+    date: '2026-09-15',
+    duration: 95,
+    distance: 43.31,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Urumaze in Makuri Islands\n\nWarm up\n14 min @ 126-152 W\n\nMontée en puissance en 4 étapes\n1:30 @ 139-163 W\n1:30 @ 163-188 W\n1:30 @ 188-214 W\n1:30 @ 214-240 W\n\nRécupération\n5 min @ 126-152 W\n\nRépéter 6 fois\nTravail Puissance\n5 min @ 188-210 W 80-90 rpm\nEasy\n5 min @ 118-139 W 85-95 rpm\n\nCool Down\n10 min @ 107-128 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Circuit training`,
+    date: '2026-09-15',
+    duration: 13,
+    distance: 7.17,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Seaside Sprint in Watopia\n\nPartie vélo tranquille de la séance de cardio training`,
+  },
+  {
     name: `Triathlon - Zwift - 4x12min`,
     date: '2026-09-12',
     duration: 120,
