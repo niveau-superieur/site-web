@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - 4h ou 120km souple`,
+    date: '2026-09-26',
+    duration: 240,
+    distance: 93.26,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `Séance difficile, le covid est encore là. En fin de séance, j'ai du mal à reprendre mon souffle, donc je reporte la course à pied au lendemain (je devais l'enchainer juste après le vélo)\n\n🗺️ Canopies and Coastlines in Watopia\n\nActive\n4 hr @ 171-193 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 5x10min allure 70.3`,
+    date: '2026-09-24',
+    duration: 121,
+    distance: 54.82,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Montmartre Mixer in Paris\n\nWarm up\n14 min @ 101-126 W\n\nMontée en puissance en 4 étapes\n1:30 @ 118-139 W\n1:30 @ 139-161 W\n1:30 @ 161-182 W\n1:30 @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 5 fois\nHard\nAllure 70.3\n10 min @ 161-193 W\nEasy\n5 min @ 128-150 W\n\nCool Down\n20 min @ 128-150 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 4x8 min sur HT`,
+    date: '2026-09-21',
+    duration: 80,
+    distance: 30.06,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ WhatYumeziWe'reLost? in Makuri Islands\n\nÉchauffement\n12 min @ 107-128 W\n\nMontée en puissance en 4 étapes\n1:45 @ 118-139 W\n1:45 @ 139-161 W\n1:45 @ 161-182 W\n1:45 @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 4 fois\nEffort de course 70.3\n8 min @ 150-171 W 85-92 rpm\nSouple\n4 min @ 128-150 W\n\nCool Down\n8 min @ 107-128 W`,
+  },
+  {
     name: `Triathlon - Zwift - Bike 75%`,
     date: '2026-09-17',
     duration: 275,
