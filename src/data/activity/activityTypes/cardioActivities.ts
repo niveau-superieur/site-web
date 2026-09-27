@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Triathlon - Circuit training`,
+    date: '2026-09-24',
+    duration: 20,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 10" récup entre chaque exo :\n- 3x20 Montées de genoux\n- 3x20 Jumpingjacks\n- 2x15 squats\n- 2x10 Levées de bassin 1 jambe (1 série G/1 série D)\n- 2x20 Montées sur box\n- 2x10 Montées sur box avec poids (10kg)\n- 2x10 Bulgarian squats (10kg)\n- 1 minute Gainage 1 jambe (30"G/30"D)\n- 20 Squats lestés (10kg)\nÉtirements jusqu'à la fin des 20 minutes`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-09-22',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 2 fois, 10" de récup entre les exos, 1 minute entre chaque boucle :\n- 20 Jumpingjacks\n- 40 Gainage latéral avec rotation (20G/20D)\n- 15 Dips\n- 20 Fentes avant\n- 40 Mouvements de bras papillon (chambre à air comme élastique)\n- 20 Pompes spiderman\n- 20 Arm leg raises\n- 40 Battements de jambes ciseaux\n- 1 minute de gainage 1 jambe (30"G/30"D)\n- 40 Mouvements de crawl (20G/20D, chambre à air comme élastique)\n- 10 Burpees\n- 20 Curl biceps à la barre (barre à 20kg)\n- 20 Superman`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
     date: '2026-09-20',
     duration: 30,
     tags: [activityTags.sport, activityTags.cardio],

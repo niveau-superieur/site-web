@@ -3,6 +3,34 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - avec 10km allure Iron juste après le vélo`,
+    date: '2026-09-27',
+    duration: 79,
+    distance: 15.45,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Séance reportée de la veille.
+Fin de semaine et pas de natation, le covid a bien frappé, je ne veux pas aller contaminer les gens à la piscine et je me sens fatigué, tant pis on annule\n\nActive\n10.0 km @ 04:49-05:21 min/km\n\nRecovery\n5.00 km @ 05:08-05:55 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-09-23',
+    duration: 73,
+    distance: 11.42,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit rituel à 3 encore une fois !\nRythme difficile, début de covid qui pointe le bout de son nez 🥵\n\nActive\n15.0 km @ 05:00-05:35 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 5km allure iron`,
+    date: '2026-09-21',
+    duration: 22,
+    distance: 5.18,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `C'est précisé allure Iron mais ça n'est pas DU TOUT l'allure Iron !\n\nActive\n5.00 km @ 04:20-04:35 min/km`,
+  },
+  {
     name: `Triathlon - Course à pied - 5x2000m allure 10km`,
     date: '2026-09-18',
     duration: 98,
