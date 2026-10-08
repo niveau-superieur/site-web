@@ -3,14 +3,49 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - Course à pied - Run 20min`,
+    date: '2026-10-07',
+    duration: 21,
+    distance: 4.84,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Et c'est terminé, dernière séance de course à pied et dernière séance du programme.\nProchaine étape : le Bayman !\n\nLa course à pied aura vraiment été la valeur sûre tout au long du défi : du plaisir à toutes les séances ou presque.\nPour les inconvénients, rien de mon côté, mais la météo peut jouer pas mal sur la motivation de certains\n\nActive\n20 min @ 04:26-04:52 min/km\n20mn allure 70.3`,
+  },
+  {
+    name: `Triathlon - Course à pied - 4x2mn/2mn`,
+    date: '2026-10-07',
+    duration: 41,
+    distance: 7.21,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Séance fractionnée avec les deux habitués, car cette semaine pas de circuit rituel.\nEvidemment qu'est ce qui se passe quand on met trois guignols ensemble sur un fractionné ? Le dernier fractionné ça part en sprint !\n\nWarm up\n16 min @ 05:21-06:01 min/km\n\nRépéter 4 fois\nAllure Iron\n2 min @ 04:49-05:21 min/km\nEasy\n2 min @ 05:21-06:01 min/km\n\nCool Down\n8 min @ 05:21-06:01 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - 7km allure course jute après le vélo puis 5 à 7km souple`,
+    date: '2026-10-01',
+    duration: 71,
+    distance: 14.08,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Active\n7.00 km @ 04:49-05:21 min/km\n\nRecovery\n7.00 km @ 05:21-06:01 min/km`,
+  },
+  {
+    name: `Triathlon - Course à pied - Circuit rituel`,
+    date: '2026-09-30',
+    duration: 38,
+    distance: 7.11,
+    tags: [activityTags.sport, activityTags.running],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit toujours à 3 mais plus court que prévu, formation professionnelle qui ne laisse qu'une heure pour courir et manger.\nPour compenser, on augmente le rythme`,
+  },
+  {
     name: `Triathlon - Course à pied - avec 10km allure Iron juste après le vélo`,
     date: '2026-09-27',
     duration: 79,
     distance: 15.45,
     tags: [activityTags.sport, activityTags.running],
     programs: ['triathlonIronmanProgram'],
-    description: `Séance reportée de la veille.
-Fin de semaine et pas de natation, le covid a bien frappé, je ne veux pas aller contaminer les gens à la piscine et je me sens fatigué, tant pis on annule\n\nActive\n10.0 km @ 04:49-05:21 min/km\n\nRecovery\n5.00 km @ 05:08-05:55 min/km`,
+    description: `Séance reportée de la veille.\nFin de semaine et pas de natation, le covid a bien frappé, je ne veux pas aller contaminer les gens à la piscine et je me sens fatigué, tant pis on annule\n\nActive\n10.0 km @ 04:49-05:21 min/km\n\nRecovery\n5.00 km @ 05:08-05:55 min/km`,
   },
   {
     name: `Triathlon - Course à pied - Circuit rituel`,
