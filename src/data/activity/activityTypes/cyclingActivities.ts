@@ -3,6 +3,42 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Triathlon - Zwift - 40min souple avec 10min allure course`,
+    date: '2026-10-07',
+    duration: 41,
+    distance: 18.14,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `On y est, dernière séance de vélo du programme !\nBilan : le vélo c'est pas si mal en vrai\nAu début du défi, le plaisir était inexistant, les séances étaient faites parce que pas le choix !\nMais après 8 mois, j'ai apprécié ma 1ère séance ! C'est long 8 mois pour kiffer un truc quand même !\nEt après plus d'un an, je ne prends pas du plaisir à chaque séance mais pas loin, et ça c'est cool.\nCôté inconvénients :\n- le vélo c'est cher (achat du vélo, abonnement Zwift, entretien)\n- en extérieur c'est chiant de s'entraîner (avec les voitures, les feux, les stops, les routes pourries, etc... et la météo joue beaucoup)\n- sur home trainer aucune sensation de vitesse, on transpire énormément, sur Zwift il faut penser à bloquer les messages des autres parce qu'il y a toujours certains qui s'entrepépon sur leurs séances, pire que LinkedIn)\n- les séances longues sont interminables et ennuyeuses sur home trainer avec rien à faire\n- le home trainer est bruyant de fou, impossible de regarder une série à côté, et le bruit pendant 5h de séances longues c'est terrible\n- ça prend de la place (le vélo et le home trainer dans le salon c'est pas top pour décorer)\n\nLe vélo a vraiment mis très longtemps à me faire kiffer, mais maintenant que c'est le cas, je pense continuer à faire des séances de temps en temps par plaisir !\n\n🗺️ Island Hopper in Makuri Islands\n\nWarm up\n20 min @ 139-150 W\n\nActive\n10 min @ 139-171 W 85-92 rpm\n\nCool Down\n10 min @ 139-150 W`,
+  },
+  {
+    name: `Triathlon - Zwift - Bike 55min en HT souple avec 10 min allure Iron`,
+    date: '2026-10-06',
+    duration: 61,
+    distance: 30.09,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Sand And Sequoias in Watopia\n\nWarm up\n8 min @ 128-150 W 75-90 rpm\n\nMontée en puissance en 4 étapes\n1 min @ 118-139 W\n1 min @ 139-161 W\n1 min @ 161-182 W\n1 min @ 182-203 W\n\nRécupération\n2:55 @ 107-128 W\n\nActive\n30 min @ 139-161 W 80-90 rpm\n\nActive allure 70.3\n10 min @ 150-171 W 82-92 rpm\n\nCool Down\n5 min @ 128-150 W 75-85 rpm`,
+  },
+  {
+    name: `Triathlon - Zwift - Allure course!!! sur 3h environ`,
+    date: '2026-10-01',
+    duration: 180,
+    distance: 42.23,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Road to Sky in Watopia\n\nWarm up\n30 min @ 120-137 W\n\nActive allure 70.3\n2 hr @ 137-154 W 82-92 rpm\n\nCool Down\n30 min @ 120-137 W`,
+  },
+  {
+    name: `Triathlon - Zwift - 4x8min +10min puissance`,
+    date: '2026-09-29',
+    duration: 90,
+    distance: 40.47,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Legends and Lava in Watopia\n\nÉchauffement\n14 min @ 107-128 W\n\nMontée en puissance en 4 étapes\n2 min @ 118-139 W\n2 min @ 139-161 W\n2 min @ 161-182 W\n2 min @ 182-203 W\n\nRécupération\n5 min @ 107-128 W\n\nRépéter 4 fois\nAllure iron\n8 min @ 161-182 W 85-92 rpm\nSouple\n4 min @ 128-150 W\n\nPuissance\n10 min @ 195-216 W 75-85 rpm\n\nCool Down\n5 min @ 128-150 W`,
+  },
+  {
     name: `Triathlon - Zwift - 4h ou 120km souple`,
     date: '2026-09-26',
     duration: 240,

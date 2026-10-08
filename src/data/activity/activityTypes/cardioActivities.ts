@@ -3,6 +3,30 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-10-06',
+    duration: 10,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 20" de récupération entre chaque exercice :\n- 30" Climbers\n- 1' Chaise\n- 1' Planche\n- 50" Squats\n- 30" Pompes\n- 40" Levées de bassin\n- 30" Russian Twists\n- 40" Fentes avant\n- 1' Gainage latéral avec rotation (30"G/30"D)`,
+  },
+  {
+    name: `Triathlon - Circuit training`,
+    date: '2026-10-03',
+    duration: 30,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 3 fois, 10" de récup entre chaque exo, 1 minute entre chaque boucle :\n- 30 Jumpingjacks\n- 30 Squats\n- 30 Dips\n- 20 Climbers\n- 20 Superman\n- 20 Russian twists\n- 20 Fentes avant (10G/10D)\n- 10 Pompes\n- 10 Burpees`,
+  },
+  {
+    name: `Triathlon - Réveil matin`,
+    date: '2026-09-29',
+    duration: 15,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['triathlonIronmanProgram'],
+    description: `Circuit à faire 1 fois, 10" de récup entre chaque exo :\n- 30 Jumpingjacks\n- 40 Montées de genoux\n- 10 Pompes\n- 20 Squats sumo\n- 20 Squats\n- 20 Fentes avant (10G/10D)\n- 10 Pompes\n- 20 Boxe punch\n- 20 Tirage triceps (élastique à 35kg de tension)\n- 20 Curl biceps (barre à 20kg)\n- 10 Pompes\n- 20 Battements de jambes ciseaux\n- 20 Climbers\n- 20 Russian twist`,
+  },
+  {
     name: `Triathlon - Circuit training`,
     date: '2026-09-24',
     duration: 20,
