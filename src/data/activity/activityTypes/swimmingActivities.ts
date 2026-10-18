@@ -3,11 +3,20 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - BAYMAN - Natation`,
+    date: '2026-10-10',
+    duration: 68,
+    distance: 3.8,
+    tags: [activityTags.sport, activityTags.swimming, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `Enfin le jour J !\nDépart de la natation à 7h45, de nuit et sans avoir le droit de se tremper avant\nHeureusement, l'eau est à 15°C, plutôt bonne pour la saison.\n2 boucles de 1900m à faire, donc 4 belles lignes droites, pas compliqué au niveau du balisage.\nLes sensations sont au top, le rythme est pris rapidement, aucun problème sur cette partie sauf le soleil qui se lève sur la dernière longueur et qui brûle la rétine`,
+  },
+  {
     name: `Triathlon - Natation - Mise au point`,
     date: '2026-10-05',
     duration: 42,
     distance: 2.2,
-    tags: [activityTags.sport, activityTags.swimming],
+    tags: [activityTags.sport, activityTags.swimming, activityTags.last],
     programs: ['triathlonIronmanProgram'],
     description: `Toute dernière séance de natation du programme. Enfin !\nIl restera une séance à faire de test 1000m pour comparer les débuts à maintenant, mais dans quelques semaines après avoir récupéré de la compet.\nCe que j'en retiens : la natation c'est vraiment un sport génial, on récupère mieux qu'en course à pied car il n'y a aucun choc, on finit juste les séances fatigué (et déjà propre 😊)\nLa sensation de nage est vraiment agréable, et on peut vraiment se mettre dans sa bulle pour la séance parfois.\nMAIS tout ça est contrebalancé par des contraintes vraiment pénibles :\n- il faut se rendre sur place\n- ça demande un abonnement à la piscine\n- les séances peuvent passer de géniales à médiocres juste parce que 2-3 guignols ne se mettent pas sur les bonnes lignes\n- avec 4-5 personnes sur la même ligne c'est le bordel\n- les horaires d'ouverture peuvent être vraiment chiants (peu de dispo ou changements réguliers)\n- la nage en eau libre en lac vu la qualité des eaux c'est pas top\n- la nage en eau libre en mer ça dépend de la marée, de la météo et ça provoque des brûlures avec les frottements (sans parler de la terreur de nager sans voir le fond à imaginer les monstres marins aux aguets)\n- l'adaptabilité pour d'autres défis est nulle (les compets de vitesse sont sans intérêt parce qu'il faut être meilleur que les autres, aucun intérêt quand on veut se battre soi-même, et les compet de nage en eau libre c'est trop cool, mais après ? Il n'y a pas trop d'autres formats existants)\n\nMalgré tout les défauts, les qualités en font vraiment un sport génial à découvrir\n\nWarm up\n400 m @ 02:36-02:59 sec/100m\n8x(25m rattrapé+ 25m Crawl) continu\n\nActive\n600 m @ 02:19-02:36 sec/100m\navec variation d'allure 50m Souple + 50m allure Course\n\nActive\n800 m @ 02:12-02:27 sec/100m\n4x200m récup 20sec allure course mais les 10 premiers coups de bras très vite.\n\nCool Down\n400 m @ 02:36-02:59 sec/100m\nSouple amplitude`,
   },

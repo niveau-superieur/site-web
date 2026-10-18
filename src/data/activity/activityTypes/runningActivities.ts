@@ -3,11 +3,20 @@ import { activityTags } from '../activityTags'
 
 export const runningActivities: Activity[] = [
   {
+    name: `Triathlon - BAYMAN - Course à pied`,
+    date: '2026-10-10',
+    duration: 233,
+    distance: 41.29,
+    tags: [activityTags.sport, activityTags.running, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `Dernière étape, le marathon !\nAprès la joie de quitter le vélo, la première des 4 boucles est passée toute seule, avec une montée jusqu'à l'abbaye sans marcher (c'était pas beaucoup mieux mais mentalement j'étais frais)\nLes 3 autres boucles ont été faites à peu près à la même allure.\nVers les 25km, petit coup de barre avec une perte de rythme temporaire pendant quelques minutes, et puis c'était reparti !\nDur mentalement de devoir passer 3 fois devant l'arrivée sans pouvoir la franchir !\nEt quel bonheur après l'avoir enfin franchie, cette ligne finale visée depuis plus d'un an !\n\nMerci aux supporters pour les encouragements et les belles affiches, c'est un boost plus que bienvenu sur toute la course ❤️\n\nTemps natation : 01:09:44\nT1 : 05:06\nVélo : 06:02:37\nT2 : 06:21\nCourse à pied : 03:55:43\nTemps final : 11h19:31\n\nClassement : 74/330\nClassement par genre (H) : 71/298\nClassement par catégorie (30-34H) : 16/44`,
+  },
+  {
     name: `Triathlon - Course à pied - Run 20min`,
     date: '2026-10-07',
     duration: 21,
     distance: 4.84,
-    tags: [activityTags.sport, activityTags.running],
+    tags: [activityTags.sport, activityTags.running, activityTags.last],
     programs: ['triathlonIronmanProgram'],
     description: `Et c'est terminé, dernière séance de course à pied et dernière séance du programme.\nProchaine étape : le Bayman !\n\nLa course à pied aura vraiment été la valeur sûre tout au long du défi : du plaisir à toutes les séances ou presque.\nPour les inconvénients, rien de mon côté, mais la météo peut jouer pas mal sur la motivation de certains\n\nActive\n20 min @ 04:26-04:52 min/km\n20mn allure 70.3`,
   },
