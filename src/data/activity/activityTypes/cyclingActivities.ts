@@ -3,11 +3,29 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Zwift - Reprise tranquille`,
+    date: '2026-10-15',
+    duration: 30,
+    distance: 14.94,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram'],
+    description: `🗺️ Neon Flats in Makuri Islands\n\nReprise du vélo à intensité basse pour aider les jambes à se remettre.\nPour éviter de m'emballer, je fais le circuit en mangeant, impossible d'aller trop vite comme ça\nLes sensations sont bonnes, je vais pouvoir reprendre le vélo tranquillement`,
+  },
+  {
+    name: `Triathlon - BAYMAN - Vélo`,
+    date: '2026-10-10',
+    duration: 362,
+    distance: 180,
+    tags: [activityTags.sport, activityTags.cycling, activityTags.competition],
+    programs: ['triathlonIronmanProgram'],
+    description: `2ème étape, la plus longue, le vélo\nPendant la transition, je me rends compte que tout le monde s'équipe d'un coupe-vent, que je n'ai pas pris (en même temps les autres triathlons étaient en pleine canicule 😅)\nRésultat, j'ai eu froid une grosse (très grosse) partie du vélo, entre le début avec la trifonction encore trempée de la natation, et les averses régulières pendant l'épreuve\nAprès 90km, douleurs persistances aux fesses en position relevée, et aux épaules en position aéro, aucune bonne solution quoi...\nAprès 100km, je commençais à être vraiment dans le dur, c'était long, j'avais mal, froid et la moindre montée semblait interminable\nEt un début de crampe à 5km de la fin du vélo qui fait bien flipper 😰\nA l'arrivée, j'étais tellement content de laisser le vélo que la transition était un vrai bonheur (contrairement à certains avec le regard dans le vide sous la tente, moi c'était pendant le vélo 😅)`,
+  },
+  {
     name: `Triathlon - Zwift - 40min souple avec 10min allure course`,
     date: '2026-10-07',
     duration: 41,
     distance: 18.14,
-    tags: [activityTags.sport, activityTags.virtualCycling],
+    tags: [activityTags.sport, activityTags.virtualCycling, activityTags.last],
     programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
     description: `On y est, dernière séance de vélo du programme !\nBilan : le vélo c'est pas si mal en vrai\nAu début du défi, le plaisir était inexistant, les séances étaient faites parce que pas le choix !\nMais après 8 mois, j'ai apprécié ma 1ère séance ! C'est long 8 mois pour kiffer un truc quand même !\nEt après plus d'un an, je ne prends pas du plaisir à chaque séance mais pas loin, et ça c'est cool.\nCôté inconvénients :\n- le vélo c'est cher (achat du vélo, abonnement Zwift, entretien)\n- en extérieur c'est chiant de s'entraîner (avec les voitures, les feux, les stops, les routes pourries, etc... et la météo joue beaucoup)\n- sur home trainer aucune sensation de vitesse, on transpire énormément, sur Zwift il faut penser à bloquer les messages des autres parce qu'il y a toujours certains qui s'entrepépon sur leurs séances, pire que LinkedIn)\n- les séances longues sont interminables et ennuyeuses sur home trainer avec rien à faire\n- le home trainer est bruyant de fou, impossible de regarder une série à côté, et le bruit pendant 5h de séances longues c'est terrible\n- ça prend de la place (le vélo et le home trainer dans le salon c'est pas top pour décorer)\n\nLe vélo a vraiment mis très longtemps à me faire kiffer, mais maintenant que c'est le cas, je pense continuer à faire des séances de temps en temps par plaisir !\n\n🗺️ Island Hopper in Makuri Islands\n\nWarm up\n20 min @ 139-150 W\n\nActive\n10 min @ 139-171 W 85-92 rpm\n\nCool Down\n10 min @ 139-150 W`,
   },
