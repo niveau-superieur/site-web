@@ -3,11 +3,20 @@ import { activityTags } from '../activityTags'
 
 export const swimmingActivities: Activity[] = [
   {
+    name: `Triathlon - Natation - Test final`,
+    date: '2026-10-24',
+    duration: 23,
+    distance: 1.2,
+    tags: [activityTags.sport, activityTags.swimming, activityTags.test],
+    programs: ['triathlonIronmanProgram'],
+    description: `Dernière séance de natation pour clore l'arc triathlon, avec un test 1000m pour voir l'évolution.\n\nTest précédent du 07/10/25 : 22'58"\nTest actuel : 18'29"\n\nUne vraie progression durant l'année, la plus signifiante des 3 sports.`,
+  },
+  {
     name: `Triathlon - BAYMAN - Natation`,
     date: '2026-10-10',
     duration: 68,
     distance: 3.8,
-    tags: [activityTags.sport, activityTags.swimming, activityTags.competition],
+    tags: [activityTags.sport, activityTags.swimming, activityTags.competition, activityTags.last],
     programs: ['triathlonIronmanProgram'],
     description: `Enfin le jour J !\nDépart de la natation à 7h45, de nuit et sans avoir le droit de se tremper avant\nHeureusement, l'eau est à 15°C, plutôt bonne pour la saison.\n2 boucles de 1900m à faire, donc 4 belles lignes droites, pas compliqué au niveau du balisage.\nLes sensations sont au top, le rythme est pris rapidement, aucun problème sur cette partie sauf le soleil qui se lève sur la dernière longueur et qui brûle la rétine`,
   },

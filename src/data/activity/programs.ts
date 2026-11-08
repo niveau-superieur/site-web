@@ -177,6 +177,32 @@ export const dndAdventuresProgram: Program = {
   ],
 }
 
+export const backyardUltraProgram: Program = {
+  id: 'backyardUltraProgram',
+  name: 'Backyard Ultra',
+  tagColor: 'yellow700',
+  highlights: [
+    {
+      label: 'Plus longue activité',
+      type: 'longest-duration',
+    },
+    {
+      label: 'Plus longue distance',
+      type: 'longest-distance',
+    },
+    {
+      label: 'Tests',
+      type: 'tag-activities',
+      tags: [activityTags.test],
+    },
+    {
+      label: 'Compétitions',
+      type: 'tag-activities',
+      tags: [activityTags.competition],
+    },
+  ],
+}
+
 export type ProgramId =
   | 'calisthenicsTMAEasyProgram'
   | 'readingNovelProgram'
@@ -185,6 +211,7 @@ export type ProgramId =
   | 'zwiftPlatineProgram'
   | 'triathlonIronmanProgram'
   | 'dndAdventuresProgram'
+  | 'backyardUltraProgram'
 
 export const programs: Program[] = [
   triathlonIronmanProgram,
@@ -194,6 +221,7 @@ export const programs: Program[] = [
   runningMarathonProgram,
   readingNovelProgram,
   calisthenicsTMAEasyProgram,
+  backyardUltraProgram,
 ]
 
 export const activities: Activity[] = [

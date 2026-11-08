@@ -3,6 +3,14 @@ import { activityTags } from '../activityTags'
 
 export const cardioActivities: Activity[] = [
   {
+    name: `Backyard Ultra - Renforcement musculaire`,
+    date: '2026-11-04',
+    duration: 41,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['backyardUltraProgram'],
+    description: `Répéter 4 fois, 1min de repos entre les circuits :\n- 30" Chaise\n- 30" Demi squat jambe droite\n- 30" Chaise\n- 30" Demi squat jambe gauche\n- 30" Gainage\n- 30" Pompes prise large\n- 30" Demi fente jambe droite\n- 30" Demi fente jambe gauche\n- 1' Gainage dorsal\n- 45" Proprioception yeux fermés jambe droite\n- 45" Proprioception yeux fermés jambe gauche\n- 1' Crunchs`,
+  },
+  {
     name: `Triathlon - Réveil matin`,
     date: '2026-10-06',
     duration: 10,
