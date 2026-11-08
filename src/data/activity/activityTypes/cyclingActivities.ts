@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Backyard Ultra - Zwift - Séance endurance`,
+    date: '2026-11-05',
+    duration: 129,
+    distance: 26.67,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'backyardUltraProgram'],
+    description: `🗺️ Cime de la Bonette in Video\n\nPremière séance vélo du programme.\nLes séances ne sont pas détaillées comme celles de course à pied, c'est uniquement des séances endurance ou des séances puissance, sans plus d'info, donc j'adapterais selon la forme et l'envie\n\nNouvel ajout incroyable dans Zwift, un tout nouveau type de circuit, les circuits en prise de vue réelle, avec des caméras 4K.\nLe concept est cool, mais il y a encore quelques ajustements à faire :\n- la vidéo est au ralenti quand on est plus lent que la prise de vue réelle, donc les véhicules croisés, les gens, tout est au ralenti\n- à l'inverse, quand on est plus rapide, tout est en accéléré, ça donne un effet cartoon comique un peu ridicule\n- quelques bugs visuels, comme un cycliste dont le bas du corps n'apparait pas à travers un grillage (pas problématique mais bizarre)\n- voir les véhicules et les gens pendant la prise de vue ça casse la bulle quand on est dans sa séance, ça serait bien de les retirer (suppression assistée par IA ?)\n- et surtout, il y a déjà d'autres applis qui se positionnent sur la prise de vue réelle, Zwift perd un peu son identité avec ce nouveau concept\n- il y a aussi un coach IA qui a été ajouté, à voir ce que ça vaut, je n'ai pas encore testé\n- et LE point douloureux : 10€ de plus par mois, à 30€ par mois c'est du foutage de gueule le prix !`,
+  },
+  {
+    name: `Triathlon - Zwift - Test FTP`,
+    date: '2026-10-27',
+    duration: 33,
+    distance: 16.05,
+    tags: [activityTags.sport, activityTags.virtualCycling, activityTags.test],
+    programs: ['zwiftPlatineProgram', 'triathlonIronmanProgram'],
+    description: `🗺️ Flat Route in Watopia\n\nDernière séance de vélo du défi triathlon, avec un test FTP pour voir si 1 an d'efforts ont payé.\nTest FTP du 28/07/2025 : 196W\nTest actuel : 276W\n\nGrosse progression en vélo, mais pas du tout aussi visible que pour la natation.\nLa vraie progression a été de passer du stade où le vélo sur hometrainer c'est horrible au stade où c'est vraiment cool`,
+  },
+  {
+    name: `Zwift - Sortie libre`,
+    date: '2026-10-25',
+    duration: 9,
+    distance: 4.07,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram'],
+    description: `🗺️ Twilight Crit in Makuri Islands\n\nNouvelle séance très courte juste pour dérouler les jambes`,
+  },
+  {
     name: `Zwift - Reprise tranquille`,
     date: '2026-10-15',
     duration: 30,

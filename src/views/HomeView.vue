@@ -6,10 +6,10 @@ import type { Video } from '@/types/video'
 
 // PLAIN VARS
 const nextVideoProgress = [
-  { label: 'Défi', progress: 50 },
-  { label: 'Script', progress: 10 },
-  { label: 'Tournage', progress: 0 },
-  { label: 'Montage', progress: 0 },
+  { label: 'Défi', progress: 100 },
+  { label: 'Script', progress: 100 },
+  { label: 'Tournage', progress: 95 },
+  { label: 'Montage', progress: 90 },
 ]
 const lastVideo: Video = videosDefis[0]!
 </script>
