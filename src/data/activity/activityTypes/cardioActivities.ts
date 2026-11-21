@@ -4,6 +4,22 @@ import { activityTags } from '../activityTags'
 export const cardioActivities: Activity[] = [
   {
     name: `Backyard Ultra - Renforcement musculaire`,
+    date: '2026-11-18',
+    duration: 42,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['backyardUltraProgram'],
+    description: `Répéter 3 fois, 2min de repos entre les circuits, 15" entre les exos :\n- 1' Squats\n- 30" Abdos latéraux\n- 30" Fentes avant pied droit devant\n- 30" Fentes avant pied gauche devant\n- 30" Pistol squat avec chaise jambe droite\n- 30" Pistol squat avec chaise jambe gauche\n- 45" Gainage latéral droite\n- 45" Gainage latéral gauche\n- 30" Élévations mollet jambe droite\n- 30" Élévations mollet jambe gauche\n- 20" Levée de bassin 1 jambe droite maintien\n- 20" Levée de bassin 1 jambe gauche maintien\n- 30" Levée de bassin 1 jambe droite\n- 30" Levée de bassin 1 jambe gauche\n- 30" Proprioception yeux fermés jambe droite\n- 30" Proprioception yeux fermés jambe gauche`,
+  },
+  {
+    name: `Backyard Ultra - Renforcement musculaire`,
+    date: '2026-11-11',
+    duration: 33,
+    tags: [activityTags.sport, activityTags.cardio],
+    programs: ['backyardUltraProgram'],
+    description: `Répéter 2 fois, 3min de repos entre les circuits, 15" entre les exos :\n- 1' Squats\n- 45" Superman statique\n- 45" Pistol squat avec chaise jambe droite\n- 30" Pompes prise large\n- 45" Pistol squat avec chaise jambe gauche\n- 30" Dips\n- 30" Élévations mollet jambe droite\n- 30" Pompes prise serrée\n- 30" Élévations mollet jambe gauche\n- 1' Gainage\n- 30" Fentes avant pied droit devant\n- 45" Abdos latéraux\n- 30" Fentes avant pied gauche devant\n- 45" Superman\n- 30" Levée de bassin 1 jambe droite\n- 30" Levée de bassin 1 jambe gauche\n- 1' Arm Leg Raises\n- 30" Demi Fente avant jambe droite\n- 30" Demi Fente avant jambe gauche`,
+  },
+  {
+    name: `Backyard Ultra - Renforcement musculaire`,
     date: '2026-11-04',
     duration: 41,
     tags: [activityTags.sport, activityTags.cardio],

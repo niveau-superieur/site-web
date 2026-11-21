@@ -3,6 +3,33 @@ import { activityTags } from '../activityTags'
 
 export const cyclingActivities: Activity[] = [
   {
+    name: `Backyard Ultra - Zwift - Endurance avec pause imprévue`,
+    date: '2026-11-20',
+    duration: 120,
+    distance: 61.5,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'backyardUltraProgram'],
+    description: `🗺️One Ride to Rule Them All in Watopia\n\nSortie libre comme prévue mais à 2km de la fin du circuit (et à 30 min de la fin de la sortie), la sonnette.\nToujours sympa de recevoir les proprios qui passent à l'improviste quand on est trempé de sueur 😅\n\nSéance\n2h @ 153-207W`,
+  },
+  {
+    name: `Backyard Ultra - Zwift - Sortie endurance en mode libre`,
+    date: '2026-11-19',
+    duration: 130,
+    distance: 65.87,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'backyardUltraProgram'],
+    description: `🗺️Pacific Pursuit in Watopia\n\nPremière fois que je fais une sortie aussi longue sans avoir de séance de programmée.\nDonc je dois passer les vitesses en fonction du relief, ça change des séances programmées qui ajustent automatiquement la difficulté !\n\nSéance\n2h @ 153-207W`,
+  },
+  {
+    name: `Zwift - Parce que les séries c'est stylé`,
+    date: '2026-11-15',
+    duration: 7,
+    distance: 4.19,
+    tags: [activityTags.sport, activityTags.virtualCycling],
+    programs: ['zwiftPlatineProgram', 'backyardUltraProgram'],
+    description: `Juste une sortie minimale pour ne pas perdre la série de plus de 50 semaines d'affilée 😉\n\n🗺️Caldera Coaster in Watopia`,
+  },
+  {
     name: `Backyard Ultra - Zwift - Séance endurance`,
     date: '2026-11-05',
     duration: 129,

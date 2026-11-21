@@ -8,8 +8,8 @@ import type { Video } from '@/types/video'
 const nextVideoProgress = [
   { label: 'Défi', progress: 100 },
   { label: 'Script', progress: 100 },
-  { label: 'Tournage', progress: 95 },
-  { label: 'Montage', progress: 90 },
+  { label: 'Tournage', progress: 100 },
+  { label: 'Montage', progress: 100 },
 ]
 const lastVideo: Video = videosDefis[0]!
 </script>
