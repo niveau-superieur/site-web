@@ -1,6 +1,6 @@
 export type LinkItem = {
   label: string
-  url: string
+  url?: string
 }
 
 export type VideoList = {

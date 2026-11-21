@@ -28,7 +28,8 @@ defineProps<{ video: Video; reverse?: boolean }>()
         <h3 class="text-subheading">{{ video.costs.label }}</h3>
         <ul class="list-disc list-inside">
           <li v-for="item in video.costs.items" :key="item.label">
-            <a :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
+            <a v-if="item.url" :href="item.url" target="_blank" class="link hover:underline">{{ item.label }}</a>
+            <a v-else>{{ item.label }}</a>
           </li>
         </ul>
       </div>
