@@ -1,6 +1,38 @@
 import type { Video } from '@/types/video'
 
 export const videosDefis: Video[] = [
+    {
+    title: `Le défi sportif qui repousse vos limites : l'Ironman`,
+    youtubeId: 'SpiiRwjfyak',
+    description:
+      "1 an et demi de préparation dans un seul but : franchir la ligne d'arrivée. Entre nous deux : 3.8km de natation, 180km de vélo et 42km de course à pied.\nEt avant ça, des centaines d'occasions d'abandonner...\n\nL'Ironman ne récompense que ceux capables de pousser leur corps et leur mental dans leurs tout derniers retranchements.",
+    costs: {
+      label: 'Coûts - 4948€',
+      items: [
+        {
+          label: 'Natation - 506.4€',
+        },
+        {
+          label: 'Vélo - 2591.1€',
+        },
+        {
+          label: 'Course à pied - 70€',
+        },        
+        {
+          label: 'Multisports - 415€',
+        },         
+        {
+          label: 'Programmes - 146.3€',
+        },        
+        {
+          label: 'Courses - 878.5€',
+        },        
+        {
+          label: 'Consommables - 340.5€',
+        },
+      ],
+    },
+  },
   {
     title: '50 Aventures D&D en 50 jours !',
     youtubeId: 'HCJNi3H4Gaw',
